@@ -13,16 +13,16 @@ public class DataProviders {
 		@DataProvider(name = "credentials")
 		public Object[][] getCredentials() {
 			// Totals rows count
-			int rows = obj.getRowCount("Credentials");
+			int rows = obj.getRowCount("Credential");
 			// Total Columns
-			int column = obj.getColumnCount("Credentials");
+			int column = obj.getColumnCount("Credential");
 			int actRows = rows - 1;
 
 			Object[][] data = new Object[actRows][column];
 
 			for (int i = 0; i < actRows; i++) {
 				for (int j = 0; j < column; j++) {
-					data[i][j] = obj.getCellData("Credentials", j, i + 2);
+					data[i][j] = obj.getCellData("Credential", j, i + 2);
 				}
 			}
 			return data;

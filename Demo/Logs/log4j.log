@@ -19,3 +19,27 @@
 2020-08-03 23:58:50 INFO  Log:11 - =====================================Verified that the user landed on the Home Page. TEST START=========================================
 2020-08-03 23:59:34 INFO  Log:11 - =====================================Verified that the user landed on the Home Page. TEST START=========================================
 2020-08-03 23:59:34 INFO  Log:22 - File 1099 Online | eFile 1099 MISC, W2, 941, 1095 Forms – Tax1099--------------------------
+2020-08-05 10:21:08 INFO  Log:11 - =====================================Verified that the user landed on the Home Page. TEST START=========================================
+2020-08-05 10:21:08 INFO  Log:22 - File 1099 Online | eFile 1099 MISC, W2, 941, 1095 Forms – Tax1099--------------------------
+2020-08-05 10:21:40 INFO  Log:11 - =====================================verifyouter Tax1099Logo Test TEST START=========================================
+2020-08-05 10:21:40 INFO  Log:15 - =====================================verifyouter Tax1099Logo Was Succesful TEST END=========================================
+2020-08-05 22:18:02 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-05 22:18:02 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-05 22:18:03 INFO  Log:22 - Enter UserName and Password
+2020-08-05 22:18:10 INFO  Log:22 - Verifying User is able to Login
+2020-08-05 22:18:10 INFO  Log:22 - Login Succesful
+2020-08-05 22:18:10 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-05 22:19:52 INFO  Log:11 - =====================================Verified that the user landed on the Home Page. TEST START=========================================
+2020-08-05 22:19:52 INFO  Log:22 - File 1099 Online | eFile 1099 MISC, W2, 941, 1095 Forms – Tax1099--------------------------
+2020-08-05 22:20:06 INFO  Log:11 - =====================================verifyouter Tax1099Logo Test TEST START=========================================
+2020-08-05 22:20:06 INFO  Log:15 - =====================================verifyouter Tax1099Logo Was Succesful TEST END=========================================
+2020-08-05 22:21:52 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-05 22:21:52 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-05 22:21:53 INFO  Log:22 - Enter UserName and Password
+2020-08-05 22:22:02 INFO  Log:22 - Verifying User is able to Login
+2020-08-05 22:22:02 INFO  Log:22 - Login Succesful
+2020-08-05 22:22:02 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-05 22:22:29 INFO  Log:11 - =====================================Verified that the user landed on the Home Page. TEST START=========================================
+2020-08-05 22:22:29 INFO  Log:22 - File 1099 Online | eFile 1099 MISC, W2, 941, 1095 Forms – Tax1099--------------------------
+2020-08-05 22:22:44 INFO  Log:11 - =====================================verifyouter Tax1099Logo Test TEST START=========================================
+2020-08-05 22:22:44 INFO  Log:15 - =====================================verifyouter Tax1099Logo Was Succesful TEST END=========================================

@@ -12,7 +12,6 @@ import org.testng.annotations.Test;
 import com.demo.Base.base;
 import com.demo.actiondriver.Action;
 import com.demo.dataprovider.DataProviders;
-import com.demo.pages.DashBoard;
 import com.demo.pages.Db;
 import com.demo.pages.LoginPage;
 import com.demo.pages.OuterLoginButton;
@@ -55,7 +54,6 @@ public class LoginTest extends base {
 		  Assert.assertEquals(actURL, expectedURL);
 		  Log.info("Login Succesful");
 	      Log.endTestCase("clickonLoginTest ");
-
 		  
 	}
 	
