@@ -389,3 +389,89 @@
 2020-08-06 22:57:31 DEBUG cache:44 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
 2020-08-06 22:57:31 DEBUG cache:44 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
 2020-08-06 22:57:31 DEBUG cache:44 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Prasad/.m2/repository/com/aventstack/extentreports/4.1.2/extentreports-4.1.2.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2020-08-07 18:25:25 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-07 18:25:25 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-07 18:25:30 INFO  Log:22 - Enter UserName and Password
+2020-08-07 18:25:41 INFO  Log:22 - Verifying User is able to Login
+2020-08-07 18:25:41 INFO  Log:22 - Login Succesful
+2020-08-07 18:25:41 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-07 22:53:37 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-07 22:53:37 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-07 22:53:38 INFO  Log:22 - Enter UserName and Password
+2020-08-07 22:53:47 INFO  Log:22 - Verifying User is able to Login
+2020-08-07 22:53:47 INFO  Log:22 - Login Succesful
+2020-08-07 22:53:47 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-07 22:58:07 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-07 22:58:07 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-07 22:58:08 INFO  Log:22 - Enter UserName and Password
+2020-08-07 22:58:16 INFO  Log:22 - Verifying User is able to Login
+2020-08-07 22:58:16 INFO  Log:22 - Login Succesful
+2020-08-07 22:58:16 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-07 22:59:52 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-07 22:59:52 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-07 23:00:41 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-07 23:00:41 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-07 23:00:42 INFO  Log:22 - Enter UserName and Password
+2020-08-07 23:00:48 INFO  Log:22 - Verifying User is able to Login
+2020-08-07 23:00:48 INFO  Log:22 - Login Succesful
+2020-08-07 23:00:48 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-07 23:05:58 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-07 23:05:59 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-07 23:06:00 INFO  Log:22 - Enter UserName and Password
+2020-08-07 23:06:15 INFO  Log:22 - Verifying User is able to Login
+2020-08-07 23:06:15 INFO  Log:22 - Login Succesful
+2020-08-07 23:06:15 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-07 23:08:28 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-07 23:08:28 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-07 23:08:30 INFO  Log:22 - Enter UserName and Password
+2020-08-07 23:08:43 INFO  Log:22 - Verifying User is able to Login
+2020-08-07 23:08:43 INFO  Log:22 - Login Succesful
+2020-08-07 23:08:43 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-07 23:12:07 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-07 23:12:09 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-07 23:12:18 INFO  Log:22 - Enter UserName and Password
+2020-08-07 23:12:36 INFO  Log:22 - Verifying User is able to Login
+2020-08-07 23:12:36 INFO  Log:22 - Login Succesful
+2020-08-07 23:12:36 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-07 23:13:29 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-07 23:13:30 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-07 23:13:31 INFO  Log:22 - Enter UserName and Password
+2020-08-07 23:13:52 INFO  Log:22 - Verifying User is able to Login
+2020-08-07 23:13:52 INFO  Log:22 - Login Succesful
+2020-08-07 23:13:52 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-07 23:17:11 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-07 23:17:11 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-07 23:17:12 INFO  Log:22 - Enter UserName and Password
+2020-08-07 23:17:20 INFO  Log:22 - Verifying User is able to Login
+2020-08-07 23:17:20 INFO  Log:22 - Login Succesful
+2020-08-07 23:17:20 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-07 23:24:20 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-07 23:24:20 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-07 23:24:24 INFO  Log:22 - Enter UserName and Password
+2020-08-07 23:24:28 INFO  Log:22 - Verifying User is able to Login
+2020-08-07 23:24:28 INFO  Log:22 - Login Succesful
+2020-08-07 23:24:28 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-07 23:25:42 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-07 23:25:42 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-07 23:25:43 INFO  Log:22 - Enter UserName and Password
+2020-08-07 23:25:58 INFO  Log:22 - Verifying User is able to Login
+2020-08-07 23:25:58 INFO  Log:22 - Login Succesful
+2020-08-07 23:25:58 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-07 23:55:27 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-07 23:55:27 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-07 23:55:28 INFO  Log:22 - Enter UserName and Password
+2020-08-07 23:55:35 INFO  Log:22 - Verifying User is able to Login
+2020-08-07 23:55:35 INFO  Log:22 - Login Succesful
+2020-08-07 23:55:35 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-08 00:00:03 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-08 00:00:03 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-08 00:00:05 INFO  Log:22 - Enter UserName and Password
+2020-08-08 00:00:12 INFO  Log:22 - Verifying User is able to Login
+2020-08-08 00:00:12 INFO  Log:22 - Login Succesful
+2020-08-08 00:00:12 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-08 00:02:19 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-08 00:02:19 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-08 00:02:19 INFO  Log:22 - Enter UserName and Password
+2020-08-08 00:02:28 INFO  Log:22 - Verifying User is able to Login
+2020-08-08 00:02:28 INFO  Log:22 - Login Succesful
+2020-08-08 00:02:28 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================

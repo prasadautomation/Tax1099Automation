@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demo.testcases.LoginTest">
+      <class name="com.demo.testcases.ManagePayerAddPayerTest">
         <methods>
-          <include name="clickonLogin"/>
-          <include name="teardown"/>
+          <include name="AddPayer" invocation-numbers="0"/>
           <include name="loadConfig"/>
-          <include name="setUp"/>
-          <include name="beforesuite"/>
+          <include name="afterSuite"/>
         </methods>
-      </class> <!-- com.demo.testcases.LoginTest -->
+      </class> <!-- com.demo.testcases.ManagePayerAddPayerTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
