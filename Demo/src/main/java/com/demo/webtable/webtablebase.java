@@ -1,4 +1,4 @@
-package com.tax1099.webtable;
+package com.demo.webtable;
 
 	import java.util.List;
 	import org.openqa.selenium.By;
