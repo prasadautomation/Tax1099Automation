@@ -22,7 +22,7 @@ import com.demo.pages.OuterLoginButton;
 import com.demo.utility.Log;
 
 public class ManagePayerAddPayerTest extends base{
-	LoginPage LoginPage; 
+	 LoginPage LoginPage; 
 	 OuterLoginButton OuterLoginButton; 
 	 Db Db;
 	 ManagePeople ManagePeople;
