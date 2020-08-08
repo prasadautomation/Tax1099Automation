@@ -1,5 +1,7 @@
 package com.demo.dataprovider;
 
+import java.util.HashMap;
+
 import org.testng.annotations.DataProvider;
 
 import com.demo.utility.NewExcelLibrary;
@@ -31,6 +33,7 @@ public class DataProviders {
 		@DataProvider(name = "addPayer")
 		public Object[][] getAddPayer() {
 			// Totals rows count
+			
 			int rows = obj.getRowCount("AddPayer");
 			// Total Columns
 			int column = obj.getColumnCount("AddPayer");
@@ -45,5 +48,24 @@ public class DataProviders {
 			}
 			return data;
 		}
-		
+		@DataProvider(name = "misc2019formTestdata")
+		public Object[][] getmisc2019formTestdata() {
+			// Totals rows count
+			HashMap<String, String> hashMap = new HashMap<String, String>();
+
+			int rows = obj.getRowCount("MISC2019formTestdata");
+			// Total Columns
+			int column = obj.getColumnCount("MISC2019formTestdata");
+			int actRows = rows - 1;
+
+			Object[][] data = new Object[actRows][column];
+
+			for (int i = 0; i < actRows; i++) {
+				for (int j = 0; j < column; j++) {
+					hashMap.put(obj.getCellData("MISC2019formTestdata", j, 1),
+							obj.getCellData("MISC2019formTestdata", j, i + 2));
+				}
+			}
+			return data;
+}
 }

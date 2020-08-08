@@ -163,7 +163,7 @@ public class MISCformTaxyear2020 extends base{
 	}	
 	
 	
-	public SubmitForms CreateMISC2019Form(
+	public SubmitForms CreateMISC2020Form(
 			String Box1,
 			String Box2,
 			String Box3,
@@ -187,6 +187,8 @@ public class MISCformTaxyear2020 extends base{
 			String Box16b,
 			String Box17State1,
 			String Box17State2,
+			String Box17StateNum1,
+			String box17StateNum2,
 			String Box18a,
 			String Box18b) throws Throwable {
 		
