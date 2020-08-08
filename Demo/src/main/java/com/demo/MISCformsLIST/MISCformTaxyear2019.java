@@ -191,9 +191,14 @@ public class MISCformTaxyear2019 extends base{
 			String Box17State1,
 			String Box17State2,
 			String Box18a,
-			String Box18b) {
+			String Box18b) throws Throwable {
+		
+		
+		Action action = new Action();
+		action.click(driver, SaveandContinue);
 		
 		return new SubmitForms();
+		
 	}
 }
 

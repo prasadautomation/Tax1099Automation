@@ -37,7 +37,7 @@ public class ManagePayerAddPayer extends base{
 	WebElement BusinessName;
 	
 	@FindBy(id="PayerAddress")
-	WebElement Address;
+	WebElement Address1;
 
 	@FindBy(id="PayerSuffix")
 	WebElement Suffix;
@@ -61,7 +61,7 @@ public class ManagePayerAddPayer extends base{
 	WebElement CheckheretoForeignAddress;
 	
 	@FindBy(id="PayerPhNo")
-	WebElement phone;
+	WebElement Phone;
 	
 	@FindBy(id="PayerEmail")
 	WebElement Email;
@@ -94,29 +94,59 @@ public class ManagePayerAddPayer extends base{
 	}
 	
 	public void AddPayer(
-			String Type,
-			String EIN,
-			String SSN,
-			String FirstName,
-			String MiddleName,
-			String LastName,
-			String BusinessName,
-			String Address,
-			String Suffix,
-			String Line2,
-			String PayerCity,
-			String State,
-			String Zipcode,
-			String Country,
-			String CheckheretoForeignAddress,
+			String type,
+			String ein,
+			String ssn,
+			String firstname,
+			String middlename,
+			String lastName,
+			String businessname,
+			String address,
+			String suffix,
+			String line2,
+			String city,
+			String state,
+			String zipcode,
+			String country,
+			String checkheretoforeignaddress,
 			String phone,
-			String Email,
-			String WithholdingORTaxStateId,
-			String LastFiling,
-			String ClientID
+			String email,
+			String withholdingortaxstateid,
+			String lastfiling,
+			String clientid
 			
-			) {
-		 driver.findElement(By.xpath("//input[@value='"+Type+"']")).click();  
+			) throws Throwable {
+		if(type.equalsIgnoreCase("Type")) {
+			action.click(driver, Business);
+			action.type(EIN,ein );
+			action.type(Business, businessname);
+			action.type(Address1, address);
+			action.type(Line2, line2);
+			action.type(City,city );
+			action.selectByVisibleText(state, State);
+			action.type(Zipcode, zipcode);
+			action.selectByVisibleText(country, Country);
+			action.type(Phone, phone);
+			action.type(Email, email);
+			action.click(driver, Add);
+		} else {
+			action.click(driver, Individual);
+			action.type(SSN,ssn );
+			action.type(FirstName, firstname);
+			action.type(MiddleName, middlename);
+			action.type(LastName, lastName);
+			action.selectByVisibleText(suffix, Suffix);
+			action.type(Address1, address);
+			action.type(Line2, line2);
+			action.type(City,city );
+			action.selectByVisibleText(state, State);
+			action.type(Zipcode, zipcode);
+			action.selectByVisibleText(country, Country);
+			action.type(Phone, phone);
+			action.type(Email, email);
+			action.click(driver, Add);
+		}
+		// driver.findElement(By.xpath("//input[@value='"+Type+"']")).click();  
 		
 	}
 	
