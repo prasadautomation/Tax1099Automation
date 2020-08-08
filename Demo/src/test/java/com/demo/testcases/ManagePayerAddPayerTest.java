@@ -1,5 +1,7 @@
 package com.demo.testcases;
 
+import java.util.HashMap;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -24,17 +26,18 @@ public class ManagePayerAddPayerTest extends base{
 	 OuterLoginButton OuterLoginButton; 
 	 Db Db;
 	 ManagePeople ManagePeople;
-
+	 ManagePayerAddPayer ManagePayerAddPayer;
+	 
 	//@BeforeMethod
-	public void setUp() {
-	launchApp();	
-	}
+	/*
+	 * public void setUp() { launchApp(); }
+	 */
 	
 	/*
 	 * @AfterMethod public void teardown() { driver.quit(); }
 	 */
 	@Test(priority = 1,dataProvider ="credentials", dataProviderClass = DataProviders.class)
-	public void clickonLogin(String Useremail,String Passwd) throws Throwable {
+	public void clickonLoginTest(String Useremail,String Passwd) throws Throwable {
 		  launchApp();
 	      Log.startTestCase("clickonLoginTest ");
 	      OuterLoginButton=new OuterLoginButton();
@@ -54,38 +57,39 @@ public class ManagePayerAddPayerTest extends base{
 	      Log.endTestCase("clickonLoginTest ");
 }
 	@Test(priority = 2,dataProvider ="addPayer",dataProviderClass = DataProviders.class)
-	public void AddPayer(
-			String Type,
-			String EIN,
-			String SSN,
-			String FirstName,
-			String MiddleName,
-			String LastName,
-			String BusinessName,
-			String Address,
-			String Suffix,
-			String Line2,
-			String PayerCity,
-			String State,
-			String Zipcode,
-			String Country,
-			String CheckheretoForeignAddress,
-			String phone,
-			String Email,
-			String WithholdingORTaxStateId,
-			String LastFiling,
-			String ClientID
-			
-			)  throws Throwable {
-		
+	public void AddPayerTest(HashMap<String,String> hashMapValue) throws Throwable {
+		Log.startTestCase("addPayerTest");
 		WebElement element = (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[contains(text(),'People')]")));
 
 		 //ManagePeople=new ManagePeople();
-		 driver.findElement(By.xpath("//p[contains(text(),'People')]")).click();
-		 driver.findElement(By.xpath("//a[contains(text(),'Manage Payer')]")).click();
-			WebElement element1 = (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='btnAddEditPayer']")));
-
-		 driver.findElement(By.xpath("//input[@id='btnAddEditPayer']")).click();
+		driver.findElement(By.xpath("//p[contains(text(),'People')]")).click();
+		driver.findElement(By.xpath("//a[contains(text(),'Manage Payer')]")).click();
+		WebElement element1 = (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='btnAddEditPayer']")));
+		driver.findElement(By.xpath("//input[@id='btnAddEditPayer']")).click();
+		//ManagePeople.ClickOnAddPayer();
+		ManagePayerAddPayer.AddPayer(
+					hashMapValue.get("type"),
+					hashMapValue.get("ein"),
+					hashMapValue.get("ssn"),
+					hashMapValue.get("firstname"),
+					hashMapValue.get("middlename"),
+					hashMapValue.get("lastName"),
+					hashMapValue.get("businessname"),
+					hashMapValue.get("address"),
+					hashMapValue.get("suffix"),
+					hashMapValue.get("line2"),
+					hashMapValue.get("city"),
+					hashMapValue.get("state"),
+					hashMapValue.get("zipcode"),
+					hashMapValue.get("country"),
+					hashMapValue.get("checkheretoforeignaddress"),
+					hashMapValue.get("phone"),
+					hashMapValue.get("phone"),
+					hashMapValue.get("withholdingortaxstateid"),
+					hashMapValue.get("lastfiling"),
+					hashMapValue.get("clientid")); 
+		 
+		 
 		// ManagePeople.ClickOnPeople();
 		/*
 		 * ManagePayerAddPayer ManagePayerAddPayer=new ManagePayerAddPayer();
@@ -94,7 +98,7 @@ public class ManagePayerAddPayerTest extends base{
 		 * CheckheretoForeignAddress, phone, Email, WithholdingORTaxStateId, LastFiling,
 		 * ClientID);
 		 */
-
+		 
 	}
 }
 
