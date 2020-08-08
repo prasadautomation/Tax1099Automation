@@ -5,7 +5,7 @@
     <classes>
       <class name="com.demo.testcases.ManagePayerAddPayerTest">
         <methods>
-          <include name="AddPayer" invocation-numbers="0"/>
+          <include name="AddPayerTest"/>
           <include name="loadConfig"/>
           <include name="afterSuite"/>
         </methods>
