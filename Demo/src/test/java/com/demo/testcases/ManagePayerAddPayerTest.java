@@ -48,15 +48,17 @@ public class ManagePayerAddPayerTest extends base{
 		  Db Db = LoginPage.login(Useremail,Passwd);
 //		  WebDriverWait wait = new WebDriverWait(driver, 40);
 //		  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text()='Dashboard')]")));
-		  WebElement element = (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div/div[3]/div[1]/div[1]")));
-	      Log.info("Verifying User is able to Login");
+		 // WebElement element = (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div/div[3]/div[1]/div[1]")));
+		  WebElement element = (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='col-xs-6 chromeXpathFinder chromeXpathFinder0']")));
+		  
+		  Log.info("Verifying User is able to Login");
 		  String actURL=Db.GetCurrentURL();
 		  String expectedURL="https://1099cloud.com/Protected/Dashboard";
 		  Assert.assertEquals(actURL, expectedURL);
 		  Log.info("Login Succesful");
 	      Log.endTestCase("clickonLoginTest ");
 }
-	@Test(priority = 2,dataProvider ="addPayer",dataProviderClass = DataProviders.class)
+	@Test(priority = 2,dataProvider ="addPayerein",dataProviderClass = DataProviders.class)
 	public void AddPayerTest(HashMap<String,String> hashMapValue) throws Throwable {
 		Log.startTestCase("addPayerTest");
 		WebElement element = (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[contains(text(),'People')]")));
@@ -67,13 +69,9 @@ public class ManagePayerAddPayerTest extends base{
 		WebElement element1 = (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='btnAddEditPayer']")));
 		driver.findElement(By.xpath("//input[@id='btnAddEditPayer']")).click();
 		//ManagePeople.ClickOnAddPayer();
-		ManagePayerAddPayer.AddPayer(
+		ManagePayerAddPayer.AddPayerEIN(
 					hashMapValue.get("type"),
 					hashMapValue.get("ein"),
-					hashMapValue.get("ssn"),
-					hashMapValue.get("firstname"),
-					hashMapValue.get("middlename"),
-					hashMapValue.get("lastName"),
 					hashMapValue.get("businessname"),
 					hashMapValue.get("address"),
 					hashMapValue.get("suffix"),

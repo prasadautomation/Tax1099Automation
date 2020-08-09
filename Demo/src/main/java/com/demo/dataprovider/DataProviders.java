@@ -30,21 +30,42 @@ public class DataProviders {
 			return data;
 		}
 
-		@DataProvider(name = "addPayer")
-		public Object[][] getAddPayer() {
+		@DataProvider(name = "addPayerein")
+		public Object[][] getAddPayerein() {
 			// Totals rows count
-			
-			int rows = obj.getRowCount("AddPayer");
+			HashMap<String, String> hashMap = new HashMap<String, String>();
+
+			int rows = obj.getRowCount("AddPayerein");
 			// Total Columns
-			int column = obj.getColumnCount("AddPayer");
+			int column = obj.getColumnCount("AddPayerein");
 			int actRows = rows - 1;
 
 			Object[][] data = new Object[actRows][column];
 
 			for (int i = 0; i < actRows; i++) {
 				for (int j = 0; j < column; j++) {
-					data[i][j] = obj.getCellData("AddPayer", j, i + 2);
-				}
+					hashMap.put(obj.getCellData("AddPayerein", j, 1),
+							obj.getCellData("AddPayerein", j, i + 2));				}
+			}
+			return data;
+		}
+
+		@DataProvider(name = "addPayerssn")
+		public Object[][] getAddPayerssn() {
+			// Totals rows count
+			HashMap<String, String> hashMap = new HashMap<String, String>();
+
+			int rows = obj.getRowCount("AddPayerssn");
+			// Total Columns
+			int column = obj.getColumnCount("AddPayerssn");
+			int actRows = rows - 1;
+
+			Object[][] data = new Object[actRows][column];
+
+			for (int i = 0; i < actRows; i++) {
+				for (int j = 0; j < column; j++) {
+					hashMap.put(obj.getCellData("AddPayerssn", j, 1),
+							obj.getCellData("AddPayerssn", j, i + 2));				}
 			}
 			return data;
 		}

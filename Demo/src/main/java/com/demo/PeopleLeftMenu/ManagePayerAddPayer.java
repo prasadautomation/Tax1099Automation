@@ -93,13 +93,9 @@ public class ManagePayerAddPayer extends base{
 	return ManagePayerAddPayerPageTitle;
 	}
 	
-	public void AddPayer(
+	public void AddPayerEIN(
 			String type,
 			String ein,
-			String ssn,
-			String firstname,
-			String middlename,
-			String lastName,
 			String businessname,
 			String address,
 			String suffix,
@@ -116,7 +112,8 @@ public class ManagePayerAddPayer extends base{
 			String clientid
 			
 			) throws Throwable {
-		if(type.equalsIgnoreCase("Type")) {
+		if(type.equalsIgnoreCase("type")) 
+		{
 			action.click(driver, Business);
 			action.type(EIN,ein );
 			action.type(Business, businessname);
@@ -129,7 +126,67 @@ public class ManagePayerAddPayer extends base{
 			action.type(Phone, phone);
 			action.type(Email, email);
 			action.click(driver, Add);
-		} else {
+		} 
+		else 
+		{
+			action.click(driver, Individual);
+			action.selectByVisibleText(suffix, Suffix);
+			action.type(Address1, address);
+			action.type(Line2, line2);
+			action.type(City,city );
+			action.selectByVisibleText(state, State);
+			action.type(Zipcode, zipcode);
+			action.selectByVisibleText(country, Country);
+			action.type(Phone, phone);
+			action.type(Email, email);
+			action.click(driver, Add);
+		}
+		
+		
+		
+		// driver.findElement(By.xpath("//input[@value='"+Type+"']")).click();  
+		
+	}
+	public void AddPayerSSN(
+			String type,
+			String ssn,
+			String firstname,
+			String middlename,
+			String lastName,
+			String address,
+			String suffix,
+			String line2,
+			String city,
+			String state,
+			String zipcode,
+			String country,
+			String checkheretoforeignaddress,
+			String phone,
+			String email,
+			String withholdingortaxstateid,
+			String lastfiling,
+			String clientid
+			
+			)throws Throwable {
+		if(type.equalsIgnoreCase("type")) 
+		{
+			action.click(driver, Business);
+			action.type(SSN,ssn );
+			action.type(FirstName, firstname);
+			action.type(MiddleName, middlename);
+			action.type(LastName, lastName);
+			action.type(Address1, address);
+			action.type(Line2, line2);
+			action.type(City,city );
+			action.selectByVisibleText(state, State);
+			action.type(Zipcode, zipcode);
+			action.selectByVisibleText(country, Country);
+			action.type(Phone, phone);
+			action.type(Email, email);
+			action.click(driver, Add);
+		} 
+		else 
+		{
 			action.click(driver, Individual);
 			action.type(SSN,ssn );
 			action.type(FirstName, firstname);
@@ -146,13 +203,10 @@ public class ManagePayerAddPayer extends base{
 			action.type(Email, email);
 			action.click(driver, Add);
 		}
-		// driver.findElement(By.xpath("//input[@value='"+Type+"']")).click();  
 		
-	}
-	
-	
-}
 
+}
+}
 
 
 

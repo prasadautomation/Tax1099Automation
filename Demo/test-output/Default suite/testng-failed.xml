@@ -7,6 +7,7 @@
         <methods>
           <include name="AddPayerTest"/>
           <include name="loadConfig"/>
+          <include name="clickonLoginTest" invocation-numbers="0"/>
           <include name="afterSuite"/>
         </methods>
       </class> <!-- com.demo.testcases.ManagePayerAddPayerTest -->
