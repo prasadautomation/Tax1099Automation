@@ -66,82 +66,82 @@ public class MISCformTaxyear2020 extends base{
 	
 	//Boxes List
 	@FindBy(id="Rents")
-	WebElement Box1;
+	WebElement Box1misc;
 	
 	@FindBy(id="Royalties")
-	WebElement Box2;
+	WebElement Box2misc;
 	
 	@FindBy(id="OtherIncome")
-	WebElement Box3;
+	WebElement Box3misc;
 	
 	@FindBy(id="FederalIncomeTaxWH")
-	WebElement Box4;
+	WebElement Box4misc;
 	
 	@FindBy(id="Fishing")
-	WebElement Box5;
+	WebElement Box5misc;
 	
 	@FindBy(id="Medical")
-	WebElement Box6;
+	WebElement Box6misc;
 	
 	@FindBy(id="DirectSales")
-	WebElement Box7;
+	WebElement Box7misc;
 	
 	@FindBy(id="DividendsORInterest")
-	WebElement Box8;
+	WebElement Box8misc;
 	
 	@FindBy(id="Crop")
-	WebElement Box9;
+	WebElement Box9misc;
 	
 	@FindBy(id="GrossProceeds")
-	WebElement Box10;
+	WebElement Box10misc;
 	
 	@FindBy(id="A409Deferals")
-	WebElement Box12;
+	WebElement Box12misc;
 	
 	@FindBy(id="ExcessGolden")
-	WebElement Box13;
+	WebElement Box13misc;
 	
 	@FindBy(id="NonqualifiedDefCom")
-	WebElement Box14;
+	WebElement Box14misc;
 	
 	@FindBy(id="AccountNumber")
-	WebElement AccntNum;
+	WebElement AccntNummisc;
 	
 	@FindBy(id="Fatca")
-	WebElement Fatcacheckbox;
+	WebElement Fatcamisc;
 	
 	@FindBy(id="SecondTINNotice")
-	WebElement SecondTINNoticecheckbox;
+	WebElement SecondTINNoticemisc;
 	
-	@FindBy(id="A409Deferals")
-	WebElement Box15aSection409Adeferrals;
+	@FindBy(xpath="//input[@id='StateTaxWH1']")
+	WebElement StateTaxWH1smisc;
 	
-	@FindBy(id="A409Income")
-	WebElement Box15bSection409Aincome;
+	@FindBy(xpath="//input[@id='StateTaxWH2']")
+	WebElement StateTaxWH2misc;
 	
 	@FindBy(id="StateTaxWH1")
-	WebElement Box16a;
+	WebElement Box16amisc;
 	
 	@FindBy(id="StateTaxWH2")
-	WebElement Box16b;
+	WebElement Box16bmisc;
 	
 	@FindBy(id="State1")
-	WebElement Box17State1;
+	WebElement Box17State1misc;
 	
 	@FindBy(id="State2")
-	WebElement Box17State2;
+	WebElement Box17State2misc;
 	
 	@FindBy(id="PayerStateNo1")
-	WebElement Box17StateNum1;
+	WebElement Box17StateNum1misc;
 	
 	@FindBy(id="PayerStateNo2")
-	WebElement Box17StateNum2;
+	WebElement Box17StateNum2misc;
 	
 	@FindBy(id="StateIncome1")
-	WebElement Box18a;
+	WebElement Box18amisc;
 	
 	@FindBy(id="StateIncome1")
-	WebElement Box18b;
+	WebElement Box18bmisc;
 	
 	@FindBy(id="btnSaveContinue")
 	WebElement SaveandContinue;
@@ -199,3 +199,38 @@ public class MISCformTaxyear2020 extends base{
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

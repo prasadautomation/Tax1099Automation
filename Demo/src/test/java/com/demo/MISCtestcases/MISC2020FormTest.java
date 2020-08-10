@@ -22,7 +22,7 @@ import com.demo.MISCformsLIST.MISCformTaxyear2020;
 import com.demo.actiondriver.Action;
 
 
-	public class MISC2020Form extends base{
+	public class MISC2020FormTest extends base{
 		 LoginPage LoginPage; 
 		 OuterLoginButton OuterLoginButton; 
 		 Db Db;

@@ -50,9 +50,7 @@ public class ManageRecipient extends base{
 		Action action=new Action();
 		action.click(driver, AddRecipient);
 	}
-	public void SelectPayer() {
-		
-	}
+	
 }
 
 

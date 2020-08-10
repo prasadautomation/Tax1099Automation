@@ -18,7 +18,7 @@ import com.demo.utility.Log;
 import com.demo.FormsLeftmenu.FormsLeftMenu;
 import com.demo.MISCformsLIST.MISCformTaxyear2019;
 
-public class MISC2019FormTest1 extends base{
+public class MISC2019FormTest extends base{
 	 LoginPage LoginPage; 
 	 OuterLoginButton OuterLoginButton; 
 	 Db Db;

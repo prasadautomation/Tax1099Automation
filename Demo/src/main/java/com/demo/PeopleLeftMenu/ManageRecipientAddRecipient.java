@@ -19,19 +19,19 @@ public class ManageRecipientAddRecipient extends base {
 	WebElement W8RequestCheckBox;
 
 	@FindBy(id = "rblPayeeType")
-	WebElement BusinessTypeRadibutton;
+	WebElement BusinessRadiobutton;
 
 	@FindBy(id = "rblPayeeTypeIndividual")
-	WebElement IndividualTypeRadibutton;
+	WebElement IndividualRadiobutton;
 
 	@FindBy(id = "PayeeFedaralID")
-	WebElement EIN;
+	WebElement EINTIN;
 
 	@FindBy(id = "PayeeFedaralID")
-	WebElement SSN;
+	WebElement SSNTIN;
 
 	@FindBy(id = "chkRecipientTaxIDIsPresent")
-	WebElement TINnotProvided;
+	WebElement TINnotProvidedCheckbox;
 
 	@FindBy(id = "PayeeLastName")
 	WebElement BusinessName;
@@ -46,49 +46,49 @@ public class ManageRecipientAddRecipient extends base {
 	WebElement LastName;
 
 	@FindBy(id = "AttentionTo")
-	WebElement AttentionTo;
+	WebElement AttentionTofield;
 
 	@FindBy(id = "PayeeAddress")
-	WebElement Address;
+	WebElement AddressLine1;
 
 	@FindBy(id = "PayeeChkUSPS")
-	WebElement Checkheretovalidateaddress;;
+	WebElement Checkheretovalidateaddresscheckbox;;
 
 	@FindBy(id = "PayeeSuffix")
-	WebElement Suffix;
+	WebElement Suffixdropdown;
 
 	@FindBy(id = "PayeeAddress2")
-	WebElement Line2;
+	WebElement Line2field;
 
 	@FindBy(id = "PayeeCity")
-	WebElement City;
+	WebElement Cityfield;
 
 	@FindBy(id = "PayeeState")
-	WebElement State;
+	WebElement Statedropdown;
 
 	@FindBy(id = "PayeeZIP")
-	WebElement Zipcode;
+	WebElement Zipcodefield;
 
 	@FindBy(id = "PayeeCountry")
-	WebElement Country;
+	WebElement Countryfield;
 
 	@FindBy(id = "chkIsForeignAddress")
-	WebElement CheckheretoForeignAddress;
+	WebElement CheckheretoForeignAddresscheckbox;
 
 	@FindBy(id = "PayeePhNo")
-	WebElement phone;
+	WebElement phonefield;
 
 	@FindBy(id = "PayeeEmail")
-	WebElement Email;
+	WebElement Emailfield;
 
 	@FindBy(xpath = "/html/body/div[16]/div[3]/div/button[1]")
-	WebElement Add;
+	WebElement Addbutton;
 
 	@FindBy(xpath = "/html/body/div[16]/div[3]/div/button[2]")
-	WebElement Cancel;
+	WebElement Cancelbutton;
 
 	@FindBy(xpath = "/html/body/div[16]/div[1]/button/span[1]")
-	WebElement Close;
+	WebElement Closeicon;
 
 	@FindBy(id = "chkPayeeMaskSSN")
 	WebElement MarkSSN;
@@ -97,55 +97,57 @@ public class ManageRecipientAddRecipient extends base {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void AddRecipient(
-			String W9,
-			String W8,
+	public void AddRecipientEIN(
 			String Type,
-			String EINTIN,
-			String SSNTIN,
+			String EIN,
 			String TINnotProvidedcheckbox,
 			String BN,
-			String FN,
-			String MN,
-			String LN,
 			String AttentionTofield,
 			String Address1,
 			String Checkheretovalidateaddresscheckbox,
 			String Suffixdropdown,
-			String Line2field,
-			String Cityfield,
-			String Statedropdown,
-			String Zipcodefield,
-			String Countrydropdown,
+			String Line2,
+			String City,
+			String State,
+			String Zipcode,
+			String Country,
 			String CheckheretoForeignAddresscheckbox,
-			String phonefield,
-			String Emailfield,
-			String MarkSSNcheckbox) throws Throwable {
-		
+			String Phone,
+			String Email) throws Throwable {
+	if(Type.equalsIgnoreCase("Type")) 
+	{
+		action.click(driver, BusinessRadiobutton);
+		action.type(EINTIN,EIN );
+		action.type(BusinessName, BN);
+		action.type(AddressLine1,Address1);
+		action.type(Line2field, Line2);
+		action.type(Cityfield,City );
+		action.selectByVisibleText(State, Statedropdown);
+		action.type(Zipcodefield, Zipcode);
+		action.selectByVisibleText(Country, Countryfield);
+		action.type(phonefield, Phone);
+		action.type(Emailfield,Email );
+		action.click(driver, Addbutton);	
+	} 
+	else 
+	{
+		action.click(driver, BusinessRadiobutton);
+		action.type(EINTIN,EIN );
+		action.type(BusinessName, BN);
+		action.type(AddressLine1,Address1);
+		action.type(Line2field, Line2);
+		action.type(Cityfield,City );
+		action.selectByVisibleText(State, Statedropdown);
+		action.type(Zipcodefield, Zipcode);
+		action.selectByVisibleText(Country, Countryfield);
+		action.type(phonefield, Phone);
+		action.type(Emailfield,Email );
+		action.click(driver, Addbutton);	}
 	
-	if(Type.equalsIgnoreCase("Business")) {
-		action.click(driver, BusinessTypeRadibutton);
-	} else {
-		action.click(driver, IndividualTypeRadibutton);
 	}
 	
-	action.type(EIN,EINTIN);
-	action.type(SSN,SSNTIN );
 	
-	/*action.type(passWord, pswd);
-	action.selectByValue(days, day);
-	action.selectByValue(months, month);
-	action.selectByValue(years, year);
-	action.type(companyName, comPany);
-	action.type(address, addr);
-	action.type(city, cityString);
-	action.selectByVisibleText(stateName, state);
-	action.type(postCode, zip);
-	action.selectByVisibleText(countryName, country);
-	action.type(mobile, mobilePhone);
-}*/
 	
-}
 
 }
 

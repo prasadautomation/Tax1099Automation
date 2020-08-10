@@ -109,9 +109,7 @@ public class ManagePayerAddPayer extends base{
 			String email,
 			String withholdingortaxstateid,
 			String lastfiling,
-			String clientid
-			
-			) throws Throwable {
+			String clientid) throws Throwable {
 		if(type.equalsIgnoreCase("type")) 
 		{
 			action.click(driver, Business);
