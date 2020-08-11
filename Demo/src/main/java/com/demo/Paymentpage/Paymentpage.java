@@ -100,12 +100,12 @@ public class Paymentpage extends base{
 	
 
 	public Paymentpage() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}	
 	public ManageForms PayandSubmit() throws Throwable {
 	
 		Action action=new Action();
-		action.click(driver, PayandSubmitToefile);
+		action.click(getDriver(), PayandSubmitToefile);
 		return new ManageForms();
 	}
 

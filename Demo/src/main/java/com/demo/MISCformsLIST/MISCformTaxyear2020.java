@@ -159,7 +159,7 @@ public class MISCformTaxyear2020 extends base{
 	WebElement SaveandEditNext1099MISC;
 	
 	public MISCformTaxyear2020() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}	
 	
 	
@@ -193,7 +193,7 @@ public class MISCformTaxyear2020 extends base{
 			String Box18b) throws Throwable {
 		
 		Action action=new Action();
-		action.click(driver, SaveandContinue);
+		action.click(getDriver(), SaveandContinue);
 		return new SubmitForms();
 	}
 

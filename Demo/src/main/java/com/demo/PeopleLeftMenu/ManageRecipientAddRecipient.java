@@ -94,7 +94,7 @@ public class ManageRecipientAddRecipient extends base {
 	WebElement MarkSSN;
 
 	public ManageRecipientAddRecipient() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}
 
 	public void AddRecipientEIN(
@@ -116,7 +116,7 @@ public class ManageRecipientAddRecipient extends base {
 			String Email) throws Throwable {
 	if(Type.equalsIgnoreCase("Type")) 
 	{
-		action.click(driver, BusinessRadiobutton);
+		action.click(getDriver(), BusinessRadiobutton);
 		action.type(EINTIN,EIN );
 		action.type(BusinessName, BN);
 		action.type(AddressLine1,Address1);
@@ -127,11 +127,11 @@ public class ManageRecipientAddRecipient extends base {
 		action.selectByVisibleText(Country, Countryfield);
 		action.type(phonefield, Phone);
 		action.type(Emailfield,Email );
-		action.click(driver, Addbutton);	
+		action.click(getDriver(), Addbutton);	
 	} 
 	else 
 	{
-		action.click(driver, BusinessRadiobutton);
+		action.click(getDriver(), BusinessRadiobutton);
 		action.type(EINTIN,EIN );
 		action.type(BusinessName, BN);
 		action.type(AddressLine1,Address1);
@@ -142,7 +142,7 @@ public class ManageRecipientAddRecipient extends base {
 		action.selectByVisibleText(Country, Countryfield);
 		action.type(phonefield, Phone);
 		action.type(Emailfield,Email );
-		action.click(driver, Addbutton);	}
+		action.click(getDriver(), Addbutton);	}
 	
 	}
 	

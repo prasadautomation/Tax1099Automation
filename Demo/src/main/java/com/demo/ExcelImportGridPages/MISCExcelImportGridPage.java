@@ -32,11 +32,11 @@ public class MISCExcelImportGridPage extends base{
 	WebElement Next;
 	
 	public MISCExcelImportGridPage() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}	
 	public SubmitForms ClickNext() throws Throwable {
 		Action action = new Action();
-		action.click(driver, Next);
+		action.click(getDriver(), Next);
 		return new SubmitForms();
 	}
 }

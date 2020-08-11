@@ -21,7 +21,7 @@ public class ManageForms extends base{
 	WebElement SelectAllCheckBox;
 
 	public ManageForms() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}	
 	
 }

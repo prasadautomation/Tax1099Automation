@@ -34,7 +34,7 @@ public class ManagePayer extends base {
 	WebElement BulkUpload;
 	
 	public ManagePayer() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}
 	
 	

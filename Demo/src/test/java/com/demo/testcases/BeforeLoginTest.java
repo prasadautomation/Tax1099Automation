@@ -20,7 +20,7 @@ public class BeforeLoginTest extends base {
 
 	@AfterMethod
 	public void teardown() {
-		driver.quit();
+		getDriver().quit();
 	}
 
 	@Test
@@ -35,7 +35,7 @@ public class BeforeLoginTest extends base {
 
 	@Test
 	public void GetTitle() {
-		String actualTitle = driver.getTitle();
+		String actualTitle = getDriver().getTitle();
 		System.out.println("actual title is---" + "actualTitle");
 
 	}
@@ -45,7 +45,7 @@ public class BeforeLoginTest extends base {
 	  public void verifyTitle() { 
 		 
 		  Log.startTestCase("Verified that the user landed on the Home Page.");
-		  String actTitle=driver.getTitle();
+		  String actTitle=getDriver().getTitle();
 		  Log.info(actTitle+"--------------------------");
 	  System.out.println("actual title is---"+actTitle);
 	  

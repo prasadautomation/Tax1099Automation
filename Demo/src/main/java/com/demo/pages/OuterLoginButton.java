@@ -27,21 +27,21 @@ public class OuterLoginButton extends base{
 	 WebElement OuterTax1099Logo;
 	
 	public OuterLoginButton() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 		
 	}
 	
 	public String getTax1099Title() {
-		String Tax1099title = driver.getTitle();	
+		String Tax1099title = getDriver().getTitle();	
 		return Tax1099title;
 		}
 		
 	public boolean validateLogo() throws Throwable {
-			return Action.isDisplayed(driver, OuterTax1099Logo);
+			return Action.isDisplayed(getDriver(), OuterTax1099Logo);
 		}
 
 	public LoginPage clickonLogin() throws Throwable {
-		Action.click(driver, OuterLoginButton);
+		Action.click(getDriver(), OuterLoginButton);
 		return new LoginPage();
 	}
 }

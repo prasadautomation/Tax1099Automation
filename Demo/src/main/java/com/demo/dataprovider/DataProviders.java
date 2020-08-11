@@ -1,9 +1,11 @@
 package com.demo.dataprovider;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 import org.testng.annotations.DataProvider;
 
+import com.demo.utility.Log;
 import com.demo.utility.NewExcelLibrary;
 
 public class DataProviders {
@@ -40,14 +42,17 @@ public class DataProviders {
 			int column = obj.getColumnCount("AddPayerein");
 			int actRows = rows - 1;
 
-			Object[][] data = new Object[actRows][column];
 
 			for (int i = 0; i < actRows; i++) {
 				for (int j = 0; j < column; j++) {
 					hashMap.put(obj.getCellData("AddPayerein", j, 1),
 							obj.getCellData("AddPayerein", j, i + 2));				}
 			}
-			return data;
+		Log.info("========================>"+hashMap.toString());
+		return new Object[][] {
+	        {hashMap}
+	    };
+//			return data;
 		}
 
 		@DataProvider(name = "addPayerssn")

@@ -60,16 +60,16 @@ public class MISCImportPage extends base{
 	WebElement Note;
 	
 	public MISCImportPage() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}	
     public String GetCurrentURL() {
-	String MISCImportPageURL=driver.getCurrentUrl();
+	String MISCImportPageURL=getDriver().getCurrentUrl();
 	return  MISCImportPageURL;
     }
 
     public MISCExcelImportMatchFieldsPage clickNext() throws Throwable {
     	Action action = new Action();
-		action.click(driver, Next);
+		action.click(getDriver(), Next);
 		return new MISCExcelImportMatchFieldsPage();
 		
 	}

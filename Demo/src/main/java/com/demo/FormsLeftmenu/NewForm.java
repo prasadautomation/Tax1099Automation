@@ -51,20 +51,20 @@ public class NewForm extends base{
 		WebElement TaxYear2019B;
 		
 		public NewForm() {
-			PageFactory.initElements(driver, this);
+			PageFactory.initElements(getDriver(), this);
 		}	
 		public void ClickOnTaxYear2020() throws Throwable {
 			Action action=new Action();
-			action.click(driver, TaxYear2020);
+			action.click(getDriver(), TaxYear2020);
 		}
 		public MISCformTaxyear2020 ClickOn2020MISC() throws Throwable {
 			Action action=new Action();
-			action.click(driver, TaxYear2020MISC);
+			action.click(getDriver(), TaxYear2020MISC);
 			return new MISCformTaxyear2020();
 		}
 		public NECformTaxyear2020 ClickOn2020NEC() throws Throwable {
 			Action action=new Action();
-			action.click(driver, TaxYear2020NEC);
+			action.click(getDriver(), TaxYear2020NEC);
 			return new NECformTaxyear2020();
 		}
 		

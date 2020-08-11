@@ -35,39 +35,39 @@ public class LoginPage extends base{
 	WebElement SignUp;
 	
 	public LoginPage() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}
 	public String getTax1099Title() {
-	String Tax1099title = driver.getTitle();	
+	String Tax1099title = getDriver().getTitle();	
 	return Tax1099title;
 	}
 	
 	public boolean validateLogo() throws Throwable {
-			return Action.isDisplayed(driver, Tax1099Logo);
+			return Action.isDisplayed(getDriver(), Tax1099Logo);
 	}
 	
 	
 	public boolean validateBNoticeImage() throws Throwable {
-			return Action.isDisplayed(driver,RightSideBNoticeImage);
+			return Action.isDisplayed(getDriver(),RightSideBNoticeImage);
 	}
 	public Db login(String Useremail,String Passwd) throws Throwable {
 		Action.type(UserName, Useremail);
 		Action.type(Password, Passwd);
-		WebDriverWait wait = new WebDriverWait(driver, 40);
+		WebDriverWait wait = new WebDriverWait(getDriver(), 40);
 		  wait.until(ExpectedConditions.elementToBeClickable(LoginButton));
-		 Action.implicitWait(driver, 10);
-		Action.click(driver, LoginButton);
+		 Action.implicitWait(getDriver(), 10);
+		Action.click(getDriver(), LoginButton);
 		return new Db();
 		
 	}
 	
 	public forgotpassword forgotpasswd() throws Throwable {
-		Action.click(driver, Forgotpassword);
+		Action.click(getDriver(), Forgotpassword);
 		return new forgotpassword();
 	}
 
 	public SignUpPage SignUp() throws Throwable {
-		Action.click(driver, SignUp);
+		Action.click(getDriver(), SignUp);
 		return new SignUpPage();
 	
 	

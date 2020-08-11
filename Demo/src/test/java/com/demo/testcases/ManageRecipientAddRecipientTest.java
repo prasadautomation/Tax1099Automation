@@ -31,7 +31,7 @@ public class ManageRecipientAddRecipientTest extends base {
 		Log.info("Enter UserName and Password");
 		
 		Db Db = LoginPage.login(Useremail, Passwd);
-		WebElement element = (new WebDriverWait(driver, 10)).until(ExpectedConditions
+		WebElement element = (new WebDriverWait(getDriver(), 10)).until(ExpectedConditions
 				.visibilityOfElementLocated(By.xpath("//div[@class='col-xs-6 chromeXpathFinder chromeXpathFinder0']")));
 
 		Log.info("Verifying User is able to Login");
@@ -45,9 +45,9 @@ public class ManageRecipientAddRecipientTest extends base {
 	@Test
 	public void AddRecipientTest(HashMap<String, String> hashMapValue) throws Throwable {
 
-		driver.findElement(By.xpath("//p[contains(text(),'People')]")).click();
-		WebElement element = (new WebDriverWait(driver, 10)).until(ExpectedConditions
+		getDriver().findElement(By.xpath("//p[contains(text(),'People')]")).click();
+		WebElement element = (new WebDriverWait(getDriver(), 10)).until(ExpectedConditions
 				.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Manage Recipient')]")));
-		driver.findElement(By.xpath("//a[contains(text(),'Manage Recipient')]")).click();
+		getDriver().findElement(By.xpath("//a[contains(text(),'Manage Recipient')]")).click();
 	}
 }

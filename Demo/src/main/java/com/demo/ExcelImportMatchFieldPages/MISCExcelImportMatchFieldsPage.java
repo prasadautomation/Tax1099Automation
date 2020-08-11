@@ -201,18 +201,18 @@ public class MISCExcelImportMatchFieldsPage extends base{
 	WebElement Next;
 	
 	public MISCExcelImportMatchFieldsPage() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}
 	
 	public MISCExcelImportGridPage ClickNext() throws Throwable {
 		Action action = new Action();
-		action.click(driver, Next);
+		action.click(getDriver(), Next);
 		return new MISCExcelImportGridPage();
 	}
 	
 	public MISCExcelImportMatchFieldsPage ClickCancel() throws Throwable {
 		Action action = new Action();
-		action.click(driver, Cancel);
+		action.click(getDriver(), Cancel);
 		return new MISCExcelImportMatchFieldsPage();
 }
 

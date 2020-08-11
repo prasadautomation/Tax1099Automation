@@ -24,15 +24,15 @@ public class FormsLeftMenu extends base{
 	WebElement NewForm;
 	
 	public FormsLeftMenu() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}
 	public void ClickOnForms() throws Throwable {
 		Action action=new Action();
-		action.click(driver, Forms);
+		action.click(getDriver(), Forms);
 	}
 	public NewForm ClickOnNewForm() throws Throwable {
 		Action action=new Action();
-		action.click(driver, NewForm);
+		action.click(getDriver(), NewForm);
 		return new NewForm();
 	}
 }

@@ -35,9 +35,9 @@ public class MISC2019FormTest extends base{
 		  Log.info("Enter UserName and Password");
 		  //Db Db = LoginPage.login(prop.getProperty("UserName"),prop.getProperty("Password"));
 		  Db Db = LoginPage.login(Useremail,Passwd);
-//		  WebDriverWait wait = new WebDriverWait(driver, 40);
+//		  WebgetDriver()Wait wait = new WebDriverWait(driver, 40);
 //		  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text()='Dashboard')]")));
-		  WebElement element = (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div/div[3]/div[1]/div[1]")));
+		  WebElement element = (new WebDriverWait(getDriver(), 10)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div/div[3]/div[1]/div[1]")));
 	      Log.info("Verifying User is able to Login");
 		  String actURL=Db.GetCurrentURL();
 		  String expectedURL="https://1099cloud.com/Protected/Dashboard";

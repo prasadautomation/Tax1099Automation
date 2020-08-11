@@ -130,189 +130,189 @@ public class ImportFormsPage extends base {
 	WebElement Import941;
 
 	public ImportFormsPage() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}
 
 	public MISCImportPage MISCIMPORT() throws Throwable {
 		Action action = new Action();
-		action.click(driver, ImportMISC);
+		action.click(getDriver(), ImportMISC);
 		return new MISCImportPage();
 	}
 
 	public NECImportPage NECIMPORT() throws Throwable {
 		Action action = new Action();
-		action.click(driver, ImportNEC);
+		action.click(getDriver(), ImportNEC);
 		return new NECImportPage();
 	}
 
 	public AImportPage AIMPORT() throws Throwable {
 		Action action = new Action();
-		action.click(driver, ImportA);
+		action.click(getDriver(), ImportA);
 		return new AImportPage();
 	}
 
 	public BImportPage BIMPORT() throws Throwable {
 		Action action = new Action();
-		action.click(driver, ImportB);
+		action.click(getDriver(), ImportB);
 		return new BImportPage();
 	}
 
 	public CImportPage CIMPORT() throws Throwable {
 		Action action = new Action();
-		action.click(driver, ImportC);
+		action.click(getDriver(), ImportC);
 		return new CImportPage();
 
 	}
 
 	public DIVImportPage DIVIMPORT() throws Throwable {
 		Action action = new Action();
-		action.click(driver, ImportDIV);
+		action.click(getDriver(), ImportDIV);
 		return new DIVImportPage();
 	}
 
 	public GImportPage GIMPORT() throws Throwable {
 		Action action = new Action();
-		action.click(driver, ImportG);
+		action.click(getDriver(), ImportG);
 		return new GImportPage();
 	}
 
 	public INTImportPage INTIMPORT() throws Throwable {
 		Action action = new Action();
-		action.click(driver, ImportINT);
+		action.click(getDriver(), ImportINT);
 		return new INTImportPage();
 	}
 
 	public KImportPage KIMPORT() throws Throwable {
 		Action action = new Action();
-		action.click(driver, ImportK);
+		action.click(getDriver(), ImportK);
 		return new KImportPage();
 	}
 
 	public OIDImportPage OIDIMPORT() throws Throwable {
 		Action action = new Action();
-		action.click(driver, ImportOID);
+		action.click(getDriver(), ImportOID);
 		return new OIDImportPage();
 	}
 
 	public PATRImportPage PATRIMPORT() throws Throwable {
 		Action action = new Action();
-		action.click(driver, ImportPATR);
+		action.click(getDriver(), ImportPATR);
 		return new PATRImportPage();
 	}
 
 	public RImportPage RIMPORT()throws Throwable{
 		Action action = new Action();
-		action.click(driver, ImportR);
+		action.click(getDriver(), ImportR);
 		return new RImportPage();
 	}
 
 	public SImportPage SIMPORT()throws Throwable{
 		Action action = new Action();
-		action.click(driver, ImportS);
+		action.click(getDriver(), ImportS);
 		return new SImportPage();
 	}
 
 	public form3921ImportPage form3921IMPORT()throws Throwable{
 		Action action = new Action();
-		action.click(driver, Import3921);
+		action.click(getDriver(), Import3921);
 		return new form3921ImportPage();
 	}
 
 	public form3922ImportPage form3922IMPORT()throws Throwable{
 		Action action = new Action();
-		action.click(driver,Import3922 );
+		action.click(getDriver(),Import3922 );
 		return new form3922ImportPage();
 	}
 
 	public form5498ImportPage form5498IMPORT()throws Throwable{
 		Action action = new Action();
-		action.click(driver, Import5498);
+		action.click(getDriver(), Import5498);
 		return new form5498ImportPage();
 	}
 
 	public BTC1097ImportPage BTC1097()throws Throwable{
 		Action action = new Action();
-		action.click(driver, ImportBTC1097);
+		action.click(getDriver(), ImportBTC1097);
 		return new BTC1097ImportPage();
 	}
 
 	public W2GImportPage W2G()throws Throwable{
 		Action action = new Action();
-		action.click(driver, ImportW2G);
+		action.click(getDriver(), ImportW2G);
 		return new W2GImportPage();
 	}
 	public form1098ImportPage form1098()throws Throwable{
 		Action action = new Action();
-		action.click(driver,Import1098 );
+		action.click(getDriver(),Import1098 );
 		return new form1098ImportPage();
 	}
 	
 	public form1098CImportPage form1098C()throws Throwable{
 		Action action = new Action();
-		action.click(driver, Import1098C);
+		action.click(getDriver(), Import1098C);
 		return new form1098CImportPage();
 	}
 	
 	public form1098TImportPage form1098T()throws Throwable{
 		Action action = new Action();
-		action.click(driver,Import1098T );
+		action.click(getDriver(),Import1098T );
 		return new form1098TImportPage();
 	}
 	
 	public form1042SImportPage form1042S()throws Throwable{
 		Action action = new Action();
-		action.click(driver, Import1042S);
+		action.click(getDriver(), Import1042S);
 		return new form1042SImportPage();
 	}
 	
 	public form1095BImportPage form1095B()throws Throwable{
 		Action action = new Action();
-		action.click(driver, Import1095B);
+		action.click(getDriver(), Import1095B);
 		return new form1095BImportPage()
 ;	}
 	
 	public form1095CImportPage form1095C()throws Throwable{
 		Action action = new Action();
-		action.click(driver, Import1095C);
+		action.click(getDriver(), Import1095C);
 		return new form1095CImportPage();
 	}
 	
 	public W2ImportPage W2()throws Throwable{
 		Action action = new Action();
-		action.click(driver, ImportW2);
+		action.click(getDriver(), ImportW2);
 		return new W2ImportPage();
 	}
 	
 	public form8809ImportPage form8809()throws Throwable{
 		Action action = new Action();
-		action.click(driver, Import8809);
+		action.click(getDriver(), Import8809);
 		return new form8809ImportPage();
 	}
 	
 	public W2GUImportPage W2GU()throws Throwable{
 		Action action = new Action();
-		action.click(driver, ImportW2GU);
+		action.click(getDriver(), ImportW2GU);
 		return new W2GUImportPage();
 	}
 
 	
 	public W2VIImportPage W2VI()throws Throwable{
 		Action action = new Action();
-		action.click(driver,ImportW2VI );
+		action.click(getDriver(),ImportW2VI );
 		return new W2VIImportPage();
 	}
 
 	
 	public W2CImportPage W2C()throws Throwable{
 		Action action = new Action();
-		action.click(driver, ImportW2C);
+		action.click(getDriver(), ImportW2C);
 		return new W2CImportPage();
 	}
 
 	
 	public form941ImportPage form941()throws Throwable{
 		Action action = new Action();
-		action.click(driver, Import941);
+		action.click(getDriver(), Import941);
 		return new form941ImportPage();
 	}
 

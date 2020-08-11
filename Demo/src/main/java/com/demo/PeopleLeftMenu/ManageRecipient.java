@@ -39,16 +39,16 @@ public class ManageRecipient extends base{
 	WebElement ExportToExcel;
 	
 	public ManageRecipient() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}
 	public String ManageRecipientPageTitle() {
-	String ManageRecipientPageTitle = driver.getTitle();	
+	String ManageRecipientPageTitle = getDriver().getTitle();	
 	return ManageRecipientPageTitle;
 	}
 	
 	public void clickOnAddRecipient() throws Throwable {
 		Action action=new Action();
-		action.click(driver, AddRecipient);
+		action.click(getDriver(), AddRecipient);
 	}
 	
 }

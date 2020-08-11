@@ -49,11 +49,11 @@ public class ManagePayerAddPayerTest extends base{
 //		  WebDriverWait wait = new WebDriverWait(driver, 40);
 //		  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text()='Dashboard')]")));
 		 // WebElement element = (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div/div[3]/div[1]/div[1]")));
-		  WebElement element = (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='col-xs-6 chromeXpathFinder chromeXpathFinder0']")));
+		  WebElement element = (new WebDriverWait(getDriver(), 10)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text()='Dashboard')]")));
 		  
 		  Log.info("Verifying User is able to Login");
 		  String actURL=Db.GetCurrentURL();
-		  String expectedURL="https://1099cloud.com/Protected/Dashboard";
+		  String expectedURL="https://www.tax1099.com/Protected/Dashboard";
 		  Assert.assertEquals(actURL, expectedURL);
 		  Log.info("Login Succesful");
 	      Log.endTestCase("clickonLoginTest ");
@@ -61,17 +61,25 @@ public class ManagePayerAddPayerTest extends base{
 	@Test(priority = 2,dataProvider ="addPayerein",dataProviderClass = DataProviders.class)
 	public void AddPayerTest(HashMap<String,String> hashMapValue) throws Throwable {
 		Log.startTestCase("addPayerTest");
-		WebElement element = (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[contains(text(),'People')]")));
+		
+		
+		WebElement element = (new WebDriverWait(getDriver(), 20)).until(ExpectedConditions.elementToBeClickable(By.xpath("//p[contains(text(),'People')]")));
 
-		 //ManagePeople=new ManagePeople();
-		driver.findElement(By.xpath("//p[contains(text(),'People')]")).click();
-		driver.findElement(By.xpath("//a[contains(text(),'Manage Payer')]")).click();
-		WebElement element1 = (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='btnAddEditPayer']")));
-		driver.findElement(By.xpath("//input[@id='btnAddEditPayer']")).click();
+		 //ManagePeople=new ManagePeople();//*[@id='firstpane']/div[2]/p
+		getDriver().findElement(By.xpath("//p[contains(text(),'People')]")).click();
+		////*[@id="menu_body2"]/a[1]
+		getDriver().findElement(By.xpath("//a[contains(text(),'Manage Payer')]")).click();
+		WebElement element1 = (new WebDriverWait(getDriver(), 10)).until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='btnAddEditPayer']")));
+		getDriver().findElement(By.xpath("//input[@id='btnAddEditPayer']")).click();
 		//ManagePeople.ClickOnAddPayer();
+		ManagePayerAddPayer ManagePayerAddPayer=new ManagePayerAddPayer();
 		ManagePayerAddPayer.AddPayerEIN(
 					hashMapValue.get("type"),
 					hashMapValue.get("ein"),
+					hashMapValue.get("ssn"),
+					hashMapValue.get("FirstName"),
+					hashMapValue.get("MiddleName"),
+					hashMapValue.get("LastName"),
 					hashMapValue.get("businessname"),
 					hashMapValue.get("address"),
 					hashMapValue.get("suffix"),
@@ -82,11 +90,12 @@ public class ManagePayerAddPayerTest extends base{
 					hashMapValue.get("country"),
 					hashMapValue.get("checkheretoforeignaddress"),
 					hashMapValue.get("phone"),
-					hashMapValue.get("phone"),
+					hashMapValue.get("email"),
 					hashMapValue.get("withholdingortaxstateid"),
 					hashMapValue.get("lastfiling"),
-					hashMapValue.get("clientid")); 
-		 
+					hashMapValue.get("clientid")
+					); 
+//		 
 		 
 		// ManagePeople.ClickOnPeople();
 		/*

@@ -33,10 +33,10 @@ public class Db extends base{
 		WebElement PlusIcon;
 		
 		public Db() {
-			PageFactory.initElements(driver, this);
+			PageFactory.initElements(getDriver(), this);
 		}	
 	    public String GetCurrentURL() {
-		String DashboardPageURL=driver.getCurrentUrl();
+		String DashboardPageURL=getDriver().getCurrentUrl();
 		return  DashboardPageURL;
 	}
 

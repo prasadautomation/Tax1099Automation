@@ -35,7 +35,7 @@ public class NEC2020formTest extends base {
 		  LoginPage=OuterLoginButton.clickonLogin();
 		  Log.info("Enter UserName and Password");
 		  Db Db = LoginPage.login(Useremail,Passwd);
-		  WebElement element = (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div/div[3]/div[1]/div[1]")));
+		  WebElement element = (new WebDriverWait(getDriver(), 10)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div/div[3]/div[1]/div[1]")));
 	      Log.info("Verifying User is able to Login");
 		  String actURL=Db.GetCurrentURL();
 		  String expectedURL="https://1099cloud.com/Protected/Dashboard";

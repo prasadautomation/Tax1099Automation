@@ -511,3 +511,103 @@
 2020-08-10 09:53:08 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
 2020-08-10 09:53:08 INFO  Log:22 - User is going to clik On Outer Login Button
 2020-08-10 09:53:10 INFO  Log:22 - Enter UserName and Password
+2020-08-10 23:03:12 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-10 23:03:12 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-10 23:03:13 INFO  Log:22 - Enter UserName and Password
+2020-08-10 23:09:47 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-10 23:09:47 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-10 23:09:49 INFO  Log:22 - Enter UserName and Password
+2020-08-10 23:13:08 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-10 23:13:08 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-10 23:13:09 INFO  Log:22 - Enter UserName and Password
+2020-08-10 23:13:18 INFO  Log:22 - Verifying User is able to Login
+2020-08-10 23:21:17 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-10 23:21:17 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-10 23:21:21 INFO  Log:22 - Enter UserName and Password
+2020-08-10 23:21:27 INFO  Log:22 - Verifying User is able to Login
+2020-08-10 23:21:27 INFO  Log:22 - Login Succesful
+2020-08-10 23:21:27 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-10 23:21:28 INFO  Log:22 - [[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]]
+2020-08-10 23:29:05 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-10 23:29:05 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-10 23:29:06 INFO  Log:22 - Enter UserName and Password
+2020-08-10 23:29:13 INFO  Log:22 - Verifying User is able to Login
+2020-08-10 23:29:13 INFO  Log:22 - Login Succesful
+2020-08-10 23:29:13 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-10 23:29:14 INFO  Log:22 - ========================>{ line2=usa,  email=prasad@zenwork.com, FirstName=,  address=us,  country=United State Of America, type=Business, MiddleName=,  lastfiling=, ssn=, zipcode=35010.0,  suffix=,  withholdingortaxstateId=,  clientid=12345.0,  checkheretoforeignaddress=,  businessname=TestOne,  phone=1.2345679E8,  ein=8.89574637E8,  city=City,  state =Alabama, LastName=}
+2020-08-10 23:29:14 INFO  Log:11 - =====================================addPayerTest TEST START=========================================
+2020-08-10 23:33:29 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-10 23:33:29 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-10 23:33:30 INFO  Log:22 - Enter UserName and Password
+2020-08-10 23:33:37 INFO  Log:22 - Verifying User is able to Login
+2020-08-10 23:33:37 INFO  Log:22 - Login Succesful
+2020-08-10 23:33:37 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-10 23:33:37 INFO  Log:22 - ========================>{ line2=usa,  email=prasad@zenwork.com, FirstName=,  address=us,  country=United State Of America, type=Business, MiddleName=,  lastfiling=, ssn=, zipcode=35010.0,  suffix=,  withholdingortaxstateId=,  clientid=12345.0,  checkheretoforeignaddress=,  businessname=TestOne,  phone=1.2345679E8,  ein=8.89574637E8,  city=City,  state =Alabama, LastName=}
+2020-08-10 23:33:37 INFO  Log:11 - =====================================addPayerTest TEST START=========================================
+2020-08-10 23:38:41 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-10 23:38:41 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-10 23:38:43 INFO  Log:22 - Enter UserName and Password
+2020-08-10 23:38:47 INFO  Log:22 - Verifying User is able to Login
+2020-08-10 23:38:47 INFO  Log:22 - Login Succesful
+2020-08-10 23:38:47 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-10 23:38:48 INFO  Log:22 - ========================>{ line2=usa,  email=prasad@zenwork.com, FirstName=,  address=us,  country=United State Of America, type=Business, MiddleName=,  lastfiling=, ssn=, zipcode=35010.0,  suffix=,  withholdingortaxstateId=,  clientid=12345.0,  checkheretoforeignaddress=,  businessname=TestOne,  phone=1.2345679E8,  ein=8.89574637E8,  city=City,  state =Alabama, LastName=}
+2020-08-10 23:38:48 INFO  Log:11 - =====================================addPayerTest TEST START=========================================
+2020-08-10 23:46:46 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-10 23:46:46 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-10 23:46:47 INFO  Log:22 - Enter UserName and Password
+2020-08-10 23:47:03 INFO  Log:22 - Verifying User is able to Login
+2020-08-10 23:47:03 INFO  Log:22 - Login Succesful
+2020-08-10 23:47:03 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-10 23:47:04 INFO  Log:22 - ========================>{ line2=usa,  email=prasad@zenwork.com, FirstName=,  address=us,  country=United State Of America, type=Business, MiddleName=,  lastfiling=, ssn=, zipcode=35010.0,  suffix=,  withholdingortaxstateId=,  clientid=12345.0,  checkheretoforeignaddress=,  businessname=TestOne,  phone=1.2345679E8,  ein=8.89574637E8,  city=City,  state =Alabama, LastName=}
+2020-08-10 23:47:04 INFO  Log:11 - =====================================addPayerTest TEST START=========================================
+2020-08-10 23:56:42 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-10 23:56:42 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-10 23:56:43 INFO  Log:22 - Enter UserName and Password
+2020-08-10 23:56:50 INFO  Log:22 - Verifying User is able to Login
+2020-08-10 23:56:50 INFO  Log:22 - Login Succesful
+2020-08-10 23:56:50 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-10 23:56:50 INFO  Log:22 - ========================>{ line2=usa,  email=prasad@zenwork.com, FirstName=,  address=us,  country=United State Of America, type=Business, MiddleName=,  lastfiling=, ssn=, zipcode=35010.0,  suffix=,  withholdingortaxstateId=,  clientid=12345.0,  checkheretoforeignaddress=,  businessname=TestOne,  phone=1.2345679E8,  ein=8.89574637E8,  city=City,  state =Alabama, LastName=}
+2020-08-10 23:56:50 INFO  Log:11 - =====================================addPayerTest TEST START=========================================
+2020-08-10 23:59:37 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-10 23:59:37 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-10 23:59:39 INFO  Log:22 - Enter UserName and Password
+2020-08-10 23:59:46 INFO  Log:22 - Verifying User is able to Login
+2020-08-10 23:59:46 INFO  Log:22 - Login Succesful
+2020-08-10 23:59:46 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-10 23:59:47 INFO  Log:22 - ========================>{ line2=usa,  email=prasad@zenwork.com, FirstName=,  address=us,  country=United State Of America, type=Business, MiddleName=,  lastfiling=, ssn=, zipcode=35010.0,  suffix=,  withholdingortaxstateId=,  clientid=12345.0,  checkheretoforeignaddress=,  businessname=TestOne,  phone=1.2345679E8,  ein=8.89574637E8,  city=City,  state =Alabama, LastName=}
+2020-08-10 23:59:47 INFO  Log:11 - =====================================addPayerTest TEST START=========================================
+2020-08-11 00:03:31 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-11 00:03:31 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-11 00:03:32 INFO  Log:22 - Enter UserName and Password
+2020-08-11 00:03:39 INFO  Log:22 - Verifying User is able to Login
+2020-08-11 00:03:39 INFO  Log:22 - Login Succesful
+2020-08-11 00:03:39 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-11 00:03:39 INFO  Log:22 - ========================>{ line2=usa,  email=prasad@zenwork.com, FirstName=,  address=us,  country=United State Of America, type=Business, MiddleName=,  lastfiling=, ssn=, zipcode=35010.0,  suffix=,  withholdingortaxstateId=,  clientid=12345.0,  checkheretoforeignaddress=,  businessname=TestOne,  phone=1.2345679E8,  ein=8.89574637E8,  city=City,  state =Alabama, LastName=}
+2020-08-11 00:03:39 INFO  Log:11 - =====================================addPayerTest TEST START=========================================
+2020-08-11 00:07:09 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-11 00:07:10 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-11 00:07:10 INFO  Log:22 - Enter UserName and Password
+2020-08-11 00:07:24 INFO  Log:22 - Verifying User is able to Login
+2020-08-11 00:07:24 INFO  Log:22 - Login Succesful
+2020-08-11 00:07:24 INFO  Log:15 - =====================================clickonLoginTest  TEST END=========================================
+2020-08-11 00:07:24 INFO  Log:22 - ========================>{ line2=usa,  email=prasad@zenwork.com, FirstName=,  address=us,  country=United State Of America, type=Business, MiddleName=,  lastfiling=, ssn=, zipcode=35010.0,  suffix=,  withholdingortaxstateId=,  clientid=12345.0,  checkheretoforeignaddress=,  businessname=TestOne,  phone=1.2345679E8,  ein=8.89574637E8,  city=City,  state =Alabama, LastName=}
+2020-08-11 00:07:24 INFO  Log:11 - =====================================addPayerTest TEST START=========================================
+2020-08-11 00:25:38 INFO  Log:22 - ========================>{ line2=usa,  email=prasad@zenwork.com, FirstName=,  address=us,  country=United State Of America, type=Business, MiddleName=,  lastfiling=, ssn=, zipcode=35010.0,  suffix=,  withholdingortaxstateId=,  clientid=12345.0,  checkheretoforeignaddress=,  businessname=TestOne,  phone=1.2345679E8,  ein=8.89574637E8,  city=City,  state =Alabama, LastName=}
+2020-08-11 00:25:38 INFO  Log:11 - =====================================addPayerTest TEST START=========================================
+2020-08-11 00:33:27 INFO  Log:22 - ========================>{ line2=usa,  email=prasad@zenwork.com, FirstName=,  address=us,  country=United State Of America, type=Business, MiddleName=,  lastfiling=, ssn=, zipcode=35010.0,  suffix=,  withholdingortaxstateId=,  clientid=12345.0,  checkheretoforeignaddress=,  businessname=TestOne,  phone=1.2345679E8,  ein=8.89574637E8,  city=City,  state =Alabama, LastName=}
+2020-08-11 00:33:27 INFO  Log:11 - =====================================addPayerTest TEST START=========================================
+2020-08-11 00:36:28 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-11 00:36:29 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-11 00:36:30 INFO  Log:22 - Enter UserName and Password
+2020-08-11 00:36:42 INFO  Log:22 - ========================>{ line2=usa,  email=prasad@zenwork.com, FirstName=,  address=us,  country=United State Of America, type=Business, MiddleName=,  lastfiling=, ssn=, zipcode=35010.0,  suffix=,  withholdingortaxstateId=,  clientid=12345.0,  checkheretoforeignaddress=,  businessname=TestOne,  phone=1.2345679E8,  ein=8.89574637E8,  city=City,  state =Alabama, LastName=}
+2020-08-11 00:36:42 INFO  Log:11 - =====================================addPayerTest TEST START=========================================
+2020-08-11 00:38:50 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-11 00:38:50 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-11 00:38:51 INFO  Log:22 - Enter UserName and Password
+2020-08-11 00:39:03 INFO  Log:22 - ========================>{ line2=usa,  email=prasad@zenwork.com, FirstName=,  address=us,  country=United State Of America, type=Business, MiddleName=,  lastfiling=, ssn=, zipcode=35010.0,  suffix=,  withholdingortaxstateId=,  clientid=12345.0,  checkheretoforeignaddress=,  businessname=TestOne,  phone=1.2345679E8,  ein=8.89574637E8,  city=City,  state =Alabama, LastName=}
+2020-08-11 00:39:03 INFO  Log:11 - =====================================addPayerTest TEST START=========================================
+2020-08-11 00:42:25 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-08-11 00:42:25 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-08-11 00:42:28 INFO  Log:22 - Enter UserName and Password
+2020-08-11 00:42:40 INFO  Log:22 - ========================>{ line2=usa,  email=prasad@zenwork.com, FirstName=,  address=us,  country=United State Of America, type=Business, MiddleName=,  lastfiling=, ssn=, zipcode=35010.0,  suffix=,  withholdingortaxstateId=,  clientid=12345.0,  checkheretoforeignaddress=,  businessname=TestOne,  phone=1.2345679E8,  ein=8.89574637E8,  city=City,  state =Alabama, LastName=}
+2020-08-11 00:42:40 INFO  Log:11 - =====================================addPayerTest TEST START=========================================

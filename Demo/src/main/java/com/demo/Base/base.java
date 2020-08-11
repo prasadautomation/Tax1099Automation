@@ -4,12 +4,14 @@ package com.demo.Base;
 	import java.io.FileNotFoundException;
 	import java.io.IOException;
 	import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 	import org.openqa.selenium.chrome.ChromeDriver;
 	import org.openqa.selenium.firefox.FirefoxDriver;
 	import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -22,8 +24,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 	public class base {
 		public static Properties prop;
-		public static WebDriver driver;
-
+//		public static WebDriver driver;
+		public static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
 		@BeforeSuite
 		public void loadConfig() {
 			ExtentManager.setExtent();
@@ -41,24 +43,34 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 				e.printStackTrace();
 			}
 		}
-		
+		public static WebDriver getDriver() {
+			// Get Driver from threadLocalmap
+			return driver.get();
+		}
 		public static void launchApp() {
 			String browserName = prop.getProperty("browser");
 			if (browserName.equalsIgnoreCase("Chrome")) {
 				WebDriverManager.chromedriver().setup();
-				driver = new ChromeDriver();
+				driver.set( new ChromeDriver());
 				// Set Browser to ThreadLocalMap
 			} else if (browserName.equalsIgnoreCase("FireFox")) {
 				WebDriverManager.firefoxdriver().setup();
-				driver = new FirefoxDriver();
+				driver.set(new FirefoxDriver());
 			} else if (browserName.equalsIgnoreCase("IE")) {
 				WebDriverManager.iedriver().setup();
-				driver = new InternetExplorerDriver();
+				driver.set(new InternetExplorerDriver());
 			}
-			driver.manage().window().maximize();
-			Action.implicitWait(driver, 10);
-			Action.pageLoadTimeOut(driver, 30);
-			driver.get(prop.getProperty("url"));
+			getDriver().manage().window().maximize();
+			//Delete all the cookies
+			getDriver().manage().deleteAllCookies();
+			//Implicit TimeOuts
+			getDriver().manage().timeouts().implicitlyWait
+			(Integer.parseInt(prop.getProperty("implicitWait")),TimeUnit.SECONDS);
+			//PageLoad TimeOuts
+			getDriver().manage().timeouts().pageLoadTimeout
+			(Integer.parseInt(prop.getProperty("pageLoadTimeOut")),TimeUnit.SECONDS);
+			//Launching the URL
+			getDriver().get(prop.getProperty("url"));
 		
 		}
 		@AfterSuite

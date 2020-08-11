@@ -48,7 +48,7 @@ public class SubmitForms extends base{
 	WebElement Next;
 	
 	public SubmitForms() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}	
 	public void SelectFormMISC() throws Throwable {
 		Action action=new Action();
@@ -77,12 +77,12 @@ public class SubmitForms extends base{
 	
 	public void SelectAllcheckbox() throws Throwable  {
 		Action action=new Action();
-		action.click(driver, SelectAll);
+		action.click(getDriver(), SelectAll);
 	}
 	
 	public void ClickNext() throws Throwable  {
 		Action action=new Action();
-		action.click(driver, Next);
+		action.click(getDriver(), Next);
 	}
 	public Paymentpage MISCformNextfromSubmitpage() throws Throwable {
 		SelectFormMISC();

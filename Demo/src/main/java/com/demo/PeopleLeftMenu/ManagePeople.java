@@ -9,44 +9,44 @@ import com.demo.actiondriver.Action;
 
 public class ManagePeople extends base{
 
-	@FindBy(id="//p[contains(text(),'People')]")
+	@FindBy(xpath="//p[contains(text(),'People')]")
 	WebElement People;
 	
-	@FindBy(id="//a[contains(text(),'Manage Payer')]")
+	@FindBy(xpath="//a[contains(text(),'Manage Payer')]")
 	WebElement ManagePayer;
 	
-	@FindBy(id="//input[@id='btnAddEditPayer']")
+	@FindBy(xpath="//input[@id='btnAddEditPayer']")
 	WebElement AddPayer;
 	
 //	@FindBy(id="//a[contains(text(),'Manage Recipient')]")
 	WebElement ManageRecipient;
 	
 
-	@FindBy(id="//a[contains(text(),'Copy Recipient')]")
+	@FindBy(xpath="//a[contains(text(),'Copy Recipient')]")
 	WebElement CopyRecipient;
 	
 		public ManagePeople() {
-			PageFactory.initElements(driver, this);
+			PageFactory.initElements(getDriver(), this);
 		}
 		public void ClickOnPeople() throws Throwable {
 			Action action=new Action();
-			action.click(driver, People);
+			action.click(getDriver(), People);
 		}
 		public void ClickOnManagePayer() throws Throwable {
 			Action action=new Action();
-			action.click(driver, ManagePayer);
+			action.click(getDriver(), ManagePayer);
 		}
 		public void ClickOnAddPayer() throws Throwable {
 			Action action=new Action();
-			action.click(driver, AddPayer);
+			action.click(getDriver(), AddPayer);
 		}
 		public void clickOnManageRecipient() throws Throwable {
 			Action action=new Action();
-			action.click(driver, ManageRecipient);
+			action.click(getDriver(), ManageRecipient);
 		}
 		public void clickOnCopyRecipient() throws Throwable {
 			Action action=new Action();
-			action.click(driver, CopyRecipient);
+			action.click(getDriver(), CopyRecipient);
 		}
 
 }

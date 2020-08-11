@@ -76,10 +76,10 @@ public class NECformTaxyear2020 extends base{
 	WebElement Cancel;
 	
 	public NECformTaxyear2020() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}	
 	public void CreateNEC2020Form() {
-		String 
+	 
 	}
 	
 }
