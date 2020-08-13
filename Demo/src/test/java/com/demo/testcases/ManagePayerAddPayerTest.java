@@ -10,17 +10,13 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import com.demo.Base.base;
-import com.demo.PeopleLeftMenu.ManagePayerAddPayer;
-import com.demo.PeopleLeftMenu.ManagePeople;
-import com.demo.actiondriver.Action;
-import com.demo.dataprovider.DataProviders;
-import com.demo.pages.Db;
 import com.demo.pages.LoginPage;
+import com.demo.Base.base;
 import com.demo.pages.OuterLoginButton;
 import com.demo.utility.Log;
-
+import com.demo.pages.Db;
+import com.demo.PeopleLeftMenu.*;
+import com.demo.dataprovider.DataProviders;
 public class ManagePayerAddPayerTest extends base{
 	 LoginPage LoginPage; 
 	 OuterLoginButton OuterLoginButton; 
@@ -61,10 +57,7 @@ public class ManagePayerAddPayerTest extends base{
 	@Test(priority = 2,dataProvider ="addPayerein",dataProviderClass = DataProviders.class)
 	public void AddPayerTest(HashMap<String,String> hashMapValue) throws Throwable {
 		Log.startTestCase("addPayerTest");
-		
-		
 		WebElement element = (new WebDriverWait(getDriver(), 20)).until(ExpectedConditions.elementToBeClickable(By.xpath("//p[contains(text(),'People')]")));
-
 		 //ManagePeople=new ManagePeople();//*[@id='firstpane']/div[2]/p
 		getDriver().findElement(By.xpath("//p[contains(text(),'People')]")).click();
 		////*[@id="menu_body2"]/a[1]
@@ -95,7 +88,8 @@ public class ManagePayerAddPayerTest extends base{
 					hashMapValue.get("lastfiling"),
 					hashMapValue.get("clientid")
 					); 
-//		 
+	
+
 		 
 		// ManagePeople.ClickOnPeople();
 		/*
@@ -108,7 +102,6 @@ public class ManagePayerAddPayerTest extends base{
 		 
 	}
 }
-
 
 
 

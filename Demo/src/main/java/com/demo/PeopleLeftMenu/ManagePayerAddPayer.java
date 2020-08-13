@@ -13,10 +13,10 @@ public class ManagePayerAddPayer extends base{
 
 	Action action= new Action();
 	
-	@FindBy(id="rblPayerType")
+	@FindBy(id="rblPayerTypeBusiness")
 	WebElement Business;	
 	
-	@FindBy(id="PayerFedaralID")
+	@FindBy(xpath="//input[@id='PayerFedaralID']")
 	WebElement EIN;
 	
 	@FindBy(id="rblPayerTypeIndividual")
@@ -34,49 +34,49 @@ public class ManagePayerAddPayer extends base{
 	@FindBy(id="PayerLastName")
 	WebElement LN;
 	
-	@FindBy(id="PayerLastName")
+	@FindBy(xpath="//input[@id='PayerLastName']")
 	WebElement BusinessName;
 	
-	@FindBy(id="PayerAddress")
+	@FindBy(xpath="//input[@id='PayerAddress']")
 	WebElement Address1;
 
 	@FindBy(id="PayerSuffix")
 	WebElement Suffix;
 	
-	@FindBy(id="PayerAddress2")
+	@FindBy(xpath="//input[@id='PayerAddress2']")
 	WebElement Line2;
 	
-	@FindBy(id="PayerCity")
+	@FindBy(xpath="//input[@id='PayerCity']")
 	WebElement City;
 	
-	@FindBy(id="PayerState")
+	@FindBy(xpath="//select[@id='PayerState']")
 	WebElement State;
 	
-	@FindBy(id="PayerZIP")
+	@FindBy(xpath="//input[@id='PayerZIP']")
 	WebElement Zipcode;
 	
-	@FindBy(id="PayerCountry")
+	@FindBy(xpath="//select[@id='PayerCountry']")
 	WebElement Country;
 	
-	@FindBy(id="PayerChkIsForeignAddress")
+	@FindBy(xpath="//input[@id='PayerChkIsForeignAddress']")
 	WebElement CheckheretoForeignAddress;
 	
-	@FindBy(id="PayerPhNo")
+	@FindBy(xpath="//input[@id='PayerPhNo']")
 	WebElement Phone;
 	
-	@FindBy(id="PayerEmail")
+	@FindBy(xpath="//input[@id='PayerEmail']")
 	WebElement Email;
 	
-	@FindBy(id="Stateid")
+	@FindBy(xpath="//input[@id='Stateid']")
 	WebElement WithholdingORTaxStateId;
 	
-	@FindBy(id="LastFiling")
+	@FindBy(xpath="//input[@id='LastFiling']")
 	WebElement LastFiling;
 	
-	@FindBy(id="PayerClientId")
+	@FindBy(xpath="//input[@id='PayerClientId']")
 	WebElement ClientID;
 	
-	@FindBy(id="/html/body/div[13]/div[3]/div/button[1]")
+	@FindBy(xpath="//button[contains(text(),'Add')]")
 	WebElement Add;
 	
 	@FindBy(id="/html/body/div[13]/div[3]/div/button[2]")
@@ -85,6 +85,8 @@ public class ManagePayerAddPayer extends base{
 	@FindBy(id="/html/body/div[13]/div[1]/button/span[1]")
 	WebElement Close;
 	
+	
+
 
 	public ManagePayerAddPayer() {
 		PageFactory.initElements(getDriver(), this);
@@ -120,7 +122,8 @@ public class ManagePayerAddPayer extends base{
 		if(type.equalsIgnoreCase("Business")) 
 		{
 			action.click(getDriver(), Business);
-			action.type(EIN,ein );
+			//getDriver().findElement(By.xpath("//input[@id='rblPayerTypeBusiness']")).click();
+			action.type(EIN,ein);
 			action.type(Business, businessname);
 			action.type(Address1, address);
 			action.type(Line2, line2);

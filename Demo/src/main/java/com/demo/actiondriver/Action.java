@@ -29,10 +29,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.demo.Base.base;
 
 
-/**
- * @author Hitendra Verma added on 13th March2019
- *
- */
+
 public class Action extends base {
 
 	public static void scrollByVisibilityOfElement(WebDriver driver, WebElement ele) {
@@ -124,16 +121,23 @@ public class Action extends base {
 	 * @throws Throwable
 	 */
 	public static boolean type(WebElement ele, String text) throws Throwable {
+		
+//		WebElement element1 = (new WebDriverWait(getDriver(), 10)).until(ExpectedConditions.visibilityOf(ele));
+		
 		boolean flag = false;
 		try {
+			click(getDriver(), ele);
 			flag = ele.isDisplayed();
 			ele.clear();
 			ele.sendKeys(text);
 			// logger.info("Entered text :"+text);
 			flag = true;
 		} catch (Exception e) {
-			System.out.println("Location Not found");
+			System.out.println("-"+text+"-Location Not found "+ele.toString());
 			flag = false;
+			flag = true;
+			 JavascriptExecutor jse = (JavascriptExecutor)getDriver();
+			 jse.executeScript("arguments[0].value='"+text+"';", ele);
 		} finally {
 			if (flag) {
 				System.out.println("Successfully entered value");
@@ -245,6 +249,7 @@ public class Action extends base {
 			flag = true;
 			return true;
 		} catch (Exception e) {
+			
 			return false;
 		} finally {
 			if (flag) {
