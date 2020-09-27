@@ -67,12 +67,12 @@ public class ManagePayerAddPayerTest extends base{
 		//ManagePeople.ClickOnAddPayer();
 		ManagePayerAddPayer ManagePayerAddPayer=new ManagePayerAddPayer();
 		ManagePayerAddPayer.AddPayerEIN(
-					hashMapValue.get("type"),
-					hashMapValue.get("ein"),
-					hashMapValue.get("ssn"),
-					hashMapValue.get("FirstName"),
-					hashMapValue.get("MiddleName"),
-					hashMapValue.get("LastName"),
+					//hashMapValue.get("type"),
+					hashMapValue.get("einTIN"),
+					//hashMapValue.get("ssn"),
+					//hashMapValue.get("FirstName"),
+					//hashMapValue.get("MiddleName"),
+					//hashMapValue.get("LastName"),
 					hashMapValue.get("businessname"),
 					hashMapValue.get("address"),
 					hashMapValue.get("suffix"),
@@ -81,11 +81,11 @@ public class ManagePayerAddPayerTest extends base{
 					hashMapValue.get("state"),
 					hashMapValue.get("zipcode"),
 					hashMapValue.get("country"),
-					hashMapValue.get("checkheretoforeignaddress"),
+					//hashMapValue.get("checkheretoforeignaddress"),
 					hashMapValue.get("phone"),
 					hashMapValue.get("email"),
 					hashMapValue.get("withholdingortaxstateid"),
-					hashMapValue.get("lastfiling"),
+					//hashMapValue.get("lastfiling"),
 					hashMapValue.get("clientid")
 					); 
 	

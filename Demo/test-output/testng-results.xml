@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40982" started-at="2020-08-12T11:31:26 IST" finished-at="2020-08-12T11:32:07 IST">
+  <suite name="Default suite" duration-ms="45704" started-at="2020-09-27T21:27:45 IST" finished-at="2020-09-27T21:28:30 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40982" started-at="2020-08-12T11:31:26 IST" finished-at="2020-08-12T11:32:07 IST">
+    <test name="Default test" duration-ms="45704" started-at="2020-09-27T21:27:45 IST" finished-at="2020-09-27T21:28:30 IST">
       <class name="com.demo.testcases.ManagePayerAddPayerTest">
-        <test-method status="PASS" signature="loadConfig()[pri:0, instance:com.demo.testcases.ManagePayerAddPayerTest@17579e0f]" name="loadConfig" is-config="true" duration-ms="251" started-at="2020-08-12T11:31:26 IST" finished-at="2020-08-12T11:31:26 IST">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:com.demo.testcases.ManagePayerAddPayerTest@3712b94]" name="loadConfig" is-config="true" duration-ms="225" started-at="2020-09-27T21:27:44 IST" finished-at="2020-09-27T21:27:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method status="FAIL" signature="clickonLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.demo.testcases.ManagePayerAddPayerTest@17579e0f]" name="clickonLoginTest" duration-ms="28373" started-at="2020-08-12T11:31:27 IST" data-provider="credentials" finished-at="2020-08-12T11:31:56 IST">
+        <test-method status="FAIL" signature="clickonLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.demo.testcases.ManagePayerAddPayerTest@3712b94]" name="clickonLoginTest" duration-ms="31975" started-at="2020-09-27T21:27:45 IST" data-provider="credentials" finished-at="2020-09-27T21:28:17 IST">
           <params>
             <param index="0">
               <value>
@@ -63,16 +63,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[contains(text()='Dashboard')] because of the following error:
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[contains(text()='Dashboard')]' is not a valid XPath expression.
-  (Session info: chrome=84.0.4147.105)
+  (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-0Q9B2C7H', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Prasad\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62590}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 34988f5ba8458ef2f6210e76508925e8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Prasad\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:14683}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bcea180b16aadcbb908c293cc57fe6e8
 *** Element info: {Using=xpath, value=//div[contains(text()='Dashboard')]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -95,7 +94,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonLoginTest -->
-        <test-method status="PASS" signature="AddPayerTest(java.util.HashMap)[pri:2, instance:com.demo.testcases.ManagePayerAddPayerTest@17579e0f]" name="AddPayerTest" duration-ms="11608" started-at="2020-08-12T11:31:56 IST" data-provider="addPayerein" finished-at="2020-08-12T11:32:07 IST">
+        <test-method status="PASS" signature="AddPayerTest(java.util.HashMap)[pri:2, instance:com.demo.testcases.ManagePayerAddPayerTest@3712b94]" name="AddPayerTest" duration-ms="12631" started-at="2020-09-27T21:28:18 IST" data-provider="addPayerein" finished-at="2020-09-27T21:28:30 IST">
           <params>
             <param index="0">
               <value>
@@ -106,7 +105,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddPayerTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.demo.testcases.ManagePayerAddPayerTest@17579e0f]" name="afterSuite" is-config="true" duration-ms="9" started-at="2020-08-12T11:32:07 IST" finished-at="2020-08-12T11:32:07 IST">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.demo.testcases.ManagePayerAddPayerTest@3712b94]" name="afterSuite" is-config="true" duration-ms="12" started-at="2020-09-27T21:28:31 IST" finished-at="2020-09-27T21:28:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

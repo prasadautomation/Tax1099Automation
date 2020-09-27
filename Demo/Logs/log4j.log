@@ -686,3 +686,11 @@
 2020-08-12 11:31:42 INFO  Log:22 - Enter UserName and Password
 2020-08-12 11:31:56 INFO  Log:22 - ========================>{ line2=usa,  email=prasad@zenwork.com, FirstName=,  address=us,  country=United State Of America, type=Business, MiddleName=,  lastfiling=, ssn=, zipcode=35010.0,  suffix=,  withholdingortaxstateId=,  clientid=12345.0,  checkheretoforeignaddress=,  businessname=TestOne,  phone=1.2345679E8,  ein=8.89574637E8,  city=City,  state =Alabama, LastName=}
 2020-08-12 11:31:56 INFO  Log:11 - =====================================addPayerTest TEST START=========================================
+2020-09-27 19:16:42 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-09-27 19:16:42 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-09-27 19:16:43 INFO  Log:22 - Enter UserName and Password
+2020-09-27 19:16:53 INFO  Log:22 - Verifying User is able to Login
+2020-09-27 21:28:01 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2020-09-27 21:28:01 INFO  Log:22 - User is going to clik On Outer Login Button
+2020-09-27 21:28:02 INFO  Log:22 - Enter UserName and Password
+2020-09-27 21:28:18 INFO  Log:11 - =====================================addPayerTest TEST START=========================================

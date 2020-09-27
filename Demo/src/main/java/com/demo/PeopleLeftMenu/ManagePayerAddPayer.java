@@ -41,7 +41,7 @@ public class ManagePayerAddPayer extends base{
 	WebElement Address1;
 
 	@FindBy(id="PayerSuffix")
-	WebElement Suffix;
+	WebElement suffixdata;
 	
 	@FindBy(xpath="//input[@id='PayerAddress2']")
 	WebElement Line2;
@@ -98,72 +98,65 @@ public class ManagePayerAddPayer extends base{
 	
 	
 	public void AddPayerEIN(
-			String type,
-			String ein,
-			String ssn,
-			String FirstName,
-			String MiddleName,
-			String LastName,
+			//String type,
+			String einTIN,
+			//String ssn,
+			//String FirstName,
+			//String MiddleName,
+			//String LastName,
 			String businessname,
 			String address,
-			String suffix,
 			String line2,
+			String suffix,
 			String city,
 			String state,
 			String zipcode,
 			String country,
-			String checkheretoforeignaddress,
+			//String checkheretoforeignaddress,
 			String phone,
 			String email,
 			String withholdingortaxstateid,
-			String lastfiling,
+			//String lastfiling,
 			String clientid) throws Throwable {
-		
-		if(type.equalsIgnoreCase("Business")) 
-		{
 			action.click(getDriver(), Business);
 			//getDriver().findElement(By.xpath("//input[@id='rblPayerTypeBusiness']")).click();
-			action.type(EIN,ein);
+			action.type(EIN,einTIN);
 			action.type(Business, businessname);
 			action.type(Address1, address);
+			action.selectByValue(suffixdata,suffix);
 			action.type(Line2, line2);
 			action.type(City,city );
 			action.selectByVisibleText(state, State);
 			action.type(Zipcode, zipcode);
 			action.selectByVisibleText(country, Country);
 			action.type(Phone, phone);
+			//action.click(getDriver(), LastFiling);
 			action.type(Email, email);
-			action.click(getDriver(), Add);
-		} 
-		else 
-		{
-			action.click(getDriver(), Individual);
-			action.type(FN,FirstName);
-			action.type(MN,MiddleName);
-			action.type(LN,LastName);
-			action.selectByVisibleText(suffix, Suffix);
-			action.type(Address1, address);
-			action.type(Line2, line2);
-			action.type(City,city );
-			action.selectByVisibleText(state, State);
-			action.type(Zipcode, zipcode);
-			action.selectByVisibleText(country, Country);
-			action.type(Phone, phone);
-			action.type(Email, email);
-			action.click(getDriver(), Add);
-		}
-		
-		// getDriver().findElement(By.xpath("//input[@value='"+Type+"']")).click();  
-		
+	} 
+		public ManagePayerAddPayer validateAddEINpayer() throws Throwable{
+			Add.click();
+			return new ManagePayerAddPayer();
+	}
+		/*
+		 * if(type.equalsIgnoreCase("Business")) { action.click(getDriver(), Business);
+		 * //getDriver().findElement(By.xpath("//input[@id='rblPayerTypeBusiness']")).
+		 * click(); action.type(EIN,ein); action.type(Business, businessname);
+		 * action.type(Address1, address); action.type(Line2, line2);
+		 * action.type(City,city ); action.selectByVisibleText(state, State);
+		 * action.type(Zipcode, zipcode); action.selectByVisibleText(country, Country);
+		 * action.type(Phone, phone); action.type(Email, email);
+		 * action.click(getDriver(), Add); } else { action.click(getDriver(),
+		 * Individual); action.type(FN,FirstName); action.type(MN,MiddleName);
+		 * action.type(LN,LastName); action.selectByVisibleText(suffix, Suffix);
+		 * action.type(Address1, address); action.type(Line2, line2);
+		 * action.type(City,city ); action.selectByVisibleText(state, State);
+		 * action.type(Zipcode, zipcode); action.selectByVisibleText(country, Country);
+		 * action.type(Phone, phone); action.type(Email, email);
+		 * action.click(getDriver(), Add); }
+		 * 
+		 * // getDriver().findElement(By.xpath("//input[@value='"+Type+"']")).click();
+		 */
 	
 
 }
-}
-
-
-
-
-
-
-
 

@@ -2,6 +2,7 @@ package com.demo.dataprovider;
 
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Map;
 
 import org.testng.annotations.DataProvider;
 
@@ -32,28 +33,46 @@ public class DataProviders {
 			return data;
 		}
 
+	/*
+	 * @DataProvider(name = "addPayerein") 
+	 * public Object[][] getAddPayerein() { //
+	 * Totals rows count HashMap<String, String> hashMap = new HashMap<String,
+	 * String>();
+	 * 
+	 * int rows = obj.getRowCount("AddPayerein"); // Total Columns int column =
+	 * obj.getColumnCount("AddPayerein"); int actRows = rows - 1;
+	 * 
+	 * 
+	 * for (int i = 0; i < actRows; i++) { for (int j = 0; j < column; j++) {
+	 * hashMap.put(obj.getCellData("AddPayerein", j, 1),
+	 * obj.getCellData("AddPayerein", j, i + 2)); } }
+	 * Log.info("========================>"+hashMap.toString()); return new
+	 * Object[][] { {hashMap} }; 
+	 * // return data; }
+	 */
 		@DataProvider(name = "addPayerein")
 		public Object[][] getAddPayerein() {
-			// Totals rows count
-			HashMap<String, String> hashMap = new HashMap<String, String>();
 
+			// Totals rows count
 			int rows = obj.getRowCount("AddPayerein");
 			// Total Columns
 			int column = obj.getColumnCount("AddPayerein");
 			int actRows = rows - 1;
-
-
+			//Created an object of array to store data
+			Object[][] data = new Object[actRows][1];
+			
 			for (int i = 0; i < actRows; i++) {
+				Map<String, String> hashMap = new HashMap<>();
 				for (int j = 0; j < column; j++) {
 					hashMap.put(obj.getCellData("AddPayerein", j, 1),
-							obj.getCellData("AddPayerein", j, i + 2));				}
+							obj.getCellData("AddPayerein", j, i + 2));
+				}
+				data[i][0]=hashMap;
 			}
-		Log.info("========================>"+hashMap.toString());
-		return new Object[][] {
-	        {hashMap}
-	    };
-//			return data;
+			return data;
 		}
+
+	
 
 		@DataProvider(name = "addPayerssn")
 		public Object[][] getAddPayerssn() {
