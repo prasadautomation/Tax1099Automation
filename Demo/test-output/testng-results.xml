@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45704" started-at="2020-09-27T21:27:45 IST" finished-at="2020-09-27T21:28:30 IST">
+  <suite name="Default suite" duration-ms="179291" started-at="2020-10-20T17:30:37 IST" finished-at="2020-10-20T17:33:36 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="45704" started-at="2020-09-27T21:27:45 IST" finished-at="2020-09-27T21:28:30 IST">
-      <class name="com.demo.testcases.ManagePayerAddPayerTest">
-        <test-method status="PASS" signature="loadConfig()[pri:0, instance:com.demo.testcases.ManagePayerAddPayerTest@3712b94]" name="loadConfig" is-config="true" duration-ms="225" started-at="2020-09-27T21:27:44 IST" finished-at="2020-09-27T21:27:45 IST">
+    <test name="Default test" duration-ms="179291" started-at="2020-10-20T17:30:37 IST" finished-at="2020-10-20T17:33:36 IST">
+      <class name="com.demo.testcases.ManualAddPayerTest">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:com.demo.testcases.ManualAddPayerTest@3712b94]" name="loadConfig" is-config="true" duration-ms="1005" started-at="2020-10-20T17:30:36 IST" finished-at="2020-10-20T17:30:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method status="FAIL" signature="clickonLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.demo.testcases.ManagePayerAddPayerTest@3712b94]" name="clickonLoginTest" duration-ms="31975" started-at="2020-09-27T21:27:45 IST" data-provider="credentials" finished-at="2020-09-27T21:28:17 IST">
+        <test-method status="FAIL" signature="clickonLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.demo.testcases.ManualAddPayerTest@3712b94]" name="clickonLoginTest" duration-ms="176293" started-at="2020-10-20T17:30:39 IST" data-provider="credentials" finished-at="2020-10-20T17:33:35 IST">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text()='Dashboard')] (tried for 10 second(s) with 500 milliseconds interval)
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.demo.testcases.ManagePayerAddPayerTest.clickonLoginTest(ManagePayerAddPayerTest.java:48)
+at com.demo.testcases.ManualAddPayerTest.clickonLoginTest(ManualAddPayerTest.java:48)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -63,15 +63,16 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[contains(text()='Dashboard')] because of the following error:
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[contains(text()='Dashboard')]' is not a valid XPath expression.
-  (Session info: chrome=85.0.4183.121)
+  (Session info: chrome=86.0.4240.75)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-0Q9B2C7H', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'LAPTOP-0Q9B2C7H', ip: '192.168.225.234', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Prasad\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:14683}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: bcea180b16aadcbb908c293cc57fe6e8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Prasad\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:5510}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9e0f7f9bdfc04a5ae21d288f981ae025
 *** Element info: {Using=xpath, value=//div[contains(text()='Dashboard')]}
-at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -94,22 +95,55 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonLoginTest -->
-        <test-method status="PASS" signature="AddPayerTest(java.util.HashMap)[pri:2, instance:com.demo.testcases.ManagePayerAddPayerTest@3712b94]" name="AddPayerTest" duration-ms="12631" started-at="2020-09-27T21:28:18 IST" data-provider="addPayerein" finished-at="2020-09-27T21:28:30 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{ line2=usa,  email=prasad@zenwork.com, FirstName=,  address=us,  country=United State Of America, type=Business, MiddleName=,  lastfiling=, ssn=, zipcode=35010.0,  suffix=,  withholdingortaxstateId=,  clientid=12345.0,  checkheretoforeignaddress=,  businessname=TestOne,  phone=1.2345679E8,  ein=8.89574637E8,  city=City,  state =Alabama, LastName=}]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="FAIL" signature="AddPayerTest()[pri:2, instance:com.demo.testcases.ManualAddPayerTest@3712b94]" name="AddPayerTest" duration-ms="997" started-at="2020-10-20T17:33:35 IST" data-provider="addPayerein" finished-at="2020-10-20T17:33:36 IST">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+[public void com.demo.testcases.ManualAddPayerTest.AddPayerTest() throws java.lang.Throwable] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: AddPayerTest([])
+Arguments: [(java.util.HashMap) {address=us, withholdingortaxstateid=R123456789, clientid=12345.0, city=us, suffix=Sr, zipcode=35010.0, phone=1.23456789E9, State=Alabama, businessname=PrasadTestAA01, Country=us, einTIN=4.50593832E8, line2=usa, email=prasad@test1.com}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void com.demo.testcases.ManualAddPayerTest.AddPayerTest() throws java.lang.Throwable] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: AddPayerTest([])
+Arguments: [(java.util.HashMap) {address=us, withholdingortaxstateid=R123456789, clientid=12345.0, city=us, suffix=Sr, zipcode=35010.0, phone=1.23456789E9, State=Alabama, businessname=PrasadTestAA01, Country=us, einTIN=4.50593832E8, line2=usa, email=prasad@test1.com}]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:909)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddPayerTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.demo.testcases.ManagePayerAddPayerTest@3712b94]" name="afterSuite" is-config="true" duration-ms="12" started-at="2020-09-27T21:28:31 IST" finished-at="2020-09-27T21:28:31 IST">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.demo.testcases.ManualAddPayerTest@3712b94]" name="afterSuite" is-config="true" duration-ms="12" started-at="2020-10-20T17:33:36 IST" finished-at="2020-10-20T17:33:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.demo.testcases.ManagePayerAddPayerTest -->
+      </class> <!-- com.demo.testcases.ManualAddPayerTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

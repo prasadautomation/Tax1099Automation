@@ -119,19 +119,35 @@ public class ManagePayerAddPayer extends base{
 			//String lastfiling,
 			String clientid) throws Throwable {
 			action.click(getDriver(), Business);
+			Thread.sleep(1000);
 			//getDriver().findElement(By.xpath("//input[@id='rblPayerTypeBusiness']")).click();
 			action.type(EIN,einTIN);
+			Thread.sleep(3000);
 			action.type(Business, businessname);
+			Thread.sleep(1000);
 			action.type(Address1, address);
+			Thread.sleep(1000);
 			action.selectByValue(suffixdata,suffix);
+			Thread.sleep(1000);
 			action.type(Line2, line2);
+			Thread.sleep(1000);
 			action.type(City,city );
-			action.selectByVisibleText(state, State);
+			Thread.sleep(1000);
+			action.selectByValue(State, state);
+			Thread.sleep(3000);
+			//action.selectByVisibleText(state, State);
 			action.type(Zipcode, zipcode);
+			Thread.sleep(1000);
 			action.selectByVisibleText(country, Country);
+			Thread.sleep(2000);
 			action.type(Phone, phone);
+			Thread.sleep(1000);
 			//action.click(getDriver(), LastFiling);
 			action.type(Email, email);
+			Thread.sleep(1000);
+			action.type(WithholdingORTaxStateId, withholdingortaxstateid);
+			Thread.sleep(2000);
+			action.type(ClientID, clientid);
 	} 
 		public ManagePayerAddPayer validateAddEINpayer() throws Throwable{
 			Add.click();
