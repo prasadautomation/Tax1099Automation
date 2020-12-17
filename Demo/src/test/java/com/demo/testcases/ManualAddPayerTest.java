@@ -48,7 +48,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 		@Test(priority = 2,dataProvider ="addPayerein",dataProviderClass = DataProviders.class)
 		public void AddPayerTest() throws Throwable {
 			Log.startTestCase("addPayerTest");
-			WebElement element = (new WebDriverWait(getDriver(), 20)).until(ExpectedConditions.elementToBeClickable(By.xpath("//p[contains(text(),'People')]")));
+			WebElement element = (new WebDriverWait(getDriver(), 30)).until(ExpectedConditions.elementToBeClickable(By.xpath("//p[contains(text(),'People')]")));
 			 //ManagePeople=new ManagePeople();//*[@id='firstpane']/div[2]/p
 			getDriver().findElement(By.xpath("//p[contains(text(),'People')]")).click();
 			////*[@id="menu_body2"]/a[1]
@@ -56,32 +56,43 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 			WebElement element1 = (new WebDriverWait(getDriver(), 10)).until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='btnAddEditPayer']")));
 			getDriver().findElement(By.xpath("//input[@id='btnAddEditPayer']")).click();
 			
-			Thread.sleep(1000);
+			Thread.sleep(3000);
 			getDriver().findElement(By.id("rblPayerTypeBusiness")).click();
-			Thread.sleep(1000);
+			Thread.sleep(3000);
 
-			WebElement PayerEIN= getDriver().findElement(By.xpath("//input[@id='PayerFedaralID']"));
-			PayerEIN.clear();
-
-			getDriver().findElement(By.xpath("//input[@id='PayerFedaralID']")).sendKeys("123456789");
-			
-			getDriver().findElement(By.xpath("//input[@id='PayerLastName']")).sendKeys("BusinessOCT102020PayerTestAA01");
-			getDriver().findElement(By.xpath("//input[@id='PayerAddress']")).sendKeys("us");
-			getDriver().findElement(By.xpath("//input[@id='PayerCity']")).sendKeys("city");
-			
-			Select PayerState = new Select(getDriver().findElement(By.xpath("//select[@id='PayerState']")));
-			PayerState.selectByVisibleText("Alabama");
-			
-			getDriver().findElement(By.xpath("//input[@id='PayerZIP']")).sendKeys("35010");
-			
-			Select PayerCountry = new Select(getDriver().findElement(By.xpath("//select[@id='PayerCountry']")));
-			PayerCountry.selectByVisibleText("United States of America");
-			
-			getDriver().findElement(By.xpath("//input[@id='PayerPhNo']")).sendKeys("1234567890");
-			
-			getDriver().findElement(By.xpath("//input[@id='PayerEmail']")).sendKeys("prasad@zenwork.com");
-			
-
+		/*
+		 * WebElement PayerEIN=
+		 * getDriver().findElement(By.xpath("//input[@id='PayerFedaralID']"));
+		 * PayerEIN.clear();
+		 * 
+		 * getDriver().findElement(By.xpath("//input[@id='PayerFedaralID']")).sendKeys(
+		 * "123456789");
+		 * 
+		 * getDriver().findElement(By.xpath("//input[@id='PayerLastName']")).sendKeys(
+		 * "BusinessOCT102020PayerTestAA01");
+		 * getDriver().findElement(By.xpath("//input[@id='PayerAddress']")).sendKeys(
+		 * "us");
+		 * getDriver().findElement(By.xpath("//input[@id='PayerCity']")).sendKeys("city"
+		 * );
+		 * 
+		 * Select PayerState = new
+		 * Select(getDriver().findElement(By.xpath("//select[@id='PayerState']")));
+		 * PayerState.selectByVisibleText("Alabama");
+		 * 
+		 * getDriver().findElement(By.xpath("//input[@id='PayerZIP']")).sendKeys("35010"
+		 * );
+		 * 
+		 * Select PayerCountry = new
+		 * Select(getDriver().findElement(By.xpath("//select[@id='PayerCountry']")));
+		 * PayerCountry.selectByVisibleText("United States of America");
+		 * 
+		 * getDriver().findElement(By.xpath("//input[@id='PayerPhNo']")).sendKeys(
+		 * "1234567890");
+		 * 
+		 * getDriver().findElement(By.xpath("//input[@id='PayerEmail']")).sendKeys(
+		 * "prasad@zenwork.com");
+		 * 
+		 */
 		}
 	}
 	

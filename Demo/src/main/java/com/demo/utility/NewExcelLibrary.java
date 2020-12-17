@@ -130,6 +130,7 @@ public class NewExcelLibrary {
 		}
 	
 		// returns the data from a cell
+		@SuppressWarnings("deprecation")
 		public String getCellData(String sheetName,int colNum,int rowNum){
 			try{
 				if(rowNum <=0)
@@ -146,12 +147,16 @@ public class NewExcelLibrary {
 			if(row==null)
 				return "";
 			cell = row.getCell(colNum);
+			System.out.println("Type"+cell.getCellType().name()+"--"+cell.getRawValue());
 			if(cell==null)
 				return "";
 			
 		  if(cell.getCellType().name().equals("STRING"))
 			  return cell.getStringCellValue();
-		  else if(cell.getCellType().name().equals("NUMERIC") || cell.getCellType().name().equals("FORMULA") ){
+		  else if(cell.getCellType().name().equals("NUMERIC")){
+			  return cell.getRawValue();
+		  }
+		  else if( cell.getCellType().name().equals("FORMULA") ){
 			  
 			  String cellText  = String.valueOf(cell.getNumericCellValue());
 			  if (HSSFDateUtil.isCellDateFormatted(cell)) {

@@ -34,7 +34,7 @@ public class ManagePayerAddPayer extends base{
 	@FindBy(id="PayerLastName")
 	WebElement LN;
 	
-	@FindBy(xpath="//input[@id='PayerLastName']")
+	@FindBy(xpath="//*[@id='PayerLastName']")
 	WebElement BusinessName;
 	
 	@FindBy(xpath="//input[@id='PayerAddress']")
@@ -49,8 +49,11 @@ public class ManagePayerAddPayer extends base{
 	@FindBy(xpath="//input[@id='PayerCity']")
 	WebElement City;
 	
-	@FindBy(xpath="//select[@id='PayerState']")
+	@FindBy(id="PayerState")
 	WebElement State;
+	
+	@FindBy(xpath="//*[@id='PayerState']")
+	WebElement State1;
 	
 	@FindBy(xpath="//input[@id='PayerZIP']")
 	WebElement Zipcode;
@@ -123,7 +126,7 @@ public class ManagePayerAddPayer extends base{
 			//getDriver().findElement(By.xpath("//input[@id='rblPayerTypeBusiness']")).click();
 			action.type(EIN,einTIN);
 			Thread.sleep(3000);
-			action.type(Business, businessname);
+			action.type(BusinessName, businessname);
 			Thread.sleep(1000);
 			action.type(Address1, address);
 			Thread.sleep(1000);
@@ -132,10 +135,11 @@ public class ManagePayerAddPayer extends base{
 			action.type(Line2, line2);
 			Thread.sleep(1000);
 			action.type(City,city );
-			Thread.sleep(1000);
-			action.selectByValue(State, state);
+//			Thread.sleep(2000);
+//			action.selectByValue(State,state);
 			Thread.sleep(3000);
-			//action.selectByVisibleText(state, State);
+			action.selectByVisibleText(state,State);
+			Thread.sleep(3000);
 			action.type(Zipcode, zipcode);
 			Thread.sleep(1000);
 			action.selectByVisibleText(country, Country);

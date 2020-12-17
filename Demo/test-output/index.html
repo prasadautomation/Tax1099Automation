@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Prasad\AppData\Local\Temp\testng-eclipse-1686322667\testng-customsuite.xml</span>
+                    <span>C:\Users\Prasad\AppData\Local\Temp\testng-eclipse-961006368\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 2 failed,   </span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,15 +102,24 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.demo.testcases.ManualAddPayerTest" hash-for-method="AddPayerTest">AddPayerTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.demo.testcases.ManualAddPayerTest" hash-for-method="clickonLoginTest(prasad@zenwork.com, Prasad@123)">clickonLoginTest(prasad@zenwork.com, Prasad@123)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.demo.testcases.ManagePayerAddPayerTest" hash-for-method="clickonLoginTest(prasad@zenwork.com, Prasad@123)">clickonLoginTest(prasad@zenwork.com, Prasad@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.demo.testcases.ManagePayerAddPayerTest" hash-for-method="AddPayerTest({address=us, withholdingortaxstateid=R123456789, clientid=12345, city=us, suffix=Sr, zipcode=35010, ...)">AddPayerTest({address=us, withholdingortaxstateid=R123456789, clientid=12345, city=us, suffix=Sr, zipcode=35010, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -125,46 +134,9 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.demo.testcases.ManualAddPayerTest</span>
+              <span class="class-name">com.demo.testcases.ManagePayerAddPayerTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="AddPayerTest">
-                  </a> <!-- AddPayerTest -->
-                  <span class="method-name">AddPayerTest</span>
-                  <div class="stack-trace">org.testng.internal.reflect.MethodMatcherException: 
-[public void com.demo.testcases.ManualAddPayerTest.AddPayerTest() throws java.lang.Throwable] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: AddPayerTest([])
-Arguments: [(java.util.HashMap) {address=us, withholdingortaxstateid=R123456789, clientid=12345.0, city=us, suffix=Sr, zipcode=35010.0, phone=1.23456789E9, State=Alabama, businessname=PrasadTestAA01, Country=us, einTIN=4.50593832E8, line2=usa, email=prasad@test1.com}]
-	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
-	at org.testng.internal.Parameters.injectParameters(Parameters.java:909)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="clickonLoginTest(prasad@zenwork.com, Prasad@123)">
@@ -174,7 +146,7 @@ Arguments: [(java.util.HashMap) {address=us, withholdingortaxstateid=R123456789,
                   <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text()=&apos;Dashboard&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.demo.testcases.ManualAddPayerTest.clickonLoginTest(ManualAddPayerTest.java:48)
+	at com.demo.testcases.ManagePayerAddPayerTest.clickonLoginTest(ManagePayerAddPayerTest.java:48)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -205,13 +177,13 @@ Arguments: [(java.util.HashMap) {address=us, withholdingortaxstateid=R123456789,
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[contains(text()=&apos;Dashboard&apos;)] because of the following error:
 SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//div[contains(text()=&apos;Dashboard&apos;)]&apos; is not a valid XPath expression.
-  (Session info: chrome=86.0.4240.75)
+  (Session info: chrome=87.0.4280.88)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-0Q9B2C7H&apos;, ip: &apos;192.168.225.234&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+System info: host: &apos;LAPTOP-0Q9B2C7H&apos;, ip: &apos;192.168.29.243&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Prasad\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:5510}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9e0f7f9bdfc04a5ae21d288f981ae025
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Prasad\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:13191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ced883162fe92e48f0535e4a857f8a43
 *** Element info: {Using=xpath, value=//div[contains(text()=&apos;Dashboard&apos;)]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -237,10 +209,26 @@ Session ID: 9e0f7f9bdfc04a5ae21d288f981ae025
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demo.testcases.ManagePayerAddPayerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddPayerTest({address=us, withholdingortaxstateid=R123456789, clientid=12345, city=us, suffix=Sr, zipcode=35010, ...)">
+                  </a> <!-- AddPayerTest({address=us, withholdingortaxstateid=R123456789, clientid=12345, city=us, suffix=Sr, zipcode=35010, ...) -->
+                  <span class="method-name">AddPayerTest</span>
+                  <span class="parameters">({address=us, withholdingortaxstateid=R123456789, clientid=12345, city=us, suffix=Sr, zipcode=35010, phone=1234567890, State=Alabama, businessname=PrasadTestAA01, Country=United States of America, einTIN=450593832, line2=usa, email=prasad@test1.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Prasad\AppData\Local\Temp\testng-eclipse-1686322667\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Prasad\AppData\Local\Temp\testng-eclipse-961006368\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -249,7 +237,7 @@ Session ID: 9e0f7f9bdfc04a5ae21d288f981ae025
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.demo.testcases.ManualAddPayerTest&quot;/&gt;
+      &lt;class name=&quot;com.demo.testcases.ManagePayerAddPayerTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -291,18 +279,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'clickonLoginTest')
-data.setCell(0, 2, 'com.demo.testcases.ManualAddPayerTest')
-data.setCell(0, 3, 176293);
+data.setCell(0, 1, 'AddPayerTest')
+data.setCell(0, 2, 'com.demo.testcases.ManagePayerAddPayerTest')
+data.setCell(0, 3, 45602);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'AddPayerTest')
-data.setCell(1, 2, 'com.demo.testcases.ManualAddPayerTest')
-data.setCell(1, 3, 997);
+data.setCell(1, 1, 'clickonLoginTest')
+data.setCell(1, 2, 'com.demo.testcases.ManagePayerAddPayerTest')
+data.setCell(1, 3, 37802);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -328,7 +316,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.demo.testcases.ManualAddPayerTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.demo.testcases.ManagePayerAddPayerTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">loadConfig</span>
                 <span class="method-start">0 ms</span>
@@ -337,11 +325,15 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">clickonLoginTest(prasad@zenwork.com, Prasad@123)</span>
-                <span class="method-start">2707 ms</span>
+                <span class="method-start">991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddPayerTest({address=us, withholdingortaxstateid=R123456789, clientid=12345, city=us, suffix=Sr, zipcode=35010, ...)</span>
+                <span class="method-start">38955 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">180436 ms</span>
+                <span class="method-start">84601 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

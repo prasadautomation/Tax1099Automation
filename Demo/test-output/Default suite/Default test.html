@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Oct 20 17:30:37 IST 2020</td>
+<td>Started on:</td><td>Fri Dec 18 01:22:55 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>179 seconds (179291 ms)</td>
+<tr><td>Total time:</td><td>84 seconds (84267 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,73 +75,11 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.demo.testcases.ManualAddPayerTest.AddPayerTest()'><b>AddPayerTest</b><br>Test class: com.demo.testcases.ManualAddPayerTest</td>
-<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
-[public void com.demo.testcases.ManualAddPayerTest.AddPayerTest() throws java.lang.Throwable] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: AddPayerTest([])
-Arguments: [(java.util.HashMap) {address=us, withholdingortaxstateid=R123456789, clientid=12345.0, city=us, suffix=Sr, zipcode=35010.0, phone=1.23456789E9, State=Alabama, businessname=PrasadTestAA01, Country=us, einTIN=4.50593832E8, line2=usa, email=prasad@test1.com}]
-	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
-	at org.testng.internal.Parameters.injectParameters(Parameters.java:909)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace727818265", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace727818265'><pre>org.testng.internal.reflect.MethodMatcherException: 
-[public void com.demo.testcases.ManualAddPayerTest.AddPayerTest() throws java.lang.Throwable] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: AddPayerTest([])
-Arguments: [(java.util.HashMap) {address=us, withholdingortaxstateid=R123456789, clientid=12345.0, city=us, suffix=Sr, zipcode=35010.0, phone=1.23456789E9, State=Alabama, businessname=PrasadTestAA01, Country=us, einTIN=4.50593832E8, line2=usa, email=prasad@test1.com}]
-	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
-	at org.testng.internal.Parameters.injectParameters(Parameters.java:909)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.demo.testcases.ManualAddPayerTest@3712b94</td></tr>
-<tr>
-<td title='com.demo.testcases.ManualAddPayerTest.clickonLoginTest()'><b>clickonLoginTest</b><br>Test class: com.demo.testcases.ManualAddPayerTest<br>Parameters: prasad@zenwork.com, Prasad@123</td>
+<td title='com.demo.testcases.ManagePayerAddPayerTest.clickonLoginTest()'><b>clickonLoginTest</b><br>Test class: com.demo.testcases.ManagePayerAddPayerTest<br>Parameters: prasad@zenwork.com, Prasad@123</td>
 <td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text()=&apos;Dashboard&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.demo.testcases.ManualAddPayerTest.clickonLoginTest(ManualAddPayerTest.java:48)
+	at com.demo.testcases.ManagePayerAddPayerTest.clickonLoginTest(ManagePayerAddPayerTest.java:48)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -172,13 +110,13 @@ Arguments: [(java.util.HashMap) {address=us, withholdingortaxstateid=R123456789,
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[contains(text()=&apos;Dashboard&apos;)] because of the following error:
 SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//div[contains(text()=&apos;Dashboard&apos;)]&apos; is not a valid XPath expression.
-  (Session info: chrome=86.0.4240.75)
+  (Session info: chrome=87.0.4280.88)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-0Q9B2C7H&apos;, ip: &apos;192.168.225.234&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+System info: host: &apos;LAPTOP-0Q9B2C7H&apos;, ip: &apos;192.168.29.243&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Prasad\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:5510}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9e0f7f9bdfc04a5ae21d288f981ae025
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Prasad\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:13191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ced883162fe92e48f0535e4a857f8a43
 *** Element info: {Using=xpath, value=//div[contains(text()=&apos;Dashboard&apos;)]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -198,11 +136,11 @@ Session ID: 9e0f7f9bdfc04a5ae21d288f981ae025
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
 	... 29 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1315038402", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1315038402'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text()=&apos;Dashboard&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1921012072", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1921012072'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text()=&apos;Dashboard&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.demo.testcases.ManualAddPayerTest.clickonLoginTest(ManualAddPayerTest.java:48)
+	at com.demo.testcases.ManagePayerAddPayerTest.clickonLoginTest(ManagePayerAddPayerTest.java:48)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -233,13 +171,13 @@ Session ID: 9e0f7f9bdfc04a5ae21d288f981ae025
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[contains(text()=&apos;Dashboard&apos;)] because of the following error:
 SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//div[contains(text()=&apos;Dashboard&apos;)]&apos; is not a valid XPath expression.
-  (Session info: chrome=86.0.4240.75)
+  (Session info: chrome=87.0.4280.88)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-0Q9B2C7H&apos;, ip: &apos;192.168.225.234&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+System info: host: &apos;LAPTOP-0Q9B2C7H&apos;, ip: &apos;192.168.29.243&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Prasad\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:5510}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9e0f7f9bdfc04a5ae21d288f981ae025
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Prasad\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:13191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ced883162fe92e48f0535e4a857f8a43
 *** Element info: {Using=xpath, value=//div[contains(text()=&apos;Dashboard&apos;)]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -260,8 +198,21 @@ Session ID: 9e0f7f9bdfc04a5ae21d288f981ae025
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
 	... 29 more
 </pre></div></td>
-<td>176</td>
-<td>com.demo.testcases.ManualAddPayerTest@3712b94</td></tr>
+<td>37</td>
+<td>com.demo.testcases.ManagePayerAddPayerTest@3712b94</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.demo.testcases.ManagePayerAddPayerTest.AddPayerTest()'><b>AddPayerTest</b><br>Test class: com.demo.testcases.ManagePayerAddPayerTest<br>Parameters: {address=us, withholdingortaxstateid=R123456789, clientid=12345, city=us, suffix=Sr, zipcode=35010, phone=1234567890, State=Alabama, businessname=PrasadTestAA01, Country=United States of America, einTIN=450593832, line2=usa, email=prasad@test1.com}</td>
+<td></td>
+<td>45</td>
+<td>com.demo.testcases.ManagePayerAddPayerTest@3712b94</td></tr>
 </table><p>
 </body>
 </html>

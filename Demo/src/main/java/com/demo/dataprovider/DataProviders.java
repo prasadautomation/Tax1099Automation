@@ -64,6 +64,7 @@ public class DataProviders {
 			for (int i = 0; i < actRows; i++) {
 				Map<String, String> hashMap = new HashMap<>();
 				for (int j = 0; j < column; j++) {
+					System.out.println(obj.getCellData("AddPayerein", j, i + 2));
 					hashMap.put(obj.getCellData("AddPayerein", j, 1),
 							obj.getCellData("AddPayerein", j, i + 2));
 				}
