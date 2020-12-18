@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="8" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="73263" started-at="2020-01-02T07:03:53Z" finished-at="2020-01-02T07:05:06Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@3e6fa38a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="73263" started-at="2020-01-02T07:03:53Z" finished-at="2020-01-02T07:05:06Z">
+      <class name="NewTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:NewTest@77caeb3e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-01-02T07:05:06Z" finished-at="2020-01-02T07:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:NewTest@77caeb3e]" name="f" duration-ms="0" started-at="2020-01-02T07:05:06Z" finished-at="2020-01-02T07:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- NewTest -->
+      <class name="CucumberOptions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:CucumberOptions.TestRunner@3e6fa38a]" name="setUpClass" is-config="true" duration-ms="461" started-at="2020-01-02T07:03:53Z" finished-at="2020-01-02T07:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@3e6fa38a]" name="feature" duration-ms="69745" started-at="2020-01-02T07:03:53Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-01-02T07:05:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Subscription Management]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:CucumberOptions.TestRunner@3e6fa38a]" name="screenShot" is-config="true" duration-ms="471" started-at="2020-01-02T07:05:03Z" finished-at="2020-01-02T07:05:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@3e6fa38a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:CucumberOptions.TestRunner@3e6fa38a]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2020-01-02T07:05:04Z" finished-at="2020-01-02T07:05:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CucumberOptions.TestRunner -->
+      <class name="Fidentity_pages.Notification_Test">
+        <test-method status="PASS" signature="dbconnection()[pri:0, instance:Fidentity_pages.Notification_Test@66a3ffec]" name="dbconnection" duration-ms="2447" started-at="2020-01-02T07:05:04Z" finished-at="2020-01-02T07:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbconnection -->
+      </class> <!-- Fidentity_pages.Notification_Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
