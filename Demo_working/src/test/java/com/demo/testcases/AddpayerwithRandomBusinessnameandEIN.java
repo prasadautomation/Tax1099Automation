@@ -13,6 +13,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
@@ -49,34 +50,43 @@ public class AddpayerwithRandomBusinessnameandEIN extends base {
 		// LoginPage.login(prop.getProperty("UserName"),prop.getProperty("Password"));
 		Db Db = LoginPage.login(Useremail, Passwd);}
 		
-	@Test(priority = 2, dataProvider = "addpayerrandombusinessein", dataProviderClass = DataProviders.class)
+	
+	@Test(priority=2)
+	public void navigate_addpayer() throws InterruptedException {
+		
+		Log.startTestCase("navigate_addpayer");
+	
+		
+		Thread.sleep(80000);
+		
+		WebElement element=getDriver().findElement(By.xpath("//p[contains(text(),'People')]"));
+	WebDriverWait wait=new WebDriverWait(getDriver(),60);
+	wait.until(ExpectedConditions.elementToBeClickable(element));
+	JavascriptExecutor passwordexecutor = (JavascriptExecutor) getDriver();
+	passwordexecutor.executeScript("arguments[0].click();", element);
+	Thread.sleep(60000);
+	Log.info("People menu clicked");
+		/*Actions action=new Actions(getDriver());
+		action.moveToElement(element);
+		action.click();
+		action.perform();*/
+		String menutext=getDriver().findElement(By.xpath("//*[@id='firstpane']/div[2]/p")).getText();
+		Log.info("menu text:"+menutext);
+		
+
+		getDriver().findElement(By.xpath("//a[contains(text(),'Manage Payer')]")).click();
+		
+		Thread.sleep(10000);
+		
+		Log.info("Manage payer clicked");
+
+	}
+	
+	
+	@Test(priority = 3, dataProvider = "addpayerrandombusinessein", dataProviderClass = DataProviders.class)
 	public void AddPayerTest(HashMap<String, String> hashMapValue) throws Throwable {
 		
-			Log.startTestCase("AddPayerTest");
-			
-			Thread.sleep(80000);
-			
-			WebElement element=getDriver().findElement(By.xpath("//p[contains(text(),'People')]"));
-		WebDriverWait wait=new WebDriverWait(getDriver(),60);
-		wait.until(ExpectedConditions.elementToBeClickable(element));
-		JavascriptExecutor passwordexecutor = (JavascriptExecutor) getDriver();
-		passwordexecutor.executeScript("arguments[0].click();", element);
-		Thread.sleep(60000);
-		Log.info("People menu clicked");
-			/*Actions action=new Actions(getDriver());
-			action.moveToElement(element);
-			action.click();
-			action.perform();*/
-			String menutext=getDriver().findElement(By.xpath("//*[@id='firstpane']/div[2]/p")).getText();
-			Log.info("menu text:"+menutext);
-			
-
-			getDriver().findElement(By.xpath("//a[contains(text(),'Manage Payer')]")).click();
-			
-			Thread.sleep(10000);
-			
-			Log.info("Manage payer clicked");
-
+		Log.startTestCase("AddPayerTest");
 			Thread.sleep(10000);
 			WebElement element1 = (new WebDriverWait(getDriver(), 60))
 					.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='btnAddEditPayer']")));
@@ -112,24 +122,32 @@ public class AddpayerwithRandomBusinessnameandEIN extends base {
 						hashMapValue.get("zipcode"), hashMapValue.get("Postalcode"),hashMapValue.get("Country"),
 						
 						// hashMapValue.get("checkheretoforeignaddress"),
-						hashMapValue.get("phone"), hashMapValue.get("email"), hashMapValue.get("withholdingortaxstateid"),
+						hashMapValue.get("phone"), 
+						hashMapValue.get("email"), 
+						hashMapValue.get("withholdingortaxstateid"),
 						// hashMapValue.get("lastfiling"),
 						hashMapValue.get("clientid"));
 			
 			getDriver().findElement(By.id("PayerZIP")).clear();
 			getDriver().findElement(By.id("PayerZIP")).click();
 			getDriver().findElement(By.id("PayerZIP")).sendKeys("35010");
+			getDriver().findElement(By.id("PayerEmail")).clear();
+			getDriver().findElement(By.id("PayerPhNo")).clear();
 			
-					ManagePayerAddPayer.validateAddEINpayer();
-					Thread.sleep(2000);
-					
-					Alert alert = ((WebDriver) getDriver()).switchTo().alert();
-					Thread.sleep(2000);
-					getDriver().findElement(By.xpath("//button[normalize-space()='Cancel']")).click();
+			getDriver().findElement(By.id("PayerPhNo")).sendKeys("1234567891");
+			Select statedropdown=new Select(getDriver().findElement(By.id("PayerState")));
+			statedropdown.selectByVisibleText("Alabama");
+			
+			ManagePayerAddPayer.validateAddEINpayer();
+			Thread.sleep(20000);
+			Log.info("Add button clicked on add payer dialog");
+			getDriver().findElement(By.id("alertify-ok")).click();
+			
+			Log.info("Added payer alert clicked ");
 
 
 		}
-	@Test(priority=3)
+	@Test(priority=4)
 	public void payerscount_existingaccount() throws InterruptedException {
 		Thread.sleep(80000);
 		

@@ -42,6 +42,7 @@ public class OuterLoginButton extends base{
 
 	public LoginPage clickonLogin() throws Throwable {
 		Action.click(getDriver(), OuterLoginButton);
+		Thread.sleep(80000);
 		return new LoginPage();
 	}
 }

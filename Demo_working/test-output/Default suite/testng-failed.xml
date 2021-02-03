@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demo.testcases.TC_AddRecipient_008">
+      <class name="com.demo.testcases.testsample">
         <methods>
+          <include name="Navigate_payer"/>
           <include name="loadConfig"/>
-          <include name="clickonLoginTest" invocation-numbers="0"/>
-          <include name="addRecipientnonUSSSN"/>
           <include name="afterSuite"/>
         </methods>
-      </class> <!-- com.demo.testcases.TC_AddRecipient_008 -->
+      </class> <!-- com.demo.testcases.testsample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

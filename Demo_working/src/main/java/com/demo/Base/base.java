@@ -1,5 +1,7 @@
 package com.demo.Base;
 
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -89,7 +91,7 @@ public class base {
 		getDriver().manage().timeouts().pageLoadTimeout(Integer.parseInt(prop.getProperty("pageLoadTimeOut")),
 				TimeUnit.SECONDS);
 		// Launching the URL
-		getDriver().get(prop.getProperty("url"));
+		getDriver().get(prop.getProperty("testurl"));
 		System.setProperty("webdriver.chrome.driver","E:\\selenium\\chromedriver_2.41\\chromedriver.exe");
 		//mention the below chrome option to solve timeout exception issue
 		
@@ -160,4 +162,16 @@ System.out.print("File of screen shot is: "+DestFile.getName());
 	public void afterSuite() {
 		ExtentManager.endReport();
 	}
-}
+	
+	public static void keyF8() {
+	Robot robot = null;
+	try
+	{
+	   robot = new Robot();
+	}
+	catch(Exception e)
+	{
+	   //handle failure
+	}
+	robot.keyPress(KeyEvent.VK_F8);
+}}
