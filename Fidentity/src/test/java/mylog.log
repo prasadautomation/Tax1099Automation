@@ -1,0 +1,714 @@
+[ERROR: 2020-11-19 12:10:13 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:346)] number of records:0
+[ERROR: 2020-11-23 15:44:52 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:346)] number of records:0
+[ERROR: 2020-11-23 17:58:48 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:346)] number of records:0
+[INFO: 2020-11-24 11:34:19 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-24 11:34:20 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] number of records:5
+[INFO: 2020-11-24 12:09:31 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-24 12:09:33 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-24 12:09:33 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-24 12:11:59 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-24 12:12:01 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-24 12:12:01 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-24 12:22:35 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-24 12:22:38 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-24 12:22:38 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-24 12:22:38 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:360)] 
+clicked on first record
+[INFO: 2020-11-24 12:40:55 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-24 12:40:56 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-24 12:40:56 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-24 12:40:56 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:360)] 
+clicked on first record
+[INFO: 2020-11-24 13:47:01 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-24 13:47:02 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-24 13:47:02 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-24 13:47:02 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:360)] 
+clicked on first record
+[INFO: 2020-11-24 13:47:02 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:364)] 
+pwa edit modal is displayed.true
+[INFO: 2020-11-24 15:08:05 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-24 15:08:08 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-24 15:08:08 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-24 15:08:08 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:360)] 
+clicked on first record
+[INFO: 2020-11-24 15:08:08 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:364)] 
+pwa edit modal is displayed.true
+[INFO: 2020-11-24 15:22:04 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-24 15:22:05 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-24 15:22:05 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-24 15:22:05 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:360)] 
+clicked on first record
+[INFO: 2020-11-24 15:22:05 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:364)] 
+pwa edit modal is displayed.true
+[INFO: 2020-11-24 16:06:30 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-24 16:06:32 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-24 16:06:32 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-24 16:06:32 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:360)] 
+clicked on first record
+[INFO: 2020-11-24 16:06:32 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:364)] 
+pwa edit modal is displayed.true
+[INFO: 2020-11-24 19:07:58 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-24 19:08:00 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-24 19:08:00 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-24 19:08:00 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:360)] 
+clicked on first record
+[INFO: 2020-11-24 19:08:00 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:364)] 
+pwa edit modal is displayed.true
+[INFO: 2020-11-24 19:16:19 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-24 19:16:20 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-24 19:16:20 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-24 19:16:20 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:360)] 
+clicked on first record
+[INFO: 2020-11-24 19:16:20 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:364)] 
+pwa edit modal is displayed.true
+[INFO: 2020-11-24 19:32:00 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-24 19:32:00 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-24 19:32:00 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-24 19:32:01 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:360)] 
+clicked on first record
+[INFO: 2020-11-24 19:32:01 Fidentity_pages.Packagedelivery.edit_details(Packagedelivery.java:366)] 
+pwa edit modal is displayed.true
+[INFO: 2020-11-24 19:41:10 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-24 19:41:12 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-24 19:41:12 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-24 19:41:12 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:360)] 
+clicked on first record
+[INFO: 2020-11-25 10:34:59 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-25 10:35:00 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-25 10:35:00 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-25 10:35:00 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:360)] 
+clicked on first record
+[INFO: 2020-11-25 12:07:50 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-25 12:07:52 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-25 12:07:52 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-25 12:07:52 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:360)] 
+clicked on first record
+[INFO: 2020-11-25 17:20:29 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-25 17:20:32 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-25 17:20:32 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-25 17:20:32 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:360)] 
+clicked on first record
+[INFO: 2020-11-25 17:20:32 Fidentity_pages.Packagedelivery.pwa_editvalidations(Packagedelivery.java:428)] 
+
+[INFO: 2020-11-25 17:22:12 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-25 17:22:14 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-25 17:22:14 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-25 17:22:14 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:360)] 
+clicked on first record
+[INFO: 2020-11-25 17:22:14 Fidentity_pages.Packagedelivery.pwa_editvalidations(Packagedelivery.java:428)] 
+
+[INFO: 2020-11-25 17:44:22 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-25 17:44:23 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-25 17:44:23 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-25 17:44:23 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:360)] 
+clicked on first record
+[INFO: 2020-11-25 18:15:18 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-25 18:15:20 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-25 18:15:20 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-25 18:15:20 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:360)] 
+clicked on first record
+[INFO: 2020-11-25 18:15:20 Fidentity_pages.Packagedelivery.packagekiosk_editcancel(Packagedelivery.java:442)] 
+Edit modal displayed 
+[INFO: 2020-11-25 18:22:41 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-25 18:22:43 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-25 18:22:43 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-25 18:22:43 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:360)] 
+clicked on first record
+[INFO: 2020-11-25 18:22:43 Fidentity_pages.Packagedelivery.packagekiosk_editcancel(Packagedelivery.java:442)] 
+Edit modal displayed 
+[INFO: 2020-11-25 18:26:25 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[ERROR: 2020-11-25 18:26:26 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:348)] 
+number of records:5
+[INFO: 2020-11-25 18:26:26 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:355)] 
+There are records of kiosks to edit
+[INFO: 2020-11-25 18:26:26 Fidentity_pages.Packagedelivery.select_edit(Packagedelivery.java:360)] 
+clicked on first record
+[INFO: 2020-11-25 18:26:26 Fidentity_pages.Packagedelivery.packagekiosk_editcancel(Packagedelivery.java:442)] 
+Edit modal displayed 
+[INFO: 2020-11-25 18:26:27 Fidentity_pages.Packagedelivery.packagekiosk_editcancel(Packagedelivery.java:446)] 
+Package delivery kiosk Edit details cancelled 
+[INFO: 2020-11-25 19:16:54 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-25 19:42:54 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-25 19:42:55 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:458)] 
+number of active records:3
+[INFO: 2020-11-25 19:42:55 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:466)] 
+There are kiosks to dettach
+[INFO: 2020-11-25 19:50:30 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-25 19:50:32 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:458)] 
+number of active records:3
+[INFO: 2020-11-25 19:50:32 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:466)] 
+There are kiosks to dettach
+[INFO: 2020-11-25 19:50:32 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:476)] 
+clicked on first record
+[INFO: 2020-11-25 20:11:45 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-25 20:11:46 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:458)] 
+number of active records:3
+[INFO: 2020-11-25 20:11:46 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:466)] 
+There are kiosks to dettach
+[INFO: 2020-11-25 20:11:47 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:476)] 
+clicked on first record
+[INFO: 2020-11-26 10:21:00 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-26 10:21:01 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:458)] 
+number of active records:2
+[INFO: 2020-11-26 10:21:01 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:466)] 
+There are kiosks to dettach
+[INFO: 2020-11-26 10:21:02 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:476)] 
+clicked on first record
+[INFO: 2020-11-26 10:25:12 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-26 10:25:13 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:458)] 
+number of active records:1
+[INFO: 2020-11-26 10:25:13 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:466)] 
+There are kiosks to dettach
+[INFO: 2020-11-26 10:34:17 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-26 10:34:17 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:458)] 
+number of active records:1
+[INFO: 2020-11-26 10:34:17 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:466)] 
+There are kiosks to dettach
+[INFO: 2020-11-26 10:36:13 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-26 10:36:15 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:458)] 
+number of active records:1
+[INFO: 2020-11-26 10:36:15 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:466)] 
+There are kiosks to dettach
+[INFO: 2020-11-26 10:36:15 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:476)] 
+clicked on first record
+[INFO: 2020-11-26 10:53:20 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-26 10:53:22 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:458)] 
+number of active records:1
+[INFO: 2020-11-26 10:53:22 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:466)] 
+There are kiosks to dettach
+[INFO: 2020-11-26 10:53:22 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:476)] 
+clicked on first record
+[INFO: 2020-11-26 11:44:57 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-26 11:44:58 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:458)] 
+number of active records:1
+[INFO: 2020-11-26 11:44:58 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:466)] 
+There are kiosks to dettach
+[INFO: 2020-11-26 11:44:58 Fidentity_pages.Packagedelivery.dettach_packagekiosk(Packagedelivery.java:476)] 
+clicked on first record
+[INFO: 2020-11-26 11:44:58 Fidentity_pages.Packagedelivery.cancel_packagekioskdettach(Packagedelivery.java:496)] 
+dettachmodel diplsayed for dettach kiosk
+[INFO: 2020-11-26 11:44:58 Fidentity_pages.Packagedelivery.cancel_packagekioskdettach(Packagedelivery.java:499)] 
+Cancelled dettach package kiosk 
+[INFO: 2020-11-26 12:02:18 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-26 16:37:41 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-26 16:37:43 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:512)] 
+number of non-active records:2
+[INFO: 2020-11-26 16:37:43 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:520)] 
+There are kiosks to dettach
+[INFO: 2020-11-26 16:37:43 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:531)] 
+Deleted non-active record
+[INFO: 2020-11-26 18:01:26 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-26 18:01:29 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:512)] 
+number of non-active records:2
+[INFO: 2020-11-26 18:01:29 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:520)] 
+There are kiosks to dettach
+[INFO: 2020-11-26 18:01:29 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:531)] 
+Deleted non-active record
+[INFO: 2020-11-26 18:01:30 Fidentity_pages.Packagedelivery.confirm_deletenonactivekiosk(Packagedelivery.java:543)] 
+Non-active package kiosk Delete confirmation modal has been displayed
+[INFO: 2020-11-26 18:01:30 Fidentity_pages.Packagedelivery.confirm_deletenonactivekiosk(Packagedelivery.java:546)] 
+Deleted non-active record
+[INFO: 2020-11-26 18:03:29 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-26 18:03:30 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:512)] 
+number of non-active records:2
+[INFO: 2020-11-26 18:03:30 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:520)] 
+There are kiosks to dettach
+[INFO: 2020-11-26 18:03:30 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:531)] 
+Deleted non-active record
+[INFO: 2020-11-26 18:03:30 Fidentity_pages.Packagedelivery.confirm_deletenonactivekiosk(Packagedelivery.java:543)] 
+Non-active package kiosk Delete confirmation modal has been displayed
+[INFO: 2020-11-26 18:03:31 Fidentity_pages.Packagedelivery.confirm_deletenonactivekiosk(Packagedelivery.java:546)] 
+Deleted non-active record
+[INFO: 2020-11-26 18:07:04 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-26 18:07:06 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:512)] 
+number of non-active records:2
+[INFO: 2020-11-26 18:07:06 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:520)] 
+There are kiosks to dettach
+[INFO: 2020-11-26 18:07:06 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:531)] 
+Deleted non-active record
+[INFO: 2020-11-26 18:07:06 Fidentity_pages.Packagedelivery.confirm_deletenonactivekiosk(Packagedelivery.java:543)] 
+Non-active package kiosk Delete confirmation modal has been displayed
+[INFO: 2020-11-26 18:07:06 Fidentity_pages.Packagedelivery.confirm_deletenonactivekiosk(Packagedelivery.java:546)] 
+Deleted non-active record
+[INFO: 2020-11-26 18:11:51 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-26 18:11:53 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:512)] 
+number of non-active records:1
+[INFO: 2020-11-26 18:11:53 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:520)] 
+There are kiosks to dettach
+[INFO: 2020-11-26 18:11:53 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:531)] 
+Deleted non-active record
+[INFO: 2020-11-26 18:31:45 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-26 18:31:47 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:512)] 
+number of non-active records:1
+[INFO: 2020-11-26 18:31:47 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:520)] 
+There are kiosks to dettach
+[INFO: 2020-11-26 18:31:47 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:531)] 
+Deleted non-active record
+[INFO: 2020-11-26 18:31:47 Fidentity_pages.Packagedelivery.cancel_deletenonactivekiosk(Packagedelivery.java:559)] 
+Non-active package kiosk Delete confirmation modal has been displayed
+[INFO: 2020-11-26 18:31:48 Fidentity_pages.Packagedelivery.cancel_deletenonactivekiosk(Packagedelivery.java:562)] 
+Cancelled deletion of non-active record
+[INFO: 2020-11-27 15:51:07 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-27 15:51:08 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:512)] 
+number of non-active records:1
+[INFO: 2020-11-27 15:51:08 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:520)] 
+There are kiosks to dettach
+[INFO: 2020-11-27 15:51:08 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:531)] 
+Deleted non-active record
+[INFO: 2020-11-27 15:51:08 Fidentity_pages.Packagedelivery.cancel_deletenonactivekiosk(Packagedelivery.java:559)] 
+Non-active package kiosk Delete confirmation modal has been displayed
+[INFO: 2020-11-27 15:51:08 Fidentity_pages.Packagedelivery.cancel_deletenonactivekiosk(Packagedelivery.java:562)] 
+Cancelled deletion of non-active record
+[INFO: 2020-11-30 14:54:50 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-30 14:54:52 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:512)] 
+number of non-active records:2
+[INFO: 2020-11-30 14:54:52 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:520)] 
+There are kiosks to dettach
+[INFO: 2020-11-30 14:54:52 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:531)] 
+Deleted non-active record
+[INFO: 2020-11-30 14:54:52 Fidentity_pages.Packagedelivery.cancel_deletenonactivekiosk(Packagedelivery.java:559)] 
+Non-active package kiosk Delete confirmation modal has been displayed
+[INFO: 2020-11-30 14:54:52 Fidentity_pages.Packagedelivery.cancel_deletenonactivekiosk(Packagedelivery.java:562)] 
+Cancelled deletion of non-active record
+[INFO: 2020-11-30 15:30:34 Fidentity_pages.Packagedelivery.navigate_kioskmgmt(Packagedelivery.java:339)] 
+Clicked on kiosk management menu
+[INFO: 2020-11-30 15:30:35 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:512)] 
+number of non-active records:2
+[INFO: 2020-11-30 15:30:35 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:520)] 
+There are kiosks to dettach
+[INFO: 2020-11-30 15:30:35 Fidentity_pages.Packagedelivery.delete_nonactivepackagekiosk(Packagedelivery.java:531)] 
+Deleted non-active record
+[INFO: 2020-11-30 15:30:35 Fidentity_pages.Packagedelivery.cancel_deletenonactivekiosk(Packagedelivery.java:559)] 
+Non-active package kiosk Delete confirmation modal has been displayed
+[INFO: 2020-11-30 15:30:35 Fidentity_pages.Packagedelivery.cancel_deletenonactivekiosk(Packagedelivery.java:562)] 
+Cancelled deletion of non-active record
+[INFO: 2020-12-02 14:19:53 Fidentity_pages.Onlocation.checked_out(Onlocation.java:80)] 
+Number of records are: 5
+[INFO: 2020-12-02 15:47:54 Fidentity_pages.Onlocation.checked_out(Onlocation.java:80)] 
+Number of records are: 5
+[INFO: 2020-12-02 16:27:12 Fidentity_pages.Onlocation.checked_out(Onlocation.java:80)] 
+Number of records are: 5
+[INFO: 2020-12-02 16:27:12 Fidentity_pages.Onlocation.checked_out(Onlocation.java:84)] 
+Number of records are more than 1.
+[INFO: 2020-12-02 17:34:48 Fidentity_pages.Onlocation.checked_out(Onlocation.java:80)] 
+Number of records are: 5
+[INFO: 2020-12-02 17:34:48 Fidentity_pages.Onlocation.checked_out(Onlocation.java:84)] 
+Number of records are more than 1.
+[INFO: 2020-12-03 10:25:06 Fidentity_pages.Onlocation.checked_out(Onlocation.java:80)] 
+Number of records are: 5
+[INFO: 2020-12-03 10:25:06 Fidentity_pages.Onlocation.checked_out(Onlocation.java:84)] 
+Number of records are more than 1.
+[INFO: 2020-12-03 11:27:30 Fidentity_pages.Onlocation.checked_out(Onlocation.java:80)] 
+Number of records are: 5
+[INFO: 2020-12-03 11:27:30 Fidentity_pages.Onlocation.checked_out(Onlocation.java:84)] 
+Number of records are more than 1.
+[INFO: 2020-12-03 11:27:35 Fidentity_pages.Onlocation.confirm_checkout(Onlocation.java:136)] 
+Visitor checked out successfully
+[INFO: 2020-12-03 11:33:24 Fidentity_pages.Onlocation.checked_out(Onlocation.java:80)] 
+Number of records are: 5
+[INFO: 2020-12-03 11:33:24 Fidentity_pages.Onlocation.checked_out(Onlocation.java:84)] 
+Number of records are more than 1.
+[INFO: 2020-12-03 12:53:49 Fidentity_pages.Onlocation.checked_out(Onlocation.java:80)] 
+Number of records are: 5
+[INFO: 2020-12-03 12:53:49 Fidentity_pages.Onlocation.checked_out(Onlocation.java:84)] 
+Number of records are more than 1.
+[INFO: 2020-12-03 12:53:55 Fidentity_pages.Onlocation.cancel_checkout(Onlocation.java:121)] 
+Visitor checked out cancelled successfully
+[INFO: 2020-12-03 13:11:53 Fidentity_pages.Onlocation.checked_out(Onlocation.java:80)] 
+Number of records are: 5
+[INFO: 2020-12-03 13:11:53 Fidentity_pages.Onlocation.checked_out(Onlocation.java:84)] 
+Number of records are more than 1.
+[INFO: 2020-12-03 13:11:55 Fidentity_pages.Onlocation.cancel_checkout(Onlocation.java:121)] 
+Visitor checked out cancelled successfully
+[INFO: 2020-12-03 16:26:21 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:142)] 
+Number of records are: 5
+[INFO: 2020-12-03 16:26:21 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:146)] 
+Number of records are more than 1.
+[INFO: 2020-12-03 16:26:21 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:151)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-03 17:36:29 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-03 17:36:29 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-03 17:36:29 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:152)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-03 17:36:30 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:164)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-03 17:42:25 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-03 17:42:25 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-03 17:42:25 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:152)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-03 17:42:25 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:164)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-03 17:45:02 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-03 17:45:02 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-03 17:45:02 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:152)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-03 17:45:02 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:164)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-03 17:45:02 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:168)] 
+1 index watchlist got selected 
+[INFO: 2020-12-03 18:02:26 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-03 18:02:26 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-03 18:02:26 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:152)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-03 18:02:26 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:164)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-03 18:02:27 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:168)] 
+i index watchlist got selected 
+[INFO: 2020-12-03 18:04:44 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-03 18:04:44 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-03 18:04:45 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:152)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-03 18:04:45 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:164)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-03 18:04:45 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:168)] 
+i index watchlist got selected 
+[INFO: 2020-12-03 18:30:13 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-03 18:30:13 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-03 18:30:13 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:152)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-03 18:30:13 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:164)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-03 18:32:50 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-03 18:32:50 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-03 18:32:51 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:152)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-03 18:32:51 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:164)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-03 18:35:58 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-03 18:35:58 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-03 18:35:58 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:152)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-03 18:35:58 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:164)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-03 18:50:18 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-03 18:50:18 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-03 18:50:18 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:152)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-03 18:50:18 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:164)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-03 19:04:20 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-03 19:04:20 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-03 19:04:21 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:152)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-03 19:04:21 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:164)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-03 19:51:01 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-03 19:51:01 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-03 19:51:02 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:152)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-03 19:51:02 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:164)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-03 19:51:05 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:173)] 
+number of watchlists:3
+[INFO: 2020-12-03 19:51:05 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:174)] 
+i index watchlist got selected 
+[INFO: 2020-12-04 10:58:09 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-04 10:58:09 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-04 10:58:09 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:152)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-04 10:58:09 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:164)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-04 10:58:12 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:173)] 
+number of watchlists:3
+[INFO: 2020-12-04 10:58:12 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:174)] 
+i index watchlist got selected 
+[INFO: 2020-12-04 11:17:44 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-04 11:17:44 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-04 11:17:44 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:152)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-04 11:17:44 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:164)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-04 11:17:47 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:173)] 
+number of watchlists:3
+[INFO: 2020-12-04 11:17:47 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:174)] 
+i index watchlist got selected 
+[INFO: 2020-12-04 11:27:31 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-04 11:27:31 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-04 11:27:31 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:152)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-04 11:27:31 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:164)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-04 11:27:34 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:173)] 
+number of watchlists:3
+[INFO: 2020-12-04 11:27:34 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:174)] 
+i index watchlist got selected 
+[INFO: 2020-12-04 11:31:59 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-04 11:31:59 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-04 11:31:59 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:152)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-04 11:31:59 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:164)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-04 11:32:03 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:173)] 
+number of watchlists:3
+[INFO: 2020-12-04 11:32:03 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:174)] 
+i index watchlist got selected 
+[INFO: 2020-12-04 11:36:36 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-04 11:36:36 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-04 11:36:36 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:152)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-04 11:36:36 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:164)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-04 12:34:38 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-04 12:34:38 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-04 12:34:38 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:150)] 
+acc watch list icon is displaying:false
+[INFO: 2020-12-04 12:34:39 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:155)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-04 12:34:39 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:167)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-04 12:41:17 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-04 12:41:17 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-04 12:41:17 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:150)] 
+acc watch list icon is displaying:false
+[INFO: 2020-12-04 12:41:17 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:159)] 
+there are no watch list available to add visitor.
+[INFO: 2020-12-04 12:41:17 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:184)] 
+Add watchlist modal is not displayed
+[INFO: 2020-12-04 12:56:28 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-04 12:56:28 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-04 12:56:28 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:150)] 
+acc watch list icon is displaying:false
+[INFO: 2020-12-04 12:56:28 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:159)] 
+there are no watch list available to add visitor.
+[INFO: 2020-12-04 12:56:29 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:184)] 
+Add watchlist modal is not displayed
+[INFO: 2020-12-04 13:05:11 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-04 13:05:11 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-04 13:05:12 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:150)] 
+acc watch list icon is displaying:false
+[INFO: 2020-12-04 13:05:12 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:159)] 
+there are no watch list available to add visitor.
+[INFO: 2020-12-04 13:05:12 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:184)] 
+Add watchlist modal is not displayed
+[INFO: 2020-12-04 16:45:58 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-04 16:45:58 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-04 16:45:59 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:150)] 
+acc watch list icon is displaying:true
+[INFO: 2020-12-04 16:45:59 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:157)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-04 16:45:59 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:169)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-04 16:46:02 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:178)] 
+number of watchlists:2
+[INFO: 2020-12-04 16:46:02 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:179)] 
+i index watchlist got selected 
+[INFO: 2020-12-04 18:44:18 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-04 18:44:18 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-04 18:44:18 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:150)] 
+acc watch list icon is displaying:false
+[INFO: 2020-12-04 18:44:18 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:159)] 
+there are no watch list available to add visitor.
+[INFO: 2020-12-04 18:44:19 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:184)] 
+Add watchlist modal is not displayed
+[INFO: 2020-12-04 19:06:54 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-04 19:06:54 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-04 19:06:55 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:150)] 
+acc watch list icon is displaying:false
+[INFO: 2020-12-04 19:06:55 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:159)] 
+there are no watch list available to add visitor.
+[INFO: 2020-12-04 19:06:55 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:184)] 
+Add watchlist modal is not displayed
+[INFO: 2020-12-04 19:22:15 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-04 19:22:15 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-04 19:22:16 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:150)] 
+acc watch list icon is displaying:false
+[INFO: 2020-12-04 19:22:16 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:159)] 
+there are no watch list available to add visitor.
+[INFO: 2020-12-04 19:22:16 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:184)] 
+Add watchlist modal is not displayed
+[INFO: 2020-12-04 19:37:22 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-04 19:37:22 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-04 19:37:22 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:150)] 
+acc watch list icon is displaying:true
+[INFO: 2020-12-04 19:37:22 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:157)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-04 19:37:22 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:169)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-04 19:37:26 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:178)] 
+number of watchlists:2
+[INFO: 2020-12-04 19:37:26 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:179)] 
+i index watchlist got selected 
+[INFO: 2020-12-04 19:39:08 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-04 19:39:08 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-04 19:39:08 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:150)] 
+acc watch list icon is displaying:false
+[INFO: 2020-12-04 19:39:08 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:159)] 
+there are no watch list available to add visitor.
+[INFO: 2020-12-04 19:39:08 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:184)] 
+Add watchlist modal is not displayed
+[INFO: 2020-12-04 19:40:33 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-04 19:40:33 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-04 19:40:34 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:150)] 
+acc watch list icon is displaying:false
+[INFO: 2020-12-04 19:40:34 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:159)] 
+there are no watch list available to add visitor.
+[INFO: 2020-12-04 19:40:34 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:184)] 
+Add watchlist modal is not displayed
+[INFO: 2020-12-07 10:02:41 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-07 10:02:41 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-07 10:02:41 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:150)] 
+acc watch list icon is displaying:true
+[INFO: 2020-12-07 10:02:41 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:157)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-07 10:02:41 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:169)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-07 10:02:45 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:178)] 
+number of watchlists:2
+[INFO: 2020-12-07 10:02:45 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:179)] 
+i index watchlist got selected 
+[INFO: 2020-12-17 10:40:47 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 5
+[INFO: 2020-12-17 10:40:47 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-17 10:40:48 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:150)] 
+acc watch list icon is displaying:true
+[INFO: 2020-12-17 10:40:48 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:157)] 
+Clicked on add waitch list icon
+[INFO: 2020-12-17 10:40:48 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:169)] 
+Add watchlist modal is displayed
+[INFO: 2020-12-17 10:40:51 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:178)] 
+number of watchlists:2
+[INFO: 2020-12-17 10:40:51 Fidentity_pages.Onlocation.select_watchlist(Onlocation.java:179)] 
+i index watchlist got selected 
+[INFO: 2020-12-17 10:55:00 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 0
+[INFO: 2020-12-17 10:55:00 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
+[INFO: 2020-12-17 11:03:38 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:143)] 
+Number of records are: 0
+[INFO: 2020-12-17 11:03:38 Fidentity_pages.Onlocation.add_watchlist(Onlocation.java:147)] 
+Number of records are more than 1.
