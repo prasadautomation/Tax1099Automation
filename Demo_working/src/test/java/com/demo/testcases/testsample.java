@@ -20,6 +20,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 import com.demo.Base.base;
@@ -97,7 +98,7 @@ Thread.sleep(20000);
 		String addedpayername=sheet.getRow(3).getCell(1).toString();
 		Log.info("Payername is:"+addedpayername);
 		
-		Thread.sleep(20000);
+		Thread.sleep(50000);
 		
 		getDriver().findElement(By.xpath("//span[contains(text(),'Select Payer.')]")).click();
 		
@@ -126,7 +127,7 @@ Thread.sleep(20000);
 	         }
 	}*/
 		
-		Thread.sleep(10000);
+		Thread.sleep(50000);
 		
 		getDriver().findElement(By.xpath("	//span[contains(text(),'Select Tax')]")).click();	
 		
@@ -214,7 +215,95 @@ Thread.sleep(20000);
 		okactionreview.moveToElement(okbuttonreview).click().build().perform();
 		Log.info("Ok button on reviewed popup clicked");
 		
-		Thread.sleep(20000);
+		Thread.sleep(20000);}
+		@Test(priority=3)
+		public void paymentpage_validations() throws InterruptedException {
+			
 		
+			Log.startTestCase("paymentpage_validations");
+			
+			Log.info("--- Fee Information--");
+			String totalFilingFeetext=getDriver().findElement(By.xpath("//label[contains(text(),'Total Filing Fee')]")).getText();
+			String totalFilingfee=getDriver().findElement(By.xpath("//Label[@id='TotalFilingFee']")).getText();
+			Log.info(totalFilingFeetext+":"+"$"+totalFilingfee);
+			
+			String prePaybalancetext=getDriver().findElement(By.xpath("//label[contains(text(),'Prepay Balance')]")).getText();
+			String prePayBalancefee=getDriver().findElement(By.xpath("//Label[@id='PrepayBalance']")).getText();
+			Log.info(prePaybalancetext+":"+"$"+prePayBalancefee);
+			
+			String totalAmountPaidtext=getDriver().findElement(By.xpath("//label[contains(text(),'Total Amount to be Paid')]")).getText();
+			String totalamount=getDriver().findElement(By.xpath("//Label[@id='AmountToBePaid']")).getText();
+			Log.info(totalAmountPaidtext+":"+"$"+totalamount);
+			Thread.sleep(10000);
+			
+			Log.info("--e-Filing Fee Summary--");
+			String Formcounttext=getDriver().findElement(By.xpath("//label[contains(text(),'Form Count')]")).getText();
+			String numberofforms=getDriver().findElement(By.xpath("//label[@id='SubmittedFormsCount']")).getText();
+		Log.info(Formcounttext+":"+numberofforms);	
+		String efilingfeeText=getDriver().findElement(By.xpath("//Label[contains(text(),'e-Filing')]")).getText();
+		String priceofefiling=getDriver().findElement(By.xpath("//Label[@id='FilingFee']")).getText();
+		Log.info(efilingfeeText+":"+"$"+priceofefiling);
+		
+		String tinMatchtext=getDriver().findElement(By.xpath("//label[contains(text(),'TIN Match Fee:')]")).getText();
+		String tinMatchfee=getDriver().findElement(By.xpath("//Label[@id='TinMatchFee']")).getText();
+		Log.info(tinMatchtext+":"+"$"+tinMatchfee);
+		
+		String uspsMailingfeetext=getDriver().findElement(By.xpath("//label[contains(text(),'USPS Mailing Fee')]")).getText();
+		String uspsMailingfee=getDriver().findElement(By.xpath("//Label[@id='MailingFee']")).getText();
+		Log.info(uspsMailingfeetext+":"+"$"+uspsMailingfee);
+		
+		String stateFilingtext=getDriver().findElement(By.xpath("//label[contains(text(),'State Filing')]")).getText();
+		String stateFilingfee=getDriver().findElement(By.xpath("//Label[@id='StateFilingFee']")).getText();
+		Log.info(stateFilingtext+":"+"$"+stateFilingfee);
+		
+		Log.info("Name on card");
+		getDriver().findElement(By.id("CardHolderName")).sendKeys("Sree Test");
+		getDriver().findElement(By.id("CreditCardNumber")).sendKeys("4242424242424242");
+		
+		Select monthdropdown=new Select(getDriver().findElement(By.id("ExpiryMonth")));
+		monthdropdown.selectByIndex(2);
+		Log.info("Expiry month got selected");
+		Select yeardropdown=new Select(getDriver().findElement(By.id("ExpiryYear")));
+		yeardropdown.selectByVisibleText("2025");
+		
+		getDriver().findElement(By.id("CvvNumber")).sendKeys("432");
+		
+		Log.info("--Enter your billing address----");
+		
+		getDriver().findElement(By.id("Address")).sendKeys("Test address");
+		Thread.sleep(10000);
+		String printaddress=getDriver().findElement(By.id("Address")).getAttribute("value");
+		Log.info("Address is "+printaddress);
+		
+		getDriver().findElement(By.id("City")).sendKeys("Test city");
+		Thread.sleep(10000);
+		String printcity=getDriver().findElement(By.id("City")).getAttribute("value");
+		Log.info("City is "+printcity);
+		
+		Select statedropdown=new Select(getDriver().findElement(By.xpath("//select[@id='ddlAddressStateUS']")));
+		statedropdown.selectByVisibleText("Alabama");
+		getDriver().findElement(By.id("ZIP")).sendKeys("35010");
+		Select countrydropdown=new Select(getDriver().findElement(By.xpath("//select[@id='ddlCountry']")));
+		countrydropdown.selectByVisibleText("UNITED STATES");
+		String emailid=getDriver().findElement(By.id("Emailid")).getAttribute("value");
+		boolean emailpresent=emailid.isEmpty();
+		
+		if(emailpresent==true) {
+			
+			Log.info("Email id is not enteered before, should enter now");
+			
+			getDriver().findElement(By.id("Emailid")).sendKeys("sridevi@zenwork.com");
+		}else {
+			
+			Log.info("emaild is present and displayed email id is:"+emailid);
+		}
+		WebElement payButton=getDriver().findElement(By.id("btnPay"));
+		
+		Actions paybuttonaction=new Actions(getDriver());
+		paybuttonaction.moveToElement(payButton).click().build().perform();
+		
+		
+		
+		}
 
-}}
+}

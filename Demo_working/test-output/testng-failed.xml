@@ -3,13 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demo.testcases.testsample">
+      <class name="com.demo.testcases.TC_MISC_WorkingFlow_001">
         <methods>
-          <include name="Navigate_payer"/>
+          <include name="filing_history"/>
+          <include name="launch_paymentPage"/>
+          <include name="validateVES_data"/>
           <include name="loadConfig"/>
+          <include name="form_addRecipient"/>
+          <include name="payment_confirmationPage"/>
+          <include name="paymentpage_validations"/>
+          <include name="form_addpayer" invocation-numbers="0"/>
           <include name="afterSuite"/>
         </methods>
-      </class> <!-- com.demo.testcases.testsample -->
+      </class> <!-- com.demo.testcases.TC_MISC_WorkingFlow_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

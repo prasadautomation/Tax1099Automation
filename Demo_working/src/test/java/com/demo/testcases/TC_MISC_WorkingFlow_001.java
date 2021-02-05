@@ -491,7 +491,7 @@ public class TC_MISC_WorkingFlow_001 extends base {
 	 Calendar c = Calendar.getInstance();
         c.setTime(displaydate);
         
-       c.add(Calendar.DAY_OF_MONTH, 6);
+       c.add(Calendar.DAY_OF_MONTH, 7);
        
        Date scheduledate=c.getTime();
       
@@ -681,7 +681,7 @@ Thread.sleep(20000);
 //	String addedpayername=sheet.getRow(3).getCell(1).toString();
 	Log.info("Payername is:"+addedpayername);
 	
-	Thread.sleep(10000);
+	Thread.sleep(50000);
 	
 	getDriver().findElement(By.xpath("//span[contains(text(),'Select Payer.')]")).click();
 	
@@ -700,7 +700,7 @@ Thread.sleep(20000);
 			break;
 		}
 	}
-	Thread.sleep(10000);
+	Thread.sleep(50000);
 	
 	////----Select year---//
 	
@@ -804,11 +804,180 @@ Thread.sleep(20000);
 	}
 	
 	@Test(priority=9)
-	public void paymentpage_validations() {
+	public void paymentpage_validations() throws InterruptedException {
 		
 	
+		Log.startTestCase("paymentpage_validations");
+		
+		Log.info("--- Fee Information--");
+		String totalFilingFeetext=getDriver().findElement(By.xpath("//label[contains(text(),'Total Filing Fee')]")).getText();
+		String totalFilingfee=getDriver().findElement(By.xpath("//Label[@id='TotalFilingFee']")).getText();
+		Log.info(totalFilingFeetext+":"+"$"+totalFilingfee);
+		
+		String prePaybalancetext=getDriver().findElement(By.xpath("//label[contains(text(),'Prepay Balance')]")).getText();
+		String prePayBalancefee=getDriver().findElement(By.xpath("//Label[@id='PrepayBalance']")).getText();
+		Log.info(prePaybalancetext+":"+"$"+prePayBalancefee);
+		
+		String totalAmountPaidtext=getDriver().findElement(By.xpath("//label[contains(text(),'Total Amount to be Paid')]")).getText();
+		String totalamount=getDriver().findElement(By.xpath("//Label[@id='AmountToBePaid']")).getText();
+		Log.info(totalAmountPaidtext+":"+"$"+totalamount);
+		Thread.sleep(10000);
+		
+		Log.info("--e-Filing Fee Summary--");
+		String Formcounttext=getDriver().findElement(By.xpath("//label[contains(text(),'Form Count')]")).getText();
+		String numberofforms=getDriver().findElement(By.xpath("//label[@id='SubmittedFormsCount']")).getText();
+	Log.info(Formcounttext+":"+numberofforms);	
+	String efilingfeeText=getDriver().findElement(By.xpath("//Label[contains(text(),'e-Filing')]")).getText();
+	String priceofefiling=getDriver().findElement(By.xpath("//Label[@id='FilingFee']")).getText();
+	Log.info(efilingfeeText+":"+"$"+priceofefiling);
+	
+	String tinMatchtext=getDriver().findElement(By.xpath("//label[contains(text(),'TIN Match Fee:')]")).getText();
+	String tinMatchfee=getDriver().findElement(By.xpath("//Label[@id='TinMatchFee']")).getText();
+	Log.info(tinMatchtext+":"+"$"+tinMatchfee);
+	
+	String uspsMailingfeetext=getDriver().findElement(By.xpath("//label[contains(text(),'USPS Mailing Fee')]")).getText();
+	String uspsMailingfee=getDriver().findElement(By.xpath("//Label[@id='MailingFee']")).getText();
+	Log.info(uspsMailingfeetext+":"+"$"+uspsMailingfee);
+	
+	String stateFilingtext=getDriver().findElement(By.xpath("//label[contains(text(),'State Filing')]")).getText();
+	String stateFilingfee=getDriver().findElement(By.xpath("//Label[@id='StateFilingFee']")).getText();
+	Log.info(stateFilingtext+":"+"$"+stateFilingfee);
+	
+	Log.info("Name on card");
+	Thread.sleep(10000);
+	getDriver().findElement(By.id("CardHolderName")).sendKeys("Sree Test");
+	Thread.sleep(10000);
+	getDriver().findElement(By.id("CreditCardNumber")).sendKeys("4242424242424242");
+	
+	Select monthdropdown=new Select(getDriver().findElement(By.id("ExpiryMonth")));
+	monthdropdown.selectByIndex(2);
+	Log.info("Expiry month got selected");
+	Select yeardropdown=new Select(getDriver().findElement(By.id("ExpiryYear")));
+	yeardropdown.selectByVisibleText("2025");
+	
+	getDriver().findElement(By.id("CvvNumber")).sendKeys("432");
+	
+	Log.info("--Enter your billing address----");
+	
+	getDriver().findElement(By.id("Address")).sendKeys("Test address");
+	Thread.sleep(10000);
+	String printaddress=getDriver().findElement(By.id("Address")).getAttribute("value");
+	Log.info("Address is "+printaddress);
+	
+	getDriver().findElement(By.id("City")).sendKeys("Test city");
+	Thread.sleep(10000);
+	String printcity=getDriver().findElement(By.id("City")).getAttribute("value");
+	Log.info("City is "+printcity);
+	
+	Select statedropdown=new Select(getDriver().findElement(By.xpath("//select[@id='ddlAddressStateUS']")));
+	statedropdown.selectByVisibleText("Alabama");
+	getDriver().findElement(By.id("ZIP")).sendKeys("35010");
+	Select countrydropdown=new Select(getDriver().findElement(By.xpath("//select[@id='ddlCountry']")));
+	countrydropdown.selectByVisibleText("UNITED STATES");
+	String emailid=getDriver().findElement(By.id("Emailid")).getAttribute("value");
+	boolean emailpresent=emailid.isEmpty();
+	
+	if(emailpresent==true) {
+		
+		Log.info("Email id is not enteered before, should enter now");
+		
+		getDriver().findElement(By.id("Emailid")).sendKeys("sridevi@zenwork.com");
+	}else {
+		
+		Log.info("emaild is present and displayed email id is:"+emailid);
+	}
+	WebElement payButton=getDriver().findElement(By.id("btnPay"));
+	
+	Actions paybuttonaction=new Actions(getDriver());
+	paybuttonaction.moveToElement(payButton).click().build().perform();
+	
+		
+	}
+	@Test(priority=10)
+	public void payment_confirmationPage() throws IOException, InterruptedException {
+		Log.startTestCase("payment_confirmationPage");
+		String irs="IRS";
+		String displayedText=getDriver().findElement(By.xpath("//p[contains(text(),'Your return has been submitted')]")).getText();
+		
+		boolean irssubmission=displayedText.contains(irs);
+		
+		if(irssubmission==true) {
+			
+			Log.info("Text contains IRS, so form submitted to IRS");
+		}
+		
+		File file = new File("src\\test\\resources\\TestData\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(file);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheet("1099MISCdata");
+		Row row = sheet.createRow(4);
+		Cell cellzero = row.createCell(0);
+		Cell cellone = row.createCell(1);
+		String referencenumber=getDriver().findElement(By.xpath("//label[@for='ReferenceNumber']")).getText();
+		
+		Log.info("Reference number is:"+referencenumber);
+		cellzero.setCellValue("Reference number");
+		
+		cellone.setCellValue(referencenumber);
+		FileOutputStream outputStream = new FileOutputStream(file);
+		workbook.write(outputStream);
+		workbook.close();}
+	@Test(priority=11)
+	public void filing_history() throws InterruptedException, IOException {
+		
+		Log.startTestCase("filing_history");
+		File file = new File("src\\test\\resources\\TestData\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(file);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheet("1099MISCdata");
+String referencenumber=getDriver().findElement(By.xpath("//label[@for='ReferenceNumber']")).getText();
+		
+		Log.info("Reference number is:"+referencenumber);
+		WebElement filinghistorymenuitem=getDriver().findElement(By.xpath("//p//a[@href='/Protected/FilingHistory']"));
+		Thread.sleep(10000);
+	//	filinghistorymenuitem.click();
+		Actions linkaction=new Actions(getDriver());
+	linkaction.moveToElement(filinghistorymenuitem).click().build().perform();
+		
+		String celltype=sheet.getRow(4).getCell(1).getCellType().toString();
+		Log.info("cell type is:"+celltype);
+		//String referencenumber=(int)sheet.getRow(4).getCell(1).getNumericCellValue()+"";		
+		String referencenumberexcel=String.valueOf(sheet.getRow(4).getCell(1).getRichStringCellValue());
+		Log.info("Reference number:"+referencenumberexcel);
+		
+		boolean formdisplay=getDriver().findElement(By.xpath("//tr//td[contains(text(),'"+referencenumberexcel+"')]//following-sibling::td//span//a[contains(text(),'Click here')]")).isDisplayed();
+		
+		Log.info("referencenumber is displayed or not :"+formdisplay);
+		
+		//By.xpath("//*[contains(text(),'"+searchText+"')]"));
+		
+		WebElement filinghistorylink=getDriver().findElement(By.xpath("//tr//td[contains(text(),'"+referencenumber+"')]//following-sibling::td//span//a[contains(text(),'Click here')]"));
+		
+		Actions filinglinkaction=new Actions(getDriver());
+		filinglinkaction.moveToElement(filinghistorylink).click().build().perform();
+		Log.info("Clicked on filing history link");		
 		
 		
+		
+	//////	By.xpath("//*[contains(text(),'"+searchText+"')]"));
+		
+	}
+	@Test(priority=12)
+	public void manageforms() throws IOException {
+		Log.startTestCase("manageforms");
+		File file = new File("src\\test\\resources\\TestData\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(file);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheet("1099MISCdata");
+		String addedpayername=sheet.getRow(3).getCell(1).toString();
+		
+		WebElement payernameelement=getDriver().findElement(By.xpath("//label[@id='ReconPaymentPage']//following-sibling::ul//label[contains(text(),'Payer')]//following-sibling::span//span[@class='k-input']"));
+		String payernamedisplayed=payernameelement.getText();
+	Log.info("Displayed payer name launch VES page:"+payernamedisplayed);
+//		String formtypetext="Regular";
+		Log.info("Comparing payer name is  :"+addedpayername);
+		///********************************upto payername completed need to do tax year and table data***************///
+		//Payer name and web table completed Need to validate table data
 	}
 	}
 
