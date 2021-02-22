@@ -36,7 +36,7 @@ public class TC_MISC_BoxesRedcolorValidation1Test_004 extends base{
 		// Db Db =
 		// LoginPage.login(prop.getProperty("UserName"),prop.getProperty("Password"));
 		Db Db = LoginPage.login(Useremail, Passwd);
-	Thread.sleep(40000);
+	Thread.sleep(50000);
 	}
 	@Test(priority=2)
 	public void redcolouralert() throws InterruptedException {

@@ -27,6 +27,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.demo.Base.base;
@@ -38,8 +39,11 @@ import com.demo.pages.LoginPage;
 import com.demo.pages.OuterLoginButton;
 import com.demo.utility.Log;
 
+
+@Listeners(CustomListener.class)
 public class TC_MISC_WorkingFlow_001 extends base {
 
+	
 	LoginPage LoginPage;
 	OuterLoginButton OuterLoginButton;
 	Db Db;
@@ -101,7 +105,7 @@ public class TC_MISC_WorkingFlow_001 extends base {
 		Thread.sleep(20000);
 		element1099.click();
 		Thread.sleep(20000);
-		Log.info("1099 misc got selected");
+		Log.info("1099MISC got selected");
 
 		Thread.sleep(60000);
 
@@ -127,6 +131,10 @@ public class TC_MISC_WorkingFlow_001 extends base {
 			Log.info("add payer dialog displayed");
 
 			Thread.sleep(10000);
+			File file = new File("src\\test\\resources\\TestData\\TestData.xlsx");
+			FileInputStream fis = new FileInputStream(file);
+			XSSFWorkbook workbook = new XSSFWorkbook(fis);
+			XSSFSheet sheet = workbook.getSheet("1099MISCdata");
 
 			WebElement type = getDriver().findElement(
 					By.xpath("//div[@id='divFederalIdTypeForAllForms']//input[@id='rblPayerTypeBusiness']"));
@@ -139,6 +147,12 @@ public class TC_MISC_WorkingFlow_001 extends base {
 			getDriver().findElement(By.id("PayerFedaralID")).sendKeys("" + randomnumber);
 			Thread.sleep(50000);
 			Log.info("Random EIN:" + randomnumber);
+			Row row15 = sheet.createRow(15);
+			Cell cellzero15 = row15.createCell(0);
+			Cell cellone15 = row15.createCell(1);
+			cellzero15.setCellValue("Payer EIN number");
+			cellone15.setCellValue(randomnumber);
+			
 			
 			WebElement businessname = getDriver().findElement(By.id("PayerLastName"));
 
@@ -148,29 +162,17 @@ public class TC_MISC_WorkingFlow_001 extends base {
 			businessname.sendKeys("Test" + formattedDate);
 			Thread.sleep(50000);
 			String businessanmetext=businessname.getAttribute("value");
-			Log.info("Payer business name:" +businessanmetext );
-			
-			File file = new File("src\\test\\resources\\TestData\\TestData.xlsx");
-			FileInputStream fis = new FileInputStream(file);
-			XSSFWorkbook workbook = new XSSFWorkbook(fis);
-			XSSFSheet sheet = workbook.getSheet("1099MISCdata");
+			Log.info("Payer Last name:" +businessanmetext );
 			Row row = sheet.createRow(3);
 			Cell cellzero = row.createCell(0);
 			Cell cellone = row.createCell(1);
-			cellzero.setCellValue("Payer Business name");
+			cellzero.setCellValue("Payer last name");
 			cellone.setCellValue(businessanmetext);
-			// Cell cell2 = row.createCell(1);
+			/* Cell cell2 = row.createCell(1);
 			// cell.setCellValue(selectedstaevalue);
 			// Log.info(cell.getStringCellValue());
-
-			FileOutputStream outputStream = new FileOutputStream(file);
-			workbook.write(outputStream);
-			workbook.close();
-
-	//		String celvalue = cellone.getStringCellValue().toString();
-		//	Log.info("Random Payer EIN from exceldata :" + celvalue);
-
-			
+			String celvalue = cellone.getStringCellValue().toString();
+			Log.info("Random Payer EIN from exceldata :" + celvalue);*/
 
 			ManagePayerAddPayer ManagePayerAddPayer = new ManagePayerAddPayer();
 			// getDriver().findElement(By.id("PayerZIP")).sendKeys("35005");
@@ -182,14 +184,49 @@ public class TC_MISC_WorkingFlow_001 extends base {
 					hashMapValue.get("phone"), hashMapValue.get("email"), hashMapValue.get("withholdingortaxstateid"),
 					// hashMapValue.get("lastfiling"),
 					hashMapValue.get("clientid"));
+			String payeraddress =getDriver().findElement(By.xpath("//input[@id='PayerAddress']")).getAttribute("value");
+			Row row16 = sheet.createRow(16);
+			Cell cellzero16 = row16.createCell(0);
+			Cell cellone16 = row16.createCell(1);
+			cellzero16.setCellValue("Payer address");
+			cellone16.setCellValue(payeraddress);
+			Log.info("Payer address:"+payeraddress);
 
+			String payerCity =getDriver().findElement(By.xpath("//input[@id='PayerCity']]")).getAttribute("value");
+			Row row17 = sheet.createRow(17);
+			Cell cellzero17 = row17.createCell(0);
+			Cell cellone17 = row17.createCell(1);
+			cellzero17.setCellValue("Payer City");
+			cellone17.setCellValue(payerCity);
+			Log.info("Payer City:"+payerCity);
+			
+
+			
 			getDriver().findElement(By.id("PayerZIP")).clear();
 			getDriver().findElement(By.id("PayerZIP")).click();
 			getDriver().findElement(By.id("PayerZIP")).sendKeys("35010");
+			Thread.sleep(10000);
+			String payerZIP =getDriver().findElement(By.xpath("//input[@id='PayerZIP']]")).getAttribute("value");
+			Row row18 = sheet.createRow(18);
+			Cell cellzero18 = row18.createCell(0);
+			Cell cellone18 = row18.createCell(1);
+			cellzero18.setCellValue("PayerZIP");
+			cellone18.setCellValue(payerZIP);
+		    Log.info("Payer ZIP:"+payerZIP);
+		    
 			getDriver().findElement(By.id("PayerEmail")).clear();
 			getDriver().findElement(By.id("PayerPhNo")).clear();
 
 			getDriver().findElement(By.id("PayerPhNo")).sendKeys("1234567891");
+			Thread.sleep(50000);
+			String payerphone =getDriver().findElement(By.xpath("//input[@id='PayerPhNo']]")).getAttribute("value");
+			Row row19 = sheet.createRow(19);
+			Cell cellzero19 = row19.createCell(0);
+			Cell cellone19 = row19.createCell(1);
+			cellzero19.setCellValue("Payer Phone Number");
+			cellone19.setCellValue(payerphone);
+		    Log.info("Payer phone number:"+payerphone);
+			
 			Select statedropdown = new Select(getDriver().findElement(By.id("PayerState")));
 			statedropdown.selectByVisibleText("Alabama");
 			Thread.sleep(50000);
@@ -215,6 +252,11 @@ public class TC_MISC_WorkingFlow_001 extends base {
 
 			// getDriver().findElement(By.id("alertify-ok")).click();
 			Thread.sleep(50000);
+			
+
+			FileOutputStream outputStream = new FileOutputStream(file);
+			workbook.write(outputStream);
+			workbook.close();
 
 			if (assignpayerdialogdisplay == true) {
 
@@ -234,9 +276,14 @@ public class TC_MISC_WorkingFlow_001 extends base {
 
 	@Test(priority = 4)
 	public void form_addRecipient() throws Throwable {
+		
 
 		Log.startTestCase("form_addRecipient");
 		getDriver().manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+		File file = new File("src\\test\\resources\\TestData\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(file);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheet("1099MISCdata");
 		getDriver().findElement(By.id("btnAddPayee")).click();
 		Thread.sleep(50000);
 
@@ -249,8 +296,19 @@ public class TC_MISC_WorkingFlow_001 extends base {
 		getDriver().findElement(By.id("PayeeFedaralID")).clear();
 		getDriver().findElement(By.id("PayeeFedaralID")).click();
 		getDriver().findElement(By.id("PayeeFedaralID")).sendKeys("" + randomnumber);
+		Thread.sleep(10000);
+		
 		Log.info("Random EIN entered");
 		Thread.sleep(10000);
+String recipientEIN=getDriver().findElement(By.xpath("//input[@id='PayeeFedaralID']")).getAttribute("value");
+
+Row row8 = sheet.createRow(8);
+Cell cellzero8 = row8.createCell(0);
+Cell cellone8 = row8.createCell(1);
+cellzero8.setCellValue("Recipient EIN");
+cellone8.setCellValue(recipientEIN);
+Log.info("Recipient EIN:"+recipientEIN);
+
 
 		WebElement businessname = getDriver().findElement(By.id("PayeeLastName"));
 
@@ -262,42 +320,61 @@ public class TC_MISC_WorkingFlow_001 extends base {
 		Log.info("Test business name enetered with time stamp");
 
 		String businessName = businessname.getAttribute("value");
-		File file = new File("src\\test\\resources\\TestData\\TestData.xlsx");
-		FileInputStream fis = new FileInputStream(file);
-		XSSFWorkbook workbook = new XSSFWorkbook(fis);
-		XSSFSheet sheet = workbook.getSheet("1099MISCdata");
+		
 		Row row = sheet.createRow(2);
 		Cell cellzero = row.createCell(0);
 		Cell cellone = row.createCell(1);
-		cellzero.setCellValue("BusinessName");
+		cellzero.setCellValue("Recipient BusinessName");
 		cellone.setCellValue(businessName);
 		// Cell cell2 = row.createCell(1);
 		// cell.setCellValue(selectedstaevalue);
 		// Log.info(cell.getStringCellValue());
 
-		FileOutputStream outputStream = new FileOutputStream(file);
-		workbook.write(outputStream);
-		workbook.close();
-
+		
 		String celvalue = cellone.getStringCellValue().toString();
-		Log.info("Businessname:" + celvalue);
-
+		Log.info("Recipient Businessname:" + celvalue);
+String payeezipcode="35005";
 		getDriver().findElement(By.id("PayeeZIP")).clear();
 		getDriver().findElement(By.id("PayeeZIP")).click();
-		getDriver().findElement(By.id("PayeeZIP")).sendKeys("35005");
-		Log.info("Entered payee or recipient zip code");
-
-		getDriver().findElement(By.id("PayeeAddress")).sendKeys("us");
-		Log.info("Entered payee or recipient Address");
-		getDriver().findElement(By.id("PayeeCity")).sendKeys("us");
-		Log.info("Entered payee or recipient city");
+		getDriver().findElement(By.id("PayeeZIP")).sendKeys(payeezipcode);
+		Log.info("Entered payee or recipient zip code:"+payeezipcode);
+		Row row9 = sheet.createRow(9);
+		Cell cellzero9 = row9.createCell(0);
+		Cell cellone9 = row9.createCell(1);
+		cellzero9.setCellValue("Recipient zipcode");
+		cellone9.setCellValue(payeezipcode);
+		
+String payeeaddress="US";
+		getDriver().findElement(By.id("PayeeAddress")).sendKeys(payeeaddress);
+		Log.info("Entered payee or recipient Address:"+payeeaddress);
+		String payeecity="Birmingham";
+		getDriver().findElement(By.id("PayeeCity")).sendKeys(payeecity);
+		Log.info("Entered payee or recipient city:"+payeecity);
+		Row row10 = sheet.createRow(10);
+		Cell cellzero10 = row10.createCell(0);
+		Cell cellone10 = row10.createCell(1);
+		cellzero10.setCellValue("Recipient city");
+		cellone10.setCellValue(payeecity);
+		
+		String payeestate="Alabama";
 		Select statedropdown = new Select(getDriver().findElement(By.id("PayeeState")));
-		statedropdown.selectByVisibleText("Alabama");
-		Log.info("Selected recipient state");
-		getDriver().findElement(By.id("ClientRecipientId")).sendKeys("12345");
-		Log.info("Entered payee or recipient ClientRecipientId");
+		statedropdown.selectByVisibleText(payeestate);
+		Log.info("Selected recipient state:"+payeestate);
+		Row row11 = sheet.createRow(11);
+		Cell cellzero11 = row11.createCell(0);
+		Cell cellone11 = row11.createCell(1);
+		cellzero11.setCellValue("Recipient state");
+		cellone11.setCellValue(payeestate);
+		String ClientRecipientId="12345";
+		getDriver().findElement(By.id("ClientRecipientId")).sendKeys(ClientRecipientId);
+		Log.info("Entered  ClientRecipientId:"+ClientRecipientId);
 		Thread.sleep(30000);
 		ManagePayerAddPayer ManagePayerAddPayer = new ManagePayerAddPayer();
+		Row row12 = sheet.createRow(12);
+		Cell cellzero12 = row12.createCell(0);
+		Cell cellone12 = row12.createCell(1);
+		cellzero12.setCellValue("ClientRecipientId");
+		cellone12.setCellValue(ClientRecipientId);
 
 		/*
 		 * ManagePayerAddPayer.AddrecipientrandombusinessEIN( //
@@ -321,16 +398,36 @@ public class TC_MISC_WorkingFlow_001 extends base {
 
 		Log.info("Recipient successfully added");
 		Thread.sleep(20000);
+		
+		FileOutputStream outputStream = new FileOutputStream(file);
+		workbook.write(outputStream);
+		workbook.close();
+
 
 	}
 
 	@Test(priority = 5)
-	public void singleBox() {
+	public void singleBox() throws IOException {
 		Log.startTestCase("singleBox");
+		String box1value="20";
 		getDriver().manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 
-		getDriver().findElement(By.id("Rents")).sendKeys("20");
-		Log.info("Entered box1 value rents-20");
+		getDriver().findElement(By.id("Rents")).sendKeys(box1value);
+		Log.info("Entered box1 value rents:"+box1value);
+		
+		File file = new File("src\\test\\resources\\TestData\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(file);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheet("1099MISCdata");
+		Row row13 = sheet.createRow(13);
+		Cell cellzero13 = row13.createCell(0);
+		Cell cellone13 = row13.createCell(1);
+		cellzero13.setCellValue("Box1 value");
+		cellone13.setCellValue(box1value);
+
+		FileOutputStream outputStream = new FileOutputStream(file);
+		workbook.write(outputStream);
+		workbook.close();
 
 	}
 
@@ -351,6 +448,7 @@ public class TC_MISC_WorkingFlow_001 extends base {
 	@Test(priority = 7)
 
 	public void validateVES_data() throws IOException, InterruptedException {
+		getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Log.startTestCase("validateVES_data");
 		Thread.sleep(50000);
 		getDriver().manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
@@ -503,11 +601,17 @@ public class TC_MISC_WorkingFlow_001 extends base {
        String Displayeddate=getDriver().findElement(By.xpath("//td[@id='scheduleddateinfotxt']//input")).getAttribute("value");
        Log.info("Displayed schedule date is :"+Displayeddate);
        
-       Row scheduledaterow=sheet.createRow(4);
+       
+       Row scheduledaterow=sheet.createRow(7);
        Cell scheduledatecell=scheduledaterow.createCell(0);
        scheduledatecell.setCellValue("SchedlueDate");
        Cell scheduledatecellvalue=scheduledaterow.createCell(1);
        scheduledatecellvalue.setCellValue(Displayeddate);
+       
+       FileOutputStream outputStream = new FileOutputStream(file);
+		workbook.write(outputStream);
+		workbook.close();
+       
        
        //--8.Form name 1099MISC---//
        
@@ -733,6 +837,8 @@ Thread.sleep(20000);
 	@Test(priority=8)
 	public void launch_paymentPage() throws InterruptedException {
 		
+		getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		
 		Log.startTestCase("launch_paymentPage");
 		WebElement selectallGlobal=getDriver().findElement(By.xpath("//input[@id='selectallGlobal']"));
 		boolean selectGlobalChecked=selectallGlobal.isSelected();
@@ -806,7 +912,7 @@ Thread.sleep(20000);
 	@Test(priority=9)
 	public void paymentpage_validations() throws InterruptedException {
 		
-	
+		getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Log.startTestCase("paymentpage_validations");
 		
 		Log.info("--- Fee Information--");
@@ -871,6 +977,7 @@ Thread.sleep(20000);
 	
 	Select statedropdown=new Select(getDriver().findElement(By.xpath("//select[@id='ddlAddressStateUS']")));
 	statedropdown.selectByVisibleText("Alabama");
+	Thread.sleep(10000);
 	getDriver().findElement(By.id("ZIP")).sendKeys("35010");
 	Select countrydropdown=new Select(getDriver().findElement(By.xpath("//select[@id='ddlCountry']")));
 	countrydropdown.selectByVisibleText("UNITED STATES");
@@ -895,6 +1002,7 @@ Thread.sleep(20000);
 	}
 	@Test(priority=10)
 	public void payment_confirmationPage() throws IOException, InterruptedException {
+		getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Log.startTestCase("payment_confirmationPage");
 		String irs="IRS";
 		String displayedText=getDriver().findElement(By.xpath("//p[contains(text(),'Your return has been submitted')]")).getText();
@@ -964,6 +1072,7 @@ String referencenumber=getDriver().findElement(By.xpath("//label[@for='Reference
 	}
 	@Test(priority=12)
 	public void manageforms() throws IOException {
+		getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Log.startTestCase("manageforms");
 		File file = new File("src\\test\\resources\\TestData\\TestData.xlsx");
 		FileInputStream fis = new FileInputStream(file);
@@ -976,8 +1085,54 @@ String referencenumber=getDriver().findElement(By.xpath("//label[@for='Reference
 	Log.info("Displayed payer name launch VES page:"+payernamedisplayed);
 //		String formtypetext="Regular";
 		Log.info("Comparing payer name is  :"+addedpayername);
+		
+		WebElement selectedoptionyear=getDriver().findElement(By.xpath("//label[contains(text(),'Tax Year')]//following-sibling::span//span[@class='k-input']"));
+		String selectedoptionformtext=selectedoptionyear.getText();
+	Log.info("Displayed year when launch VES page:"+selectedoptionformtext);
+		String compareyeartext="2020";
+		Log.info("Comparing year text is:"+compareyeartext);
+		Log.info("Correct Tax year displayed");
+		assertEquals(selectedoptionformtext, compareyeartext, "Wrong Form year displayed ");
 		///********************************upto payername completed need to do tax year and table data***************///
-		//Payer name and web table completed Need to validate table data
 	}
+		@Test(priority=13)
+		public void dashboardsearch_submitted() throws IOException, InterruptedException {
+			getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			Log.startTestCase("dashboardsearch_submitted");
+				File file = new File("src\\test\\resources\\TestData\\TestData.xlsx");
+				FileInputStream fis = new FileInputStream(file);
+				XSSFWorkbook workbook = new XSSFWorkbook(fis);
+				XSSFSheet sheet = workbook.getSheet("1099MISCdata");
+				String addedpayername=sheet.getRow(3).getCell(1).toString();
+			
+			WebElement dashboard=getDriver().findElement(By.xpath("//div[@id='firstpane']//a[contains(text(),'Dashboard')]"));
+			JavascriptExecutor dashboardexe = (JavascriptExecutor) getDriver();
+			dashboardexe.executeScript("arguments[0].click();", dashboard);
+			Log.info("Dashboard menu clicked");
+			Thread.sleep(20000);
+			//addedpayername
+				//getDriver().navigate().refresh();
+			Thread.sleep(20000);
+			WebElement dashboardsearch=getDriver().findElement(By.id("filter-TIN"));
+Thread.sleep(10000);
+			dashboardsearch.sendKeys(addedpayername);
+			Thread.sleep(10000);
+Log.info("Entered payer name"+addedpayername);
+			Log.info("Payer record displayed");
+			Thread.sleep(20000);
+			Select statusfilter=new Select(getDriver().findElement(By.id("filter-status")));
+			statusfilter.selectByVisibleText("Submitted");
+			String addedreference=sheet.getRow(4).getCell(1).toString();
+			boolean referencenumber=getDriver().findElement(By.xpath("//div[@id='Forms']//table//tr//td[contains(text(),'"+addedreference+"')]")).isDisplayed();
+
+			Log.info("record displayed with reference number:"+addedreference+" is "+referencenumber);
+
+			//referencenumber.getAttribute("value");
+
+			}
+		
+		
+		
 	}
+	
 

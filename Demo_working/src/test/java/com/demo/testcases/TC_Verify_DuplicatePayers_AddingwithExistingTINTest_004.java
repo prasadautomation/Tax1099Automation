@@ -95,7 +95,7 @@ public class TC_Verify_DuplicatePayers_AddingwithExistingTINTest_004 extends bas
 		Cell cell= sheet.getRow(0).getCell(0);
 		
      
-	double celvalue=cell.getNumericCellValue();
+	double celvalue=cell.getNumericCellValue(); 
 	int inrein=(int)celvalue;
 		Log.info("Cell value is:"+inrein);
 		
@@ -116,6 +116,7 @@ public class TC_Verify_DuplicatePayers_AddingwithExistingTINTest_004 extends bas
 			
 			getDriver().findElement(By.id("alertify-ok")).click();
 			getDriver().findElement(By.xpath("//button[contains(text(),'Cancel')]")).click();
+			
 			SeacrhAddedPayer search=new SeacrhAddedPayer();
 			search.SearchPayer();
 			Thread.sleep(10000);

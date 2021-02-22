@@ -27,6 +27,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 import com.demo.actiondriver.Action;
 import com.demo.utility.ExtentManager;
@@ -41,7 +42,7 @@ public class base {
 
 	@BeforeSuite
 	public void loadConfig() {
-		ExtentManager.setExtent();
+		//ExtentManager.setExtent();
 		DOMConfigurator.configure("log4j.xml");
 
 		try {
@@ -98,6 +99,8 @@ public class base {
 
 	}
 	
+
+	
 	public void  getIntRandomNumber(){
 		Random rand = new Random();
 	      System.out.println("Random numbers...");
@@ -135,7 +138,38 @@ return ;
 	  }
     
 
-	public static void takeSnapShot() throws Exception {
+	  public void takescreenshot() {
+		  
+		  
+	  }
+	  
+		public static void takeSnapShot() throws Exception {
+
+			// Convert web driver object to TakeScreenshot
+
+			TakesScreenshot scrShot = ((TakesScreenshot) getDriver());
+
+			// Call getScreenshotAs method to create image file
+
+			File SrcFile = scrShot.getScreenshotAs(OutputType.FILE);
+
+			// Move image file to new destination
+			
+			 String filename =  new SimpleDateFormat("yyyyMMddhhmmss'.txt'").format(new Date());
+			  //  File dest = new File("filePath/" + filename);
+
+			File DestFile = new File("test-output\\"+"testoutput"+filename+".png");
+
+			// Copy file at destination
+
+			FileUtils.copyFile(SrcFile, DestFile);
+	System.out.print("File of screen shot is: "+DestFile.getName());
+
+
+		}
+
+	  
+	public static void failed() throws Exception {
 
 		// Convert web driver object to TakeScreenshot
 
@@ -156,6 +190,8 @@ return ;
 
 		FileUtils.copyFile(SrcFile, DestFile);
 System.out.print("File of screen shot is: "+DestFile.getName());
+
+
 	}
 
 	@AfterSuite

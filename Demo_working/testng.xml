@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="AddPayer">
+<listeners>
+<listener class-name="com.demo.ExtentReportListener.ExtentReportListener"/>
+
+</listeners>
+
+  <test thread-count="5" name="Regression">
     <classes>
-      <class name="com.demo.testcases.TC_EditPayer_UpdatePayerTest_003"/>
-        <class name="com.demo.testcases.TC_Verify_DuplicatePayers_AddingwithExistingTINTest_004"/>
-      <class name="com.demo.testcases.TC_Verify_DuplicatePayers_UpdatePayerTaxIDwithExistingPayerTaxIDTest_005"/>
-    <class name="com.demo.testcases.AddpayerwithRandomBusinessnameandEIN"/>  
-    <class name="com.demo.testcases.TC_AddPayer_SSN_Country_USATest_008"/>
-     <class name="com.demo.testcases.TC_AddPayer_EIN_ForeignCountryTest_009"/>
-     <class name="com.demo.testcases.SeacrhAddedPayer"/>
+    <!--  <class name="com.demo.testcases.testsample"/>  -->
+   <!--    <class name="com.demo.testcases.TC_MISC_WorkingFlow_001"/> 
+    <class name="com.demo.testcases.TC_MISC_WorkingFlow_002"/> 
+    <class name="com.demo.testcases.TC_MISC_WorkingFlow_003"/> -->
+    
+    <class name="com.demo.testcases.TC_MISC_WorkingFlow_004"/>
+   
+       
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
