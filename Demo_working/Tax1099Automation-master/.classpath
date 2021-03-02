@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Automation_artifact/src/main/java"/>
+	<classpathentry kind="src" path="Automation_artifact/src/test/java"/>
+	<classpathentry kind="src" path="Demo - Copy/src/main/java"/>
+	<classpathentry kind="src" path="Demo - Copy/src/test/java"/>
+	<classpathentry kind="src" path="Demo_working/src/main/java"/>
+	<classpathentry kind="src" path="Demo_working/src/test/java"/>
+	<classpathentry kind="src" path="Demo-master/Demo/src/main/java"/>
+	<classpathentry kind="src" path="Demo-master/Demo/src/test/java"/>
+	<classpathentry kind="src" path="DemoBackup/src/main/java"/>
+	<classpathentry kind="src" path="DemoBackup/src/test/java"/>
+	<classpathentry kind="src" path="Fidentity/src/test/java"/>
+	<classpathentry excluding="src/" kind="src" path="Javasamples/JavaSamples"/>
+	<classpathentry kind="src" path="Javasamples/JavaSamples/src"/>
+	<classpathentry kind="src" path="Neweclipse/Automation_artifact/src/main/java"/>
+	<classpathentry kind="src" path="Neweclipse/Automation_artifact/src/test/java"/>
+	<classpathentry excluding="src/" kind="src" path="Neweclipse/Javasamples/JavaSamples"/>
+	<classpathentry kind="src" path="Neweclipse/Javasamples/JavaSamples/src"/>
+	<classpathentry kind="src" path="Neweclipse/Sample_aid/src/main/java"/>
+	<classpathentry kind="src" path="Neweclipse/Sample_aid/src/test/java"/>
+	<classpathentry kind="src" path="Neweclipse/Test/src/main/java"/>
+	<classpathentry kind="src" path="Neweclipse/Test/src/test/java"/>
+	<classpathentry kind="src" path="Neweclipse/Zenwork/src"/>
+	<classpathentry kind="src" path="Sample_aid/src/main/java"/>
+	<classpathentry kind="src" path="Sample_aid/src/test/java"/>
+	<classpathentry kind="src" path="Tax1099/src/main/java"/>
+	<classpathentry kind="src" path="Tax1099/src/test/java"/>
+	<classpathentry kind="src" path="Test/src/main/java"/>
+	<classpathentry kind="src" path="Test/src/test/java"/>
+	<classpathentry kind="src" path="Testsample/src/main/java"/>
+	<classpathentry kind="src" path="Testsample/src/test/java"/>
+	<classpathentry kind="src" path="Zenwork/src"/>
+	<classpathentry kind="lib" path="Fidentity/target/Automation_artifact-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="Automation_artifact/target/classes"/>
+</classpath>

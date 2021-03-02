@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-22T17:42:44 IST" name="Suite" finished-at="2021-02-22T18:08:16 IST" duration-ms="1532630">
+  <suite started-at="2021-02-23T17:15:26 IST" name="Default suite" finished-at="2021-02-23T17:17:09 IST" duration-ms="103721">
     <groups>
     </groups>
-    <test started-at="2021-02-22T17:42:44 IST" name="Regression" finished-at="2021-02-22T18:08:16 IST" duration-ms="1532630">
-      <class name="com.demo.testcases.TC_MISC_WorkingFlow_004">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.demo.testcases.TC_MISC_WorkingFlow_004@27462a88]" started-at="2021-02-22T17:42:44 IST" name="loadConfig" finished-at="2021-02-22T17:42:44 IST" duration-ms="113" status="PASS">
+    <test started-at="2021-02-23T17:15:26 IST" name="Default test" finished-at="2021-02-23T17:17:09 IST" duration-ms="103721">
+      <class name="com.demo.testcases.testsample">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.demo.testcases.testsample@5d0a1059]" started-at="2021-02-23T17:15:26 IST" name="loadConfig" finished-at="2021-02-23T17:15:26 IST" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method signature="clickonLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.demo.testcases.TC_MISC_WorkingFlow_004@27462a88]" started-at="2021-02-22T17:42:45 IST" name="clickonLoginTest" data-provider="credentials" finished-at="2021-02-22T17:46:14 IST" duration-ms="209659" status="PASS">
+        <test-method signature="clickonLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.demo.testcases.testsample@5d0a1059]" started-at="2021-02-23T17:15:26 IST" name="clickonLoginTest" data-provider="credentials" finished-at="2021-02-23T17:17:08 IST" duration-ms="102464" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,56 +27,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonLoginTest -->
-        <test-method signature="newForm_selection()[pri:2, instance:com.demo.testcases.TC_MISC_WorkingFlow_004@27462a88]" started-at="2021-02-22T17:46:14 IST" name="newForm_selection" finished-at="2021-02-22T17:50:15 IST" duration-ms="240915" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newForm_selection -->
-        <test-method signature="addPayer_recipient_boxvallue(java.util.HashMap)[pri:3, instance:com.demo.testcases.TC_MISC_WorkingFlow_004@27462a88]" started-at="2021-02-22T17:50:15 IST" name="addPayer_recipient_boxvallue" data-provider="addpayerrandombusinessein" finished-at="2021-02-22T18:03:50 IST" duration-ms="814366" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{zipcode=35010, address=us, withholdingortaxstateid=R123456789, clientid=12345, city=us, phone=1234567890, State=Alabama, Country=United States of America, suffix=Sr, line2=usa, email=prasad@test1.com}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addPayer_recipient_boxvallue -->
-        <test-method signature="edit_VESpage()[pri:4, instance:com.demo.testcases.TC_MISC_WorkingFlow_004@27462a88]" started-at="2021-02-22T18:03:50 IST" name="edit_VESpage" finished-at="2021-02-22T18:08:16 IST" duration-ms="266767" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+        <test-method signature="excel_verification()[pri:2, instance:com.demo.testcases.testsample@5d0a1059]" started-at="2021-02-23T17:17:09 IST" name="excel_verification" finished-at="2021-02-23T17:17:09 IST" duration-ms="88" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
             <message>
-              <![CDATA[stale element reference: element is not attached to the page document
-  (Session info: chrome=88.0.4324.182)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-FLJMP0F', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\USER_L~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53302}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 44e7053464f33cf674305d4fb761c968]]>
+              <![CDATA[src\test\resources\TestData\TestData.xlsx (The process cannot access the file because it is being used by another process)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=88.0.4324.182)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-FLJMP0F', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\USER_L~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53302}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 44e7053464f33cf674305d4fb761c968
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-at com.demo.testcases.TC_MISC_WorkingFlow_004.edit_VESpage(TC_MISC_WorkingFlow_004.java:336)
+              <![CDATA[java.io.FileNotFoundException: src\test\resources\TestData\TestData.xlsx (The process cannot access the file because it is being used by another process)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:291)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:234)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+at com.demo.testcases.testsample.excel_verification(testsample.java:98)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -107,11 +69,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- edit_VESpage -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.demo.testcases.TC_MISC_WorkingFlow_004@27462a88]" started-at="2021-02-22T18:08:17 IST" name="afterSuite" finished-at="2021-02-22T18:08:17 IST" duration-ms="3" status="FAIL">
+        </test-method> <!-- excel_verification -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.demo.testcases.testsample@5d0a1059]" started-at="2021-02-23T17:17:09 IST" name="afterSuite" finished-at="2021-02-23T17:17:09 IST" duration-ms="2" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "com.demo.utility.ExtentManager.extent" is null]]>
@@ -145,7 +107,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.demo.testcases.TC_MISC_WorkingFlow_004 -->
-    </test> <!-- Regression -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.demo.testcases.testsample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

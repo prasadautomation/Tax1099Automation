@@ -16033,3 +16033,277 @@ CancelOK
 2021-02-22 18:08:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 2021-02-22 18:08:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2021-02-22 18:08:17 DEBUG cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/User_Laptop078/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-02-23 10:00:11 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-02-23 10:00:12 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-02-23 10:02:54 INFO  Log:22 - Enter UserName and Password
+2021-02-23 10:03:34 INFO  Log:11 - =====================================newForm_selection TEST START=========================================
+2021-02-23 10:03:34 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-02-23 10:04:35 INFO  Log:22 - Forms menu clicked
+2021-02-23 10:05:35 INFO  Log:22 - New form menu clicked
+2021-02-23 10:05:55 INFO  Log:22 - year got selected
+2021-02-23 10:06:35 INFO  Log:22 - 1099MISC got selected
+2021-02-23 10:07:35 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-02-23 10:09:06 INFO  Log:22 - Add payer button clicked
+2021-02-23 10:09:26 INFO  Log:22 - add payer dialog displayed
+2021-02-23 10:10:56 INFO  Log:22 - Random EIN:899047505
+2021-02-23 10:11:46 INFO  Log:22 - Payer Last name:Test02232021101056
+2021-02-23 10:12:12 INFO  Log:22 - Payer address:us
+2021-02-23 10:12:12 INFO  Log:22 - Payer City:us
+2021-02-23 10:12:23 INFO  Log:22 - Payer ZIP:35010-
+2021-02-23 10:13:13 INFO  Log:22 - Payer phone number:1234567891
+2021-02-23 10:14:45 INFO  Log:22 - Add button clicked on add payer dialog
+2021-02-23 10:15:05 INFO  Log:22 - Added payer alert clicked 
+2021-02-23 10:16:46 INFO  Log:22 - Added payer dialog closed
+2021-02-23 10:16:46 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-02-23 10:17:46 INFO  Log:22 - Business type selected
+2021-02-23 10:17:57 INFO  Log:22 - Random EIN entered
+2021-02-23 10:18:07 INFO  Log:22 - Recipient EIN:25-0690957
+2021-02-23 10:18:07 INFO  Log:22 - Test business name enetered with time stamp
+2021-02-23 10:18:07 INFO  Log:22 - Recipient Businessname:Test02232021101807
+2021-02-23 10:18:07 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-02-23 10:18:07 INFO  Log:22 - Entered payee or recipient Address:US
+2021-02-23 10:18:07 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-02-23 10:18:07 INFO  Log:22 - Selected recipient state:Alabama
+2021-02-23 10:18:07 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-02-23 10:19:30 INFO  Log:22 - Recipient successfully added
+2021-02-23 10:19:50 INFO  Log:22 - Added recipient
+2021-02-23 10:19:50 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-02-23 10:19:50 INFO  Log:22 - Entered box1 value rents:20
+2021-02-23 10:19:50 INFO  Log:22 - Single box test case completed
+2021-02-23 10:19:50 INFO  Log:11 - =====================================saveForm1099 TEST START=========================================
+2021-02-23 10:21:11 INFO  Log:22 - Save button clicked and launched VES page
+2021-02-23 10:21:11 INFO  Log:11 - =====================================edit_VESpage TEST START=========================================
+2021-02-23 10:22:33 INFO  Log:22 - Edited EIN number as:16-2298539
+2021-02-23 10:23:23 INFO  Log:22 - Payer Business name:Testedited02232021102233
+2021-02-23 10:23:33 INFO  Log:22 - Edited payer address:US
+2021-02-23 10:23:43 INFO  Log:22 - Edited payer city:MOBILE
+2021-02-23 10:23:46 INFO  Log:22 - Clicked on update button on edit payer dialog
+2021-02-23 10:24:16 INFO  Log:22 - Update confirmation dialog displayed.
+2021-02-23 10:38:25 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-02-23 10:38:25 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-02-23 10:39:55 INFO  Log:22 - Enter UserName and Password
+2021-02-23 10:57:28 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-02-23 10:57:28 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-02-23 10:58:59 INFO  Log:22 - Enter UserName and Password
+2021-02-23 10:59:10 INFO  Log:11 - =====================================excelverification TEST START=========================================
+2021-02-23 11:31:14 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-02-23 11:31:14 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-02-23 11:32:45 INFO  Log:22 - Enter UserName and Password
+2021-02-23 11:32:56 INFO  Log:11 - =====================================excelverification TEST START=========================================
+2021-02-23 11:32:56 INFO  Log:22 - first printed
+2021-02-23 11:32:56 INFO  Log:22 - Second printed
+2021-02-23 11:54:50 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-02-23 11:54:50 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-02-23 11:56:20 INFO  Log:22 - Enter UserName and Password
+2021-02-23 11:56:31 INFO  Log:11 - =====================================excelverification TEST START=========================================
+2021-02-23 11:56:31 INFO  Log:22 - first printed
+2021-02-23 11:56:31 INFO  Log:22 - Second printed
+2021-02-23 12:01:32 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-02-23 12:01:32 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-02-23 12:04:12 INFO  Log:22 - Enter UserName and Password
+2021-02-23 12:04:53 INFO  Log:11 - =====================================newForm_selection TEST START=========================================
+2021-02-23 12:04:53 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-02-23 12:05:53 INFO  Log:22 - Forms menu clicked
+2021-02-23 12:06:53 INFO  Log:22 - New form menu clicked
+2021-02-23 12:07:13 INFO  Log:22 - year got selected
+2021-02-23 12:07:53 INFO  Log:22 - 1099MISC got selected
+2021-02-23 12:08:53 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-02-23 12:10:24 INFO  Log:22 - Add payer button clicked
+2021-02-23 12:10:44 INFO  Log:22 - add payer dialog displayed
+2021-02-23 12:12:14 INFO  Log:22 - Random EIN:499581510
+2021-02-23 12:13:04 INFO  Log:22 - Payer Last name:Test02232021121214
+2021-02-23 12:13:28 INFO  Log:22 - Payer address:us
+2021-02-23 12:13:28 INFO  Log:22 - Payer City:us
+2021-02-23 12:13:38 INFO  Log:22 - Payer ZIP:35010-____
+2021-02-23 12:14:28 INFO  Log:22 - Payer phone number:1234567891
+2021-02-23 12:15:59 INFO  Log:22 - Add button clicked on add payer dialog
+2021-02-23 12:16:19 INFO  Log:22 - Added payer alert clicked 
+2021-02-23 12:17:59 INFO  Log:22 - Added payer dialog closed
+2021-02-23 12:17:59 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-02-23 12:19:00 INFO  Log:22 - Business type selected
+2021-02-23 12:19:10 INFO  Log:22 - Random EIN entered
+2021-02-23 12:19:20 INFO  Log:22 - Recipient EIN:24-714514_
+2021-02-23 12:19:20 INFO  Log:22 - Test business name enetered with time stamp
+2021-02-23 12:19:20 INFO  Log:22 - Recipient Businessname:Test02232021121920
+2021-02-23 12:19:20 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-02-23 12:19:20 INFO  Log:22 - Entered payee or recipient Address:US
+2021-02-23 12:19:20 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-02-23 12:19:20 INFO  Log:22 - Selected recipient state:Alabama
+2021-02-23 12:19:20 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-02-23 12:21:04 INFO  Log:11 - =====================================edit_VESpage TEST START=========================================
+2021-02-23 12:34:07 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-02-23 12:34:07 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-02-23 12:36:48 INFO  Log:22 - Enter UserName and Password
+2021-02-23 12:37:29 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-02-23 12:38:29 INFO  Log:22 - Forms menu clicked
+2021-02-23 12:39:29 INFO  Log:22 - New form menu clicked
+2021-02-23 12:39:49 INFO  Log:22 - year got selected
+2021-02-23 12:40:29 INFO  Log:22 - 1099MISC got selected
+2021-02-23 12:41:29 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-02-23 12:43:10 INFO  Log:22 - Add payer button clicked
+2021-02-23 12:43:30 INFO  Log:22 - add payer dialog displayed
+2021-02-23 12:44:40 INFO  Log:22 - Random EIN:347110653
+2021-02-23 12:45:30 INFO  Log:22 - Payer Last name:Test02232021124440
+2021-02-23 12:45:54 INFO  Log:22 - Payer address:us
+2021-02-23 12:45:54 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-02-23 12:45:56 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-02-23 12:45:56 INFO  Log:11 - =====================================saveForm1099 TEST START=========================================
+2021-02-23 12:47:16 INFO  Log:22 - Save button clicked and launched VES page
+2021-02-23 12:47:17 INFO  Log:11 - =====================================validateVES_data TEST START=========================================
+2021-02-23 12:48:08 INFO  Log:22 - Businessname:Test02232021101807
+2021-02-23 12:48:32 INFO  Log:11 - =====================================launch_paymentPage TEST START=========================================
+2021-02-23 12:48:56 INFO  Log:11 - =====================================paymentpage_validations TEST START=========================================
+2021-02-23 12:48:56 INFO  Log:22 - --- Fee Information--
+2021-02-23 12:49:21 INFO  Log:11 - =====================================payment_confirmationPage TEST START=========================================
+2021-02-23 12:49:45 INFO  Log:11 - =====================================filing_history TEST START=========================================
+2021-02-23 12:50:05 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-02-23 12:50:05 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-02-23 12:52:46 INFO  Log:22 - Enter UserName and Password
+2021-02-23 12:53:27 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-02-23 12:54:27 INFO  Log:22 - Forms menu clicked
+2021-02-23 12:55:27 INFO  Log:22 - New form menu clicked
+2021-02-23 12:55:47 INFO  Log:22 - year got selected
+2021-02-23 12:56:27 INFO  Log:22 - 1099MISC got selected
+2021-02-23 12:57:27 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-02-23 12:59:08 INFO  Log:22 - Add payer button clicked
+2021-02-23 12:59:28 INFO  Log:22 - add payer dialog displayed
+2021-02-23 13:00:38 INFO  Log:22 - Random EIN:486393553
+2021-02-23 13:01:28 INFO  Log:22 - Payer Last name:Test0223202110038
+2021-02-23 13:01:52 INFO  Log:22 - Payer address:us
+2021-02-23 13:01:52 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-02-23 13:01:53 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-02-23 13:01:54 INFO  Log:11 - =====================================saveForm1099 TEST START=========================================
+2021-02-23 13:03:14 INFO  Log:22 - Save button clicked and launched VES page
+2021-02-23 13:03:14 INFO  Log:11 - =====================================validateVES_data TEST START=========================================
+2021-02-23 13:04:06 INFO  Log:22 - Businessname:Test02232021101807
+2021-02-23 13:04:56 INFO  Log:11 - =====================================launch_paymentPage TEST START=========================================
+2021-02-23 13:05:16 INFO  Log:11 - =====================================paymentpage_validations TEST START=========================================
+2021-02-23 13:05:16 INFO  Log:22 - --- Fee Information--
+2021-02-23 13:05:16 INFO  Log:22 - :$
+2021-02-23 13:05:37 INFO  Log:11 - =====================================payment_confirmationPage TEST START=========================================
+2021-02-23 13:05:57 INFO  Log:11 - =====================================filing_history TEST START=========================================
+2021-02-23 13:06:18 INFO  Log:11 - =====================================manageforms TEST START=========================================
+2021-02-23 13:06:38 INFO  Log:11 - =====================================dashboardsearch_submitted TEST START=========================================
+2021-02-23 13:06:38 INFO  Log:22 - Dashboard menu clicked
+2021-02-23 13:07:38 INFO  Log:22 - Entered payer nameTest02232021121214
+2021-02-23 13:07:38 INFO  Log:22 - Payer record displayed
+2021-02-23 13:10:02 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-02-23 13:10:02 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-02-23 13:12:43 INFO  Log:22 - Enter UserName and Password
+2021-02-23 13:13:23 INFO  Log:11 - =====================================newForm_selection TEST START=========================================
+2021-02-23 13:13:23 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-02-23 13:14:23 INFO  Log:22 - Forms menu clicked
+2021-02-23 13:15:23 INFO  Log:22 - New form menu clicked
+2021-02-23 13:15:43 INFO  Log:22 - year got selected
+2021-02-23 13:16:23 INFO  Log:22 - 1099MISC got selected
+2021-02-23 13:17:24 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-02-23 13:18:54 INFO  Log:22 - Add payer button clicked
+2021-02-23 13:19:14 INFO  Log:22 - add payer dialog displayed
+2021-02-23 13:20:44 INFO  Log:22 - Random EIN:101461235
+2021-02-23 13:21:34 INFO  Log:22 - Payer Last name:Test0223202112044
+2021-02-23 13:21:58 INFO  Log:22 - Payer address:us
+2021-02-23 13:21:58 INFO  Log:22 - Payer City:us
+2021-02-23 13:22:08 INFO  Log:22 - Payer ZIP:35010-____
+2021-02-23 13:22:58 INFO  Log:22 - Payer phone number:1234567891
+2021-02-23 13:24:30 INFO  Log:22 - Add button clicked on add payer dialog
+2021-02-23 13:24:50 INFO  Log:22 - Added payer alert clicked 
+2021-02-23 13:26:30 INFO  Log:22 - Added payer dialog closed
+2021-02-23 13:26:30 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-02-23 13:27:31 INFO  Log:22 - Business type selected
+2021-02-23 13:27:41 INFO  Log:22 - Random EIN entered
+2021-02-23 13:27:51 INFO  Log:22 - Recipient EIN:57-0732555
+2021-02-23 13:27:51 INFO  Log:22 - Test business name enetered with time stamp
+2021-02-23 13:27:51 INFO  Log:22 - Recipient Businessname:Test0223202112751
+2021-02-23 13:27:51 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-02-23 13:27:51 INFO  Log:22 - Entered payee or recipient Address:US
+2021-02-23 13:27:51 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-02-23 13:27:51 INFO  Log:22 - Selected recipient state:Alabama
+2021-02-23 13:27:51 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-02-23 13:29:12 INFO  Log:22 - Recipient successfully added
+2021-02-23 13:29:32 INFO  Log:22 - Added recipient
+2021-02-23 13:29:32 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-02-23 13:29:33 INFO  Log:22 - Entered box1 value rents:20
+2021-02-23 13:29:33 INFO  Log:22 - Single box test case completed
+2021-02-23 13:29:33 INFO  Log:11 - =====================================saveForm1099 TEST START=========================================
+2021-02-23 13:30:53 INFO  Log:22 - Save button clicked and launched VES page
+2021-02-23 13:30:53 INFO  Log:11 - =====================================edit_VESpage TEST START=========================================
+2021-02-23 13:32:16 INFO  Log:22 - Edited EIN number as:89-4556863
+2021-02-23 13:33:06 INFO  Log:22 - Payer Business name:Testedited0223202113216
+2021-02-23 13:33:16 INFO  Log:22 - Edited payer address:US
+2021-02-23 13:33:26 INFO  Log:22 - Edited payer city:MOBILE
+2021-02-23 13:33:34 INFO  Log:22 - Clicked on update button on edit payer dialog
+2021-02-23 13:34:04 INFO  Log:22 - Update confirmation dialog displayed.
+2021-02-23 13:41:24 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-02-23 13:41:24 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-02-23 13:42:54 INFO  Log:22 - Enter UserName and Password
+2021-02-23 13:43:05 INFO  Log:11 - =====================================excelverification TEST START=========================================
+2021-02-23 13:52:11 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-02-23 13:52:11 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-02-23 13:53:41 INFO  Log:22 - Enter UserName and Password
+2021-02-23 13:53:52 INFO  Log:11 - =====================================excelverification TEST START=========================================
+2021-02-23 13:53:52 INFO  Log:22 - first printed
+2021-02-23 13:53:52 INFO  Log:22 - Second printed
+2021-02-23 14:07:44 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-02-23 14:07:44 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-02-23 14:09:19 INFO  Log:22 - Enter UserName and Password
+2021-02-23 14:09:30 INFO  Log:11 - =====================================excelverification TEST START=========================================
+2021-02-23 14:34:13 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-02-23 14:34:13 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-02-23 14:35:43 INFO  Log:22 - Enter UserName and Password
+2021-02-23 14:35:54 INFO  Log:11 - =====================================excelverification TEST START=========================================
+2021-02-23 14:35:54 INFO  Log:22 - first printed
+2021-02-23 14:35:54 INFO  Log:22 - Second printed
+2021-02-23 14:38:54 INFO  Log:11 - =====================================excelverification TEST START=========================================
+2021-02-23 14:54:31 INFO  Log:11 - =====================================newForm_selection TEST START=========================================
+2021-02-23 14:54:31 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-02-23 14:55:11 INFO  Log:11 - =====================================edit_VESpage TEST START=========================================
+2021-02-23 14:55:11 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2021-02-23 14:55:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2021-02-23 14:55:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-02-23 14:55:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-02-23 14:55:11 DEBUG cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/User_Laptop078/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-02-23 14:55:11 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2021-02-23 14:55:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2021-02-23 14:55:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-02-23 14:55:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-02-23 14:55:11 DEBUG cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/User_Laptop078/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-02-23 15:10:10 INFO  Log:11 - =====================================excelverification TEST START=========================================
+2021-02-23 15:10:37 INFO  Log:11 - =====================================excelverification TEST START=========================================
+2021-02-23 15:10:48 INFO  Log:11 - =====================================excelverification TEST START=========================================
+2021-02-23 15:13:55 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-02-23 15:13:55 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-02-23 15:15:25 INFO  Log:22 - Enter UserName and Password
+2021-02-23 15:15:36 INFO  Log:11 - =====================================excelverification TEST START=========================================
+2021-02-23 15:18:26 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-02-23 15:18:26 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-02-23 15:19:56 INFO  Log:22 - Enter UserName and Password
+2021-02-23 15:20:07 INFO  Log:11 - =====================================excelverification TEST START=========================================
+2021-02-23 15:20:07 INFO  Log:22 - first printed
+2021-02-23 15:20:07 INFO  Log:22 - Second printed
+2021-02-23 16:36:02 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-02-23 16:36:02 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-02-23 16:38:42 INFO  Log:22 - Enter UserName and Password
+2021-02-23 16:39:23 INFO  Log:11 - =====================================newForm_selection TEST START=========================================
+2021-02-23 16:39:23 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-02-23 16:40:23 INFO  Log:22 - Forms menu clicked
+2021-02-23 16:41:23 INFO  Log:22 - New form menu clicked
+2021-02-23 16:41:43 INFO  Log:22 - year got selected
+2021-02-23 16:42:23 INFO  Log:22 - 1099MISC got selected
+2021-02-23 16:43:23 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-02-23 16:44:54 INFO  Log:22 - Add payer button clicked
+2021-02-23 16:45:14 INFO  Log:22 - add payer dialog displayed
+2021-02-23 16:46:44 INFO  Log:22 - Random EIN:179234362
+2021-02-23 16:47:34 INFO  Log:22 - Payer Last name:Test0223202144644
+2021-02-23 16:47:58 INFO  Log:22 - Payer address:us
+2021-02-23 16:47:58 INFO  Log:22 - Payer City:us
+2021-02-23 16:48:08 INFO  Log:22 - Payer ZIP:35010-____
+2021-02-23 16:48:58 INFO  Log:22 - Payer phone number:1234567891
+2021-02-23 16:50:49 INFO  Log:22 - Add button clicked on add payer dialog
+2021-02-23 16:51:09 INFO  Log:22 - Added payer alert clicked 
+2021-02-23 16:51:59 INFO  Log:11 - =====================================edit_VESpage TEST START=========================================
+2021-02-23 17:10:54 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-02-23 17:10:54 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-02-23 17:12:24 INFO  Log:22 - Enter UserName and Password
+2021-02-23 17:15:28 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-02-23 17:15:28 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-02-23 17:16:58 INFO  Log:22 - Enter UserName and Password

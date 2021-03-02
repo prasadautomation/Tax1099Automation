@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demo.testcases.TC_MISC_WorkingFlow_004">
+      <class name="com.demo.testcases.testsample">
         <methods>
-          <include name="addPayer_recipient_boxvallue" invocation-numbers="0"/>
           <include name="loadConfig"/>
           <include name="afterSuite"/>
-          <include name="edit_VESpage"/>
+          <include name="excel_verification"/>
         </methods>
-      </class> <!-- com.demo.testcases.TC_MISC_WorkingFlow_004 -->
+      </class> <!-- com.demo.testcases.testsample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
