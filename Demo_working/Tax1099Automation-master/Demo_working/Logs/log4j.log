@@ -18385,3 +18385,1105 @@ CancelOK
 2021-03-02 19:27:04 INFO  Log:22 - Edit dialog displayed
 2021-03-02 19:27:04 INFO  Log:22 - From XL:96-3985499From edit dialog963985499
 2021-03-02 19:27:04 INFO  Log:22 - Recipient business name from xl:Imported863021432Recipient business name from edit dialog box:Imported863021432
+2021-03-03 09:54:29 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-03 09:54:29 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-03 09:57:13 INFO  Log:22 - Enter UserName and Password
+2021-03-03 09:57:54 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-03 09:58:54 INFO  Log:22 - Forms menu clicked
+2021-03-03 09:59:54 INFO  Log:22 - New form menu clicked
+2021-03-03 10:00:14 INFO  Log:22 - year got selected
+2021-03-03 10:00:55 INFO  Log:22 - 1099MISC got selected
+2021-03-03 10:01:56 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-03 10:03:38 INFO  Log:22 - Add payer button clicked
+2021-03-03 10:03:58 INFO  Log:22 - add payer dialog displayed
+2021-03-03 10:05:08 INFO  Log:22 - Random EIN:181703635
+2021-03-03 10:05:59 INFO  Log:22 - Payer Last name:Test03032021100508
+2021-03-03 10:06:25 INFO  Log:22 - Payer address:us
+2021-03-03 10:06:25 INFO  Log:22 - Payer City:us
+2021-03-03 10:06:35 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-03 10:07:25 INFO  Log:22 - Payer phone number:1234567891
+2021-03-03 10:09:00 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-03 10:09:21 INFO  Log:22 - Added payer alert clicked 
+2021-03-03 10:11:01 INFO  Log:22 - Added payer dialog closed
+2021-03-03 10:11:01 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-03 10:12:03 INFO  Log:22 - Business type selected
+2021-03-03 10:12:13 INFO  Log:22 - Random EIN entered
+2021-03-03 10:12:23 INFO  Log:22 - Recipient EIN:40-1227903
+2021-03-03 10:12:23 INFO  Log:22 - Test business name enetered with time stamp
+2021-03-03 10:12:23 INFO  Log:22 - Recipient Businessname:Test03032021101223
+2021-03-03 10:12:23 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-03-03 10:12:24 INFO  Log:22 - Entered payee or recipient Address:US
+2021-03-03 10:12:24 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-03-03 10:12:24 INFO  Log:22 - Selected recipient state:Alabama
+2021-03-03 10:12:24 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-03-03 10:14:05 INFO  Log:22 - Recipient successfully added
+2021-03-03 10:14:25 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-03-03 10:14:26 INFO  Log:22 - Entered box1 value rents:20
+2021-03-03 10:14:26 INFO  Log:11 - =====================================saveForm1099 TEST START=========================================
+2021-03-03 10:15:46 INFO  Log:22 - Save button clicked and launched VES page
+2021-03-03 10:15:46 INFO  Log:11 - =====================================launch_paymentPage TEST START=========================================
+2021-03-03 10:15:46 INFO  Log:22 - Is Selectall global option selected?  false
+2021-03-03 10:15:46 INFO  Log:22 - Selectall global option selected now.  
+2021-03-03 10:16:06 INFO  Log:22 - Is Selectall global option selected?  true
+2021-03-03 10:16:06 INFO  Log:22 - is selectallchecked:trueis form details checked:true
+2021-03-03 10:16:06 INFO  Log:22 - Select all checkbox validation completed
+2021-03-03 10:16:30 INFO  Log:22 - Next button is in enabled mode
+2021-03-03 10:16:30 INFO  Log:22 - Next button clicked
+2021-03-03 10:17:11 INFO  Log:22 - Ok button clicked
+2021-03-03 10:17:42 INFO  Log:22 - Ok button on reviewed popup clicked
+2021-03-03 10:18:02 INFO  Log:11 - =====================================paymentpage_validations TEST START=========================================
+2021-03-03 10:18:02 INFO  Log:22 - --- Fee Information--
+2021-03-03 10:18:02 INFO  Log:22 - Total Filing Fee::$0.55
+2021-03-03 10:18:03 INFO  Log:22 - Prepay Balance after this Submission::$0.00
+2021-03-03 10:18:03 INFO  Log:22 - Total Amount to be Paid::$0.55
+2021-03-03 10:18:13 INFO  Log:22 - --e-Filing Fee Summary--
+2021-03-03 10:18:13 INFO  Log:22 - Form Count::1
+2021-03-03 10:18:13 INFO  Log:22 - e-Filing Fee::$0.55
+2021-03-03 10:18:13 INFO  Log:22 - TIN Match Fee::$0.00
+2021-03-03 10:18:13 INFO  Log:22 - USPS Mailing Fee::$0.00
+2021-03-03 10:18:13 INFO  Log:22 - State Filing Fee::$0.00
+2021-03-03 10:18:13 INFO  Log:22 - Name on card
+2021-03-03 10:18:33 INFO  Log:22 - Expiry month got selected
+2021-03-03 10:18:34 INFO  Log:22 - --Enter your billing address----
+2021-03-03 10:18:44 INFO  Log:22 - Address is Test address
+2021-03-03 10:18:54 INFO  Log:22 - City is Test city
+2021-03-03 10:19:04 INFO  Log:22 - emaild is present and displayed email id is:prasad@zenwork.com
+2021-03-03 10:19:04 INFO  Log:11 - =====================================payment_confirmationPage TEST START=========================================
+2021-03-03 10:19:21 INFO  Log:22 - Text contains IRS, so form submitted to IRS
+2021-03-03 10:19:21 INFO  Log:22 - Reference number is:201204660
+2021-03-03 10:19:21 INFO  Log:11 - =====================================filing_history TEST START=========================================
+2021-03-03 10:19:21 INFO  Log:22 - Reference number is:201204660
+2021-03-03 10:19:31 INFO  Log:22 - cell type is:STRING
+2021-03-03 10:19:31 INFO  Log:22 - Reference number:201204660
+2021-03-03 10:19:37 INFO  Log:22 - referencenumber is displayed or not :true
+2021-03-03 10:19:37 INFO  Log:22 - Clicked on filing history link
+2021-03-03 10:19:37 INFO  Log:11 - =====================================dashboardsearch_submitted TEST START=========================================
+2021-03-03 10:19:40 INFO  Log:22 - Dashboard menu clicked
+2021-03-03 10:20:40 INFO  Log:22 - Entered payer nameTest03032021100508
+2021-03-03 10:20:40 INFO  Log:22 - Payer record displayed
+2021-03-03 10:21:21 INFO  Log:22 - record displayed with reference number:201204660 is true
+2021-03-03 10:21:21 INFO  Log:11 - =====================================write_payer TEST START=========================================
+2021-03-03 10:21:21 INFO  Log:22 - Payer EIN:Imported93496618
+2021-03-03 10:21:21 INFO  Log:22 - Entered payer TIN from added recpnt data:181703635
+2021-03-03 10:21:21 INFO  Log:22 - Payer Email:Sridevi73@zenwork.com
+2021-03-03 10:21:21 INFO  Log:11 - =====================================import_payer TEST START=========================================
+2021-03-03 10:21:21 INFO  Log:22 - Navigate to manage payer.
+2021-03-03 10:21:21 INFO  Log:22 - Clicked on people menu
+2021-03-03 10:21:32 INFO  Log:22 - Clicked on Manage payer menu.
+2021-03-03 10:22:12 INFO  Log:22 - Entered recipient file path by send keys
+2021-03-03 10:22:32 INFO  Log:22 - confirmation dialog displayed:true
+2021-03-03 10:22:32 INFO  Log:22 - Payer import completed
+2021-03-03 10:22:32 INFO  Log:11 - =====================================write_recipient TEST START=========================================
+2021-03-03 10:22:32 INFO  Log:22 - Recipient TIN:40-1227903
+2021-03-03 10:22:32 INFO  Log:22 - Recipient EIN:Imported162807410
+2021-03-03 10:22:32 INFO  Log:22 - Entered recpnt TIN from added recpnt data:40-1227903
+2021-03-03 10:22:32 INFO  Log:22 - Recipient Email:Sridevi91@zenwork.com
+2021-03-03 10:22:32 INFO  Log:11 - =====================================import_recipient TEST START=========================================
+2021-03-03 10:22:32 INFO  Log:22 - Navigate to manage recipient.
+2021-03-03 10:22:37 INFO  Log:22 - Clicked on people menu
+2021-03-03 10:22:49 INFO  Log:22 - Clicked on Manage recipient menu.
+2021-03-03 10:23:19 INFO  Log:22 - Number of payers in the drop down:275
+2021-03-03 10:23:20 INFO  Log:22 - PayernameImported93496618
+2021-03-03 10:23:30 INFO  Log:22 - Entered recipient file path by send keys
+2021-03-03 10:23:40 INFO  Log:22 - Clicked on bulk upload button
+2021-03-03 10:24:00 INFO  Log:22 - confirmation dialog displayed:true
+2021-03-03 10:24:11 INFO  Log:22 - Ok clicked
+2021-03-03 10:24:11 INFO  Log:11 - =====================================compare_recipientdetails TEST START=========================================
+2021-03-03 10:24:32 INFO  Log:22 - Edit dialog displayed
+2021-03-03 10:24:32 INFO  Log:22 - From XL:40-1227903From edit dialog401227903
+2021-03-03 10:24:32 INFO  Log:22 - Recipient business name from xl:Imported162807410Recipient business name from edit dialog box:Imported162807410
+2021-03-03 15:45:19 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-03 15:45:19 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-03 15:47:39 INFO  Log:22 - Enter UserName and Password
+2021-03-03 15:48:20 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-03 15:49:20 INFO  Log:22 - Forms menu clicked
+2021-03-03 15:50:20 INFO  Log:22 - New form menu clicked
+2021-03-03 15:50:40 INFO  Log:22 - year got selected
+2021-03-03 15:51:20 INFO  Log:22 - 1099MISC got selected
+2021-03-03 15:52:21 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-03 15:54:01 INFO  Log:22 - Add payer button clicked
+2021-03-03 15:54:21 INFO  Log:22 - add payer dialog displayed
+2021-03-03 15:55:31 INFO  Log:22 - Random EIN:138135524
+2021-03-03 15:56:21 INFO  Log:22 - Payer Last name:Test0303202135531
+2021-03-03 15:57:20 INFO  Log:22 - Payer address:us
+2021-03-03 15:57:20 INFO  Log:22 - Payer City:us
+2021-03-03 15:57:30 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-03 15:58:21 INFO  Log:22 - Payer phone number:1234567891
+2021-03-03 16:00:12 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-03 16:00:32 INFO  Log:22 - Added payer alert clicked 
+2021-03-03 16:02:12 INFO  Log:22 - Added payer dialog closed
+2021-03-03 16:02:12 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-03 16:03:13 INFO  Log:22 - Business type selected
+2021-03-03 16:03:23 INFO  Log:22 - Random EIN entered
+2021-03-03 16:03:33 INFO  Log:22 - Recipient EIN:18-7880820
+2021-03-03 16:03:33 INFO  Log:22 - Test business name enetered with time stamp
+2021-03-03 16:03:33 INFO  Log:22 - Recipient Businessname:Test0303202140333
+2021-03-03 16:03:33 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-03-03 16:03:33 INFO  Log:22 - Entered payee or recipient Address:US
+2021-03-03 16:03:33 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-03-03 16:03:33 INFO  Log:22 - Selected recipient state:Alabama
+2021-03-03 16:03:33 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-03-03 16:05:16 INFO  Log:22 - Recipient successfully added
+2021-03-03 16:05:36 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-03-03 16:05:36 INFO  Log:22 - Entered box1 value rents:20
+2021-03-03 18:52:37 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-03 18:52:37 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-03 18:54:07 INFO  Log:22 - Enter UserName and Password
+2021-03-03 18:54:18 INFO  Log:22 - Multiple state values:123.0
+2021-03-03 18:54:18 INFO  Log:22 - Multiple state values:1.234567891E9
+2021-03-03 18:54:18 INFO  Log:22 - Multiple state values:123456789kk
+2021-03-03 18:54:18 INFO  Log:22 - Multiple state values:1234567-k2
+2021-03-03 18:54:18 INFO  Log:22 - Multiple state values:SS34567-KJ
+2021-03-03 18:54:18 INFO  Log:22 - Multiple state values:1234567-AA
+2021-03-03 18:54:18 INFO  Log:22 - Multiple state values:1.23456789E8
+2021-03-03 18:56:44 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-03 18:56:44 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-03 18:58:19 INFO  Log:22 - Enter UserName and Password
+2021-03-03 18:58:30 INFO  Log:22 - Multiple state values:123.0
+2021-03-03 18:58:30 INFO  Log:22 - Multiple state values:1.234567891E9
+2021-03-03 18:58:30 INFO  Log:22 - Multiple state values:123456789kk
+2021-03-03 18:58:30 INFO  Log:22 - Multiple state values:1234567-k2
+2021-03-03 18:58:30 INFO  Log:22 - Multiple state values:SS34567-KJ
+2021-03-03 18:58:30 INFO  Log:22 - Multiple state values:1234567-AA
+2021-03-03 18:58:30 INFO  Log:22 - Multiple state values:1.23456789E8
+2021-03-03 19:04:10 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-03 19:04:10 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-03 19:05:40 INFO  Log:22 - Enter UserName and Password
+2021-03-03 19:05:51 INFO  Log:22 - Multiple state values:123
+2021-03-03 19:05:51 INFO  Log:22 - Multiple state values:1234567891
+2021-03-03 19:05:51 INFO  Log:22 - Multiple state values:123456789kk
+2021-03-03 19:05:51 INFO  Log:22 - Multiple state values:1234567-k2
+2021-03-03 19:05:51 INFO  Log:22 - Multiple state values:SS34567-KJ
+2021-03-03 19:05:51 INFO  Log:22 - Multiple state values:1234567-AA
+2021-03-03 19:05:51 INFO  Log:22 - Multiple state values:123456789
+2021-03-03 19:08:22 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-03 19:08:22 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-03 19:09:52 INFO  Log:22 - Enter UserName and Password
+2021-03-03 19:10:03 INFO  Log:22 - State id format:123-Less than 9 digits
+2021-03-03 19:10:03 INFO  Log:22 - State id format:1234567891-Greater than 9 digits
+2021-03-03 19:10:03 INFO  Log:22 - State id format:123456789kk-Missed hyphen
+2021-03-03 19:10:03 INFO  Log:22 - State id format:1234567-k2-Should have 7 digits and 2 Alphabets
+2021-03-03 19:10:03 INFO  Log:22 - State id format:SS34567-KJ-Should have 7 digits,hyphen and 2 Alphabets
+2021-03-03 19:10:03 INFO  Log:22 - State id format:1234567-AA-Correct format value has 7 digits and 2 Alphabets
+2021-03-03 19:10:03 INFO  Log:22 - State id format:123456789-Correct format value has 9 digits
+2021-03-03 19:11:13 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-03 19:11:13 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-03 19:12:43 INFO  Log:22 - Enter UserName and Password
+2021-03-03 19:12:54 INFO  Log:22 - State id format: 123-- Less than 9 digits
+2021-03-03 19:12:54 INFO  Log:22 - State id format: 1234567891-- Greater than 9 digits
+2021-03-03 19:12:54 INFO  Log:22 - State id format: 123456789kk-- Missed hyphen
+2021-03-03 19:12:54 INFO  Log:22 - State id format: 1234567-k2-- Should have 7 digits and 2 Alphabets
+2021-03-03 19:12:54 INFO  Log:22 - State id format: SS34567-KJ-- Should have 7 digits,hyphen and 2 Alphabets
+2021-03-03 19:12:54 INFO  Log:22 - State id format: 1234567-AA-- Correct format value has 7 digits and 2 Alphabets
+2021-03-03 19:12:54 INFO  Log:22 - State id format: 123456789-- Correct format value has 9 digits
+2021-03-03 19:35:55 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-03 19:35:56 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-03 19:38:16 INFO  Log:22 - Enter UserName and Password
+2021-03-03 19:38:56 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-03 19:39:56 INFO  Log:22 - Forms menu clicked
+2021-03-03 19:40:56 INFO  Log:22 - New form menu clicked
+2021-03-03 19:41:16 INFO  Log:22 - year got selected
+2021-03-03 19:41:57 INFO  Log:22 - 1099MISC got selected
+2021-03-03 19:42:57 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-03 19:44:38 INFO  Log:22 - Add payer button clicked
+2021-03-03 19:44:58 INFO  Log:22 - add payer dialog displayed
+2021-03-03 19:46:08 INFO  Log:22 - Random EIN:116780000
+2021-03-03 19:46:58 INFO  Log:22 - Payer Last name:Test0303202174608
+2021-03-03 19:47:22 INFO  Log:22 - Payer address:us
+2021-03-03 19:47:22 INFO  Log:22 - Payer City:us
+2021-03-03 19:47:32 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-03 19:48:22 INFO  Log:22 - Payer phone number:1234567891
+2021-03-03 19:49:55 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-03 19:50:15 INFO  Log:22 - Added payer alert clicked 
+2021-03-03 19:51:55 INFO  Log:22 - Added payer dialog closed
+2021-03-03 19:51:55 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-03 19:52:56 INFO  Log:22 - Business type selected
+2021-03-03 19:53:06 INFO  Log:22 - Random EIN entered
+2021-03-03 19:53:16 INFO  Log:22 - Recipient EIN:41-2003134
+2021-03-03 19:53:16 INFO  Log:22 - Test business name enetered with time stamp
+2021-03-03 19:53:16 INFO  Log:22 - Recipient Businessname:Test0303202175316
+2021-03-03 19:53:16 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-03-03 19:53:16 INFO  Log:22 - Entered payee or recipient Address:US
+2021-03-03 19:53:16 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-03-03 19:53:16 INFO  Log:22 - Selected recipient state:Alabama
+2021-03-03 19:53:16 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-03-03 19:54:58 INFO  Log:22 - Recipient successfully added
+2021-03-03 19:55:18 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-03-03 19:55:18 INFO  Log:22 - Entered box1 value rents:20
+2021-03-03 19:55:18 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-03 19:57:47 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-03 19:57:47 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-03 20:00:08 INFO  Log:22 - Enter UserName and Password
+2021-03-03 20:00:49 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-03 20:01:49 INFO  Log:22 - Forms menu clicked
+2021-03-03 20:02:49 INFO  Log:22 - New form menu clicked
+2021-03-03 20:03:09 INFO  Log:22 - year got selected
+2021-03-03 20:03:49 INFO  Log:22 - 1099MISC got selected
+2021-03-03 20:04:49 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-03 20:06:30 INFO  Log:22 - Add payer button clicked
+2021-03-03 20:06:50 INFO  Log:22 - add payer dialog displayed
+2021-03-03 20:08:01 INFO  Log:22 - Random EIN:454311288
+2021-03-03 20:08:51 INFO  Log:22 - Payer Last name:Test0303202180801
+2021-03-03 20:09:15 INFO  Log:22 - Payer address:us
+2021-03-03 20:09:15 INFO  Log:22 - Payer City:us
+2021-03-03 20:09:26 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-03 20:10:16 INFO  Log:22 - Payer phone number:1234567891
+2021-03-03 20:11:49 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-03 20:12:09 INFO  Log:22 - Added payer alert clicked 
+2021-03-03 20:13:50 INFO  Log:22 - Added payer dialog closed
+2021-03-03 20:13:50 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-03 20:14:50 INFO  Log:22 - Business type selected
+2021-03-03 20:15:01 INFO  Log:22 - Random EIN entered
+2021-03-03 20:15:11 INFO  Log:22 - Recipient EIN:50-7804705
+2021-03-03 20:15:11 INFO  Log:22 - Test business name enetered with time stamp
+2021-03-03 20:15:11 INFO  Log:22 - Recipient Businessname:Test0303202181511
+2021-03-03 20:15:11 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-03-03 20:15:11 INFO  Log:22 - Entered payee or recipient Address:US
+2021-03-03 20:15:11 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-03-03 20:15:11 INFO  Log:22 - Selected recipient state:Alabama
+2021-03-03 20:15:11 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-03-03 20:16:54 INFO  Log:22 - Recipient successfully added
+2021-03-03 20:17:14 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-03-03 20:17:14 INFO  Log:22 - Entered box1 value rents:20
+2021-03-03 20:17:14 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-03 20:17:15 INFO  Log:22 - WithHeld confirmation dialog not displayed
+2021-03-04 09:50:34 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-04 09:50:34 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-04 09:52:57 INFO  Log:22 - Enter UserName and Password
+2021-03-04 09:53:39 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-04 09:54:39 INFO  Log:22 - Forms menu clicked
+2021-03-04 09:55:39 INFO  Log:22 - New form menu clicked
+2021-03-04 09:55:59 INFO  Log:22 - year got selected
+2021-03-04 09:56:39 INFO  Log:22 - 1099MISC got selected
+2021-03-04 09:57:40 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-04 09:59:21 INFO  Log:22 - Add payer button clicked
+2021-03-04 09:59:41 INFO  Log:22 - add payer dialog displayed
+2021-03-04 10:00:52 INFO  Log:22 - Random EIN:882856833
+2021-03-04 10:01:42 INFO  Log:22 - Payer Last name:Test03042021100052
+2021-03-04 10:02:08 INFO  Log:22 - Payer address:us
+2021-03-04 10:02:08 INFO  Log:22 - Payer City:us
+2021-03-04 10:02:18 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-04 10:03:09 INFO  Log:22 - Payer phone number:1234567891
+2021-03-04 10:04:43 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-04 10:05:03 INFO  Log:22 - Added payer alert clicked 
+2021-03-04 10:06:43 INFO  Log:22 - Added payer dialog closed
+2021-03-04 10:06:43 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-04 10:07:44 INFO  Log:22 - Business type selected
+2021-03-04 10:07:54 INFO  Log:22 - Random EIN entered
+2021-03-04 10:08:05 INFO  Log:22 - Recipient EIN:53-8718650
+2021-03-04 10:08:05 INFO  Log:22 - Test business name enetered with time stamp
+2021-03-04 10:08:05 INFO  Log:22 - Recipient Businessname:Test03042021100805
+2021-03-04 10:08:05 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-03-04 10:08:05 INFO  Log:22 - Entered payee or recipient Address:US
+2021-03-04 10:08:05 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-03-04 10:08:05 INFO  Log:22 - Selected recipient state:Alabama
+2021-03-04 10:08:05 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-03-04 10:09:47 INFO  Log:22 - Recipient successfully added
+2021-03-04 10:10:07 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-03-04 10:10:07 INFO  Log:22 - Entered box1 value rents:20
+2021-03-04 10:10:07 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-04 10:10:39 INFO  Log:22 - WithHeld amount confirmation dialog displayed
+2021-03-04 10:10:39 INFO  Log:22 - Displayedtext and expected text are same
+2021-03-04 10:10:49 INFO  Log:22 - State id format: 123 --> Less than 9 digits
+2021-03-04 10:10:59 INFO  Log:22 - State id format: 1234567891 --> Greater than 9 digits
+2021-03-04 10:11:09 INFO  Log:22 - State id format: 123456789kk --> Missed hyphen
+2021-03-04 10:11:19 INFO  Log:22 - State id format: 1234567-k2 --> Should have 7 digits and 2 Alphabets
+2021-03-04 10:11:29 INFO  Log:22 - State id format: SS34567-KJ --> Should have 7 digits,hyphen and 2 Alphabets
+2021-03-04 10:11:40 INFO  Log:22 - State id format: 1234567-AA --> Correct format value has 7 digits and 2 Alphabets
+2021-03-04 10:11:50 INFO  Log:22 - State id format: 123456789 --> Correct format value has 9 digits
+2021-03-04 10:44:09 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-04 10:44:09 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-04 10:46:29 INFO  Log:22 - Enter UserName and Password
+2021-03-04 10:47:10 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-04 10:48:10 INFO  Log:22 - Forms menu clicked
+2021-03-04 10:49:11 INFO  Log:22 - New form menu clicked
+2021-03-04 10:49:31 INFO  Log:22 - year got selected
+2021-03-04 10:50:11 INFO  Log:22 - 1099MISC got selected
+2021-03-04 10:51:13 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-04 10:52:55 INFO  Log:22 - Add payer button clicked
+2021-03-04 10:53:15 INFO  Log:22 - add payer dialog displayed
+2021-03-04 10:54:25 INFO  Log:22 - Random EIN:807295811
+2021-03-04 10:55:15 INFO  Log:22 - Payer Last name:Test03042021105425
+2021-03-04 10:55:42 INFO  Log:22 - Payer address:us
+2021-03-04 10:55:42 INFO  Log:22 - Payer City:us
+2021-03-04 10:55:52 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-04 10:56:42 INFO  Log:22 - Payer phone number:1234567891
+2021-03-04 10:58:28 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-04 10:58:48 INFO  Log:22 - Added payer alert clicked 
+2021-03-04 11:00:28 INFO  Log:22 - Added payer dialog closed
+2021-03-04 11:00:28 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-04 11:01:30 INFO  Log:22 - Business type selected
+2021-03-04 11:01:40 INFO  Log:22 - Random EIN entered
+2021-03-04 11:01:50 INFO  Log:22 - Recipient EIN:23-3783908
+2021-03-04 11:01:51 INFO  Log:22 - Test business name enetered with time stamp
+2021-03-04 11:01:51 INFO  Log:22 - Recipient Businessname:Test03042021110150
+2021-03-04 11:01:51 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-03-04 11:01:51 INFO  Log:22 - Entered payee or recipient Address:US
+2021-03-04 11:01:51 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-03-04 11:01:51 INFO  Log:22 - Selected recipient state:Alabama
+2021-03-04 11:01:51 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-03-04 11:03:34 INFO  Log:22 - Recipient successfully added
+2021-03-04 11:03:54 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-03-04 11:03:54 INFO  Log:22 - Entered box1 value rents:20
+2021-03-04 11:03:54 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-04 11:04:26 INFO  Log:22 - WithHeld confirmation dialog not displayed
+2021-03-04 12:19:00 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-04 12:19:00 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-04 12:21:24 INFO  Log:22 - Enter UserName and Password
+2021-03-04 12:22:06 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-04 12:23:06 INFO  Log:22 - Forms menu clicked
+2021-03-04 12:24:06 INFO  Log:22 - New form menu clicked
+2021-03-04 12:24:26 INFO  Log:22 - year got selected
+2021-03-04 12:25:06 INFO  Log:22 - 1099MISC got selected
+2021-03-04 12:26:08 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-04 12:27:49 INFO  Log:22 - Add payer button clicked
+2021-03-04 12:28:09 INFO  Log:22 - add payer dialog displayed
+2021-03-04 12:29:20 INFO  Log:22 - Random EIN:76198157
+2021-03-04 12:30:10 INFO  Log:22 - Payer Last name:Test03042021122920
+2021-03-04 12:30:35 INFO  Log:22 - Payer address:us
+2021-03-04 12:30:35 INFO  Log:22 - Payer City:us
+2021-03-04 12:30:45 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-04 12:31:35 INFO  Log:22 - Payer phone number:1234567891
+2021-03-04 12:33:06 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-04 12:33:16 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-04 12:33:18 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-04 12:36:03 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-04 12:36:03 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-04 12:38:26 INFO  Log:22 - Enter UserName and Password
+2021-03-04 12:39:09 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-04 12:40:09 INFO  Log:22 - Forms menu clicked
+2021-03-04 12:41:09 INFO  Log:22 - New form menu clicked
+2021-03-04 12:41:29 INFO  Log:22 - year got selected
+2021-03-04 12:42:09 INFO  Log:22 - 1099MISC got selected
+2021-03-04 12:43:09 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-04 12:44:50 INFO  Log:22 - Add payer button clicked
+2021-03-04 12:45:10 INFO  Log:22 - add payer dialog displayed
+2021-03-04 12:46:20 INFO  Log:22 - Random EIN:72890050
+2021-03-04 12:47:10 INFO  Log:22 - Payer Last name:Test03042021124620
+2021-03-04 12:47:34 INFO  Log:22 - Payer address:us
+2021-03-04 12:47:34 INFO  Log:22 - Payer City:us
+2021-03-04 12:47:44 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-04 12:48:34 INFO  Log:22 - Payer phone number:1234567891
+2021-03-04 12:50:05 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-04 12:50:15 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-04 12:50:16 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-04 12:53:00 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-04 12:53:00 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-04 12:55:20 INFO  Log:22 - Enter UserName and Password
+2021-03-04 12:56:01 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-04 12:57:01 INFO  Log:22 - Forms menu clicked
+2021-03-04 12:58:01 INFO  Log:22 - New form menu clicked
+2021-03-04 12:58:21 INFO  Log:22 - year got selected
+2021-03-04 12:59:01 INFO  Log:22 - 1099MISC got selected
+2021-03-04 13:00:01 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-04 13:01:41 INFO  Log:22 - Add payer button clicked
+2021-03-04 13:02:01 INFO  Log:22 - add payer dialog displayed
+2021-03-04 13:03:12 INFO  Log:22 - Random EIN:335215175
+2021-03-04 13:04:02 INFO  Log:22 - Payer Last name:Test0304202110312
+2021-03-04 13:04:26 INFO  Log:22 - Payer address:us
+2021-03-04 13:04:26 INFO  Log:22 - Payer City:us
+2021-03-04 13:04:36 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-04 13:05:26 INFO  Log:22 - Payer phone number:1234567891
+2021-03-04 13:06:57 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-04 13:07:18 INFO  Log:22 - Added payer alert clicked 
+2021-03-04 13:08:58 INFO  Log:22 - Added payer dialog closed
+2021-03-04 13:08:58 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-04 13:09:58 INFO  Log:22 - Business type selected
+2021-03-04 13:10:08 INFO  Log:22 - Random EIN entered
+2021-03-04 13:10:19 INFO  Log:22 - Recipient EIN:18-3105198
+2021-03-04 13:10:19 INFO  Log:22 - Test business name enetered with time stamp
+2021-03-04 13:10:19 INFO  Log:22 - Recipient Businessname:Test0304202111019
+2021-03-04 13:10:19 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-03-04 13:10:19 INFO  Log:22 - Entered payee or recipient Address:US
+2021-03-04 13:10:19 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-03-04 13:10:19 INFO  Log:22 - Selected recipient state:Alabama
+2021-03-04 13:10:19 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-03-04 13:12:00 INFO  Log:22 - Recipient successfully added
+2021-03-04 13:12:21 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-03-04 13:12:21 INFO  Log:22 - Entered box1 value rents:20
+2021-03-04 13:12:21 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-04 13:12:51 INFO  Log:22 - WithHeld confirmation dialog not displayed
+2021-03-04 15:22:32 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-04 15:22:32 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-04 15:24:55 INFO  Log:22 - Enter UserName and Password
+2021-03-04 15:25:36 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-04 15:26:36 INFO  Log:22 - Forms menu clicked
+2021-03-04 15:27:36 INFO  Log:22 - New form menu clicked
+2021-03-04 15:27:56 INFO  Log:22 - year got selected
+2021-03-04 15:28:36 INFO  Log:22 - 1099MISC got selected
+2021-03-04 15:29:38 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-04 15:30:40 INFO  Log:22 - Add payer button clicked
+2021-03-04 15:31:00 INFO  Log:22 - add payer dialog displayed
+2021-03-04 15:31:50 INFO  Log:22 - Random EIN:779978087
+2021-03-04 15:32:40 INFO  Log:22 - Payer Last name:Test0304202133150
+2021-03-04 15:33:40 INFO  Log:22 - Payer address:us
+2021-03-04 15:33:41 INFO  Log:22 - Payer City:us
+2021-03-04 15:33:51 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-04 15:34:21 INFO  Log:22 - Payer phone number:1234567891
+2021-03-04 15:35:54 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-04 15:36:14 INFO  Log:22 - Added payer alert clicked 
+2021-03-04 15:37:14 INFO  Log:22 - Added payer dialog closed
+2021-03-04 15:37:14 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-04 15:38:15 INFO  Log:22 - Business type selected
+2021-03-04 15:38:25 INFO  Log:22 - Random EIN entered
+2021-03-04 15:38:35 INFO  Log:22 - Recipient EIN:29-3634837
+2021-03-04 15:38:35 INFO  Log:22 - Test business name enetered with time stamp
+2021-03-04 15:38:35 INFO  Log:22 - Recipient Businessname:Test0304202133835
+2021-03-04 15:38:36 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-03-04 15:38:36 INFO  Log:22 - Entered payee or recipient Address:US
+2021-03-04 15:38:36 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-03-04 15:38:36 INFO  Log:22 - Selected recipient state:Alabama
+2021-03-04 15:38:36 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-03-04 15:40:18 INFO  Log:22 - Recipient successfully added
+2021-03-04 15:40:38 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-03-04 15:40:38 INFO  Log:22 - Entered box1 value rents:20
+2021-03-04 15:40:38 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-04 15:41:30 INFO  Log:22 - WithHeld amount confirmation dialog displayed
+2021-03-04 15:41:30 INFO  Log:22 - Displayedtext and expected text are same
+2021-03-04 15:42:01 INFO  Log:22 - Entered stateid: 123
+2021-03-04 15:42:11 INFO  Log:22 - State id format: 123 --> Less than 9 digits
+2021-03-04 15:42:22 INFO  Log:22 - Entered stateid: 1234567891
+2021-03-04 15:42:32 INFO  Log:22 - State id format: 1234567891 --> Greater than 9 digits
+2021-03-04 15:42:42 INFO  Log:22 - Entered stateid: 123456789kk
+2021-03-04 15:42:52 INFO  Log:22 - State id format: 123456789kk --> Missed hyphen
+2021-03-04 15:43:02 INFO  Log:22 - Entered stateid: 1234567-k2
+2021-03-04 15:43:12 INFO  Log:22 - State id format: 1234567-k2 --> Should have 7 digits and 2 Alphabets
+2021-03-04 15:43:22 INFO  Log:22 - Entered stateid: SS34567-KJ
+2021-03-04 15:43:32 INFO  Log:22 - State id format: SS34567-KJ --> Should have 7 digits,hyphen and 2 Alphabets
+2021-03-04 15:43:42 INFO  Log:22 - Entered stateid: 1234567-AA
+2021-03-04 15:43:52 INFO  Log:22 - State id format: 1234567-AA --> Correct format value has 7 digits and 2 Alphabets
+2021-03-04 15:44:02 INFO  Log:22 - Entered stateid: 123456789
+2021-03-04 15:44:12 INFO  Log:22 - State id format: 123456789 --> Correct format value has 9 digits
+2021-03-04 16:19:43 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-04 16:19:43 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-04 16:20:56 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-04 16:20:56 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-04 16:23:16 INFO  Log:22 - Enter UserName and Password
+2021-03-04 16:23:57 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-04 16:24:57 INFO  Log:22 - Forms menu clicked
+2021-03-04 16:25:57 INFO  Log:22 - New form menu clicked
+2021-03-04 16:26:17 INFO  Log:22 - year got selected
+2021-03-04 16:26:57 INFO  Log:22 - 1099MISC got selected
+2021-03-04 16:27:58 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-04 16:28:59 INFO  Log:22 - Add payer button clicked
+2021-03-04 16:29:19 INFO  Log:22 - add payer dialog displayed
+2021-03-04 16:30:09 INFO  Log:22 - Random EIN:576708784
+2021-03-04 16:31:00 INFO  Log:22 - Payer Last name:Test0304202143010
+2021-03-04 16:31:25 INFO  Log:22 - Payer address:us
+2021-03-04 16:31:25 INFO  Log:22 - Payer City:us
+2021-03-04 16:31:35 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-04 16:32:05 INFO  Log:22 - Payer phone number:1234567891
+2021-03-04 16:33:39 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-04 16:33:59 INFO  Log:22 - Added payer alert clicked 
+2021-03-04 16:34:59 INFO  Log:22 - Added payer dialog closed
+2021-03-04 16:34:59 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-04 16:36:01 INFO  Log:22 - Business type selected
+2021-03-04 16:36:11 INFO  Log:22 - Random EIN entered
+2021-03-04 16:36:21 INFO  Log:22 - Recipient EIN:42-2196875
+2021-03-04 16:36:21 INFO  Log:22 - Test business name enetered with time stamp
+2021-03-04 16:36:21 INFO  Log:22 - Recipient Businessname:Test0304202143621
+2021-03-04 16:36:21 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-03-04 16:36:21 INFO  Log:22 - Entered payee or recipient Address:US
+2021-03-04 16:36:21 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-03-04 16:36:21 INFO  Log:22 - Selected recipient state:Alabama
+2021-03-04 16:36:21 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-03-04 16:38:09 INFO  Log:22 - Recipient successfully added
+2021-03-04 16:38:29 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-03-04 16:38:29 INFO  Log:22 - Entered box1 value rents:20
+2021-03-04 16:38:29 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-04 16:39:20 INFO  Log:22 - WithHeld confirmation dialog not displayed
+2021-03-04 17:34:37 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-04 17:34:37 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-04 17:36:57 INFO  Log:22 - Enter UserName and Password
+2021-03-04 17:37:38 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-04 17:38:38 INFO  Log:22 - Forms menu clicked
+2021-03-04 17:39:38 INFO  Log:22 - New form menu clicked
+2021-03-04 17:39:58 INFO  Log:22 - year got selected
+2021-03-04 17:40:38 INFO  Log:22 - 1099MISC got selected
+2021-03-04 17:41:38 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-04 17:42:39 INFO  Log:22 - Add payer button clicked
+2021-03-04 17:42:59 INFO  Log:22 - add payer dialog displayed
+2021-03-04 17:43:49 INFO  Log:22 - Random EIN:258088048
+2021-03-04 17:44:39 INFO  Log:22 - Payer Last name:Test0304202154349
+2021-03-04 17:45:03 INFO  Log:22 - Payer address:us
+2021-03-04 17:45:03 INFO  Log:22 - Payer City:us
+2021-03-04 17:45:13 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-04 17:45:43 INFO  Log:22 - Payer phone number:1234567891
+2021-03-04 17:47:16 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-04 17:47:36 INFO  Log:22 - Added payer alert clicked 
+2021-03-04 17:48:36 INFO  Log:22 - Added payer dialog closed
+2021-03-04 17:48:36 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-04 17:49:36 INFO  Log:22 - Business type selected
+2021-03-04 17:49:46 INFO  Log:22 - Random EIN entered
+2021-03-04 17:49:57 INFO  Log:22 - Recipient EIN:60-2761108
+2021-03-04 17:49:57 INFO  Log:22 - Test business name enetered with time stamp
+2021-03-04 17:49:57 INFO  Log:22 - Recipient Businessname:Test0304202154957
+2021-03-04 17:49:57 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-03-04 17:49:57 INFO  Log:22 - Entered payee or recipient Address:US
+2021-03-04 17:49:57 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-03-04 17:49:57 INFO  Log:22 - Selected recipient state:Alabama
+2021-03-04 17:49:57 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-03-04 17:51:38 INFO  Log:22 - Recipient successfully added
+2021-03-04 17:51:58 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-03-04 17:51:59 INFO  Log:22 - Entered box1 value rents:20
+2021-03-04 17:51:59 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-04 17:52:50 INFO  Log:22 - WithHeld amount confirmation dialog displayed
+2021-03-04 17:52:50 INFO  Log:22 - Displayedtext and expected text are same
+2021-03-04 17:53:10 INFO  Log:22 - Clicked on Ok button on WH dialog
+2021-03-04 17:53:20 INFO  Log:22 - Entered stateid: 123
+2021-03-04 17:53:31 INFO  Log:22 - State id format: 123 --> Less than 9 digits
+2021-03-04 17:53:41 INFO  Log:22 - Entered stateid: 1234567891
+2021-03-04 17:53:51 INFO  Log:22 - State id format: 1234567891 --> Greater than 9 digits
+2021-03-04 17:54:01 INFO  Log:22 - Entered stateid: 123456789kk
+2021-03-04 17:54:11 INFO  Log:22 - State id format: 123456789kk --> Missed hyphen
+2021-03-04 17:54:21 INFO  Log:22 - Entered stateid: 1234567-k2
+2021-03-04 17:54:31 INFO  Log:22 - State id format: 1234567-k2 --> Should have 7 digits and 2 Alphabets
+2021-03-04 17:54:41 INFO  Log:22 - Entered stateid: SS34567-KJ
+2021-03-04 17:54:51 INFO  Log:22 - State id format: SS34567-KJ --> Should have 7 digits,hyphen and 2 Alphabets
+2021-03-04 17:55:01 INFO  Log:22 - Entered stateid: 1234567-AA
+2021-03-04 17:55:11 INFO  Log:22 - State id format: 1234567-AA --> Correct format value has 7 digits and 2 Alphabets
+2021-03-04 17:55:21 INFO  Log:22 - Entered stateid: 123456789
+2021-03-04 17:55:31 INFO  Log:22 - State id format: 123456789 --> Correct format value has 9 digits
+2021-03-04 20:10:52 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-04 20:10:52 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-04 20:13:14 INFO  Log:22 - Enter UserName and Password
+2021-03-04 20:13:54 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-04 20:14:54 INFO  Log:22 - Forms menu clicked
+2021-03-04 20:15:54 INFO  Log:22 - New form menu clicked
+2021-03-04 20:16:14 INFO  Log:22 - year got selected
+2021-03-04 20:16:55 INFO  Log:22 - 1099MISC got selected
+2021-03-04 20:17:55 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-04 20:18:55 INFO  Log:22 - Add payer button clicked
+2021-03-04 20:19:15 INFO  Log:22 - add payer dialog displayed
+2021-03-04 20:20:05 INFO  Log:22 - Random EIN:132214779
+2021-03-04 20:20:55 INFO  Log:22 - Payer Last name:Test0304202182005
+2021-03-04 20:21:19 INFO  Log:22 - Payer address:us
+2021-03-04 20:21:19 INFO  Log:22 - Payer City:us
+2021-03-04 20:21:29 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-04 20:21:59 INFO  Log:22 - Payer phone number:1234567891
+2021-03-04 20:23:31 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-04 20:23:41 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-04 20:23:42 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-04 20:23:53 INFO  Log:11 - =====================================saveForm1099 TEST START=========================================
+2021-03-04 20:25:13 INFO  Log:22 - Save button clicked and launched VES page
+2021-03-04 20:25:13 INFO  Log:11 - =====================================verify_VES TEST START=========================================
+2021-03-04 20:30:01 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-04 20:30:01 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-04 20:32:23 INFO  Log:22 - Enter UserName and Password
+2021-03-04 20:33:05 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-04 20:34:05 INFO  Log:22 - Forms menu clicked
+2021-03-04 20:35:05 INFO  Log:22 - New form menu clicked
+2021-03-04 20:35:25 INFO  Log:22 - year got selected
+2021-03-04 20:36:06 INFO  Log:22 - 1099MISC got selected
+2021-03-04 20:37:06 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-04 20:38:06 INFO  Log:22 - Add payer button clicked
+2021-03-04 20:38:26 INFO  Log:22 - add payer dialog displayed
+2021-03-04 20:39:16 INFO  Log:22 - Random EIN:438843439
+2021-03-04 20:40:07 INFO  Log:22 - Payer Last name:Test0304202183916
+2021-03-04 20:40:32 INFO  Log:22 - Payer address:us
+2021-03-04 20:40:32 INFO  Log:22 - Payer City:us
+2021-03-04 20:40:42 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-04 20:41:12 INFO  Log:22 - Payer phone number:1234567891
+2021-03-04 20:42:43 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-04 20:43:04 INFO  Log:22 - Added payer alert clicked 
+2021-03-04 20:44:04 INFO  Log:22 - Added payer dialog closed
+2021-03-04 20:44:04 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-04 20:45:05 INFO  Log:22 - Business type selected
+2021-03-04 20:45:15 INFO  Log:22 - Random EIN entered
+2021-03-04 20:45:25 INFO  Log:22 - Recipient EIN:89-1410461
+2021-03-04 20:45:25 INFO  Log:22 - Test business name enetered with time stamp
+2021-03-04 20:45:25 INFO  Log:22 - Recipient Businessname:Test0304202184525
+2021-03-04 20:45:25 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-03-04 20:45:25 INFO  Log:22 - Entered payee or recipient Address:US
+2021-03-04 20:45:25 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-03-04 20:45:25 INFO  Log:22 - Selected recipient state:Alabama
+2021-03-04 20:45:25 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-03-04 20:47:07 INFO  Log:22 - Recipient successfully added
+2021-03-04 20:47:27 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-03-04 20:47:27 INFO  Log:22 - Entered box1 value rents:20
+2021-03-04 20:47:27 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-04 20:48:20 INFO  Log:22 - WithHeld amount confirmation dialog displayed
+2021-03-04 20:48:20 INFO  Log:22 - Displayedtext and expected text are same
+2021-03-04 20:48:40 INFO  Log:22 - Clicked on Ok button on WH dialog
+2021-03-04 20:48:42 INFO  Log:22 - Entered stateid: 123
+2021-03-04 20:48:48 INFO  Log:22 - State id format: 123 --> Less than 9 digits
+2021-03-04 20:48:50 INFO  Log:22 - Entered stateid: 1234567891
+2021-03-04 20:48:56 INFO  Log:22 - State id format: 1234567891 --> Greater than 9 digits
+2021-03-04 20:48:58 INFO  Log:22 - Entered stateid: 123456789kk
+2021-03-04 20:49:04 INFO  Log:22 - State id format: 123456789kk --> Missed hyphen
+2021-03-04 20:49:06 INFO  Log:22 - Entered stateid: 1234567-k2
+2021-03-04 20:49:13 INFO  Log:22 - State id format: 1234567-k2 --> Should have 7 digits and 2 Alphabets
+2021-03-04 20:49:15 INFO  Log:22 - Entered stateid: SS34567-KJ
+2021-03-04 20:49:21 INFO  Log:22 - State id format: SS34567-KJ --> Should have 7 digits,hyphen and 2 Alphabets
+2021-03-04 20:49:23 INFO  Log:22 - Entered stateid: 1234567-AA
+2021-03-04 20:49:29 INFO  Log:22 - State id format: 1234567-AA --> Correct format value has 7 digits and 2 Alphabets
+2021-03-04 20:49:31 INFO  Log:22 - Entered stateid: 123456789
+2021-03-04 20:49:37 INFO  Log:22 - State id format: 123456789 --> Correct format value has 9 digits
+2021-03-04 20:49:37 INFO  Log:11 - =====================================saveForm1099 TEST START=========================================
+2021-03-04 20:50:57 INFO  Log:22 - Save button clicked and launched VES page
+2021-03-04 20:50:57 INFO  Log:11 - =====================================verify_VES TEST START=========================================
+2021-03-04 20:50:57 INFO  Log:22 - State filing checkbox is checked as expected
+2021-03-04 20:50:57 INFO  Log:22 - State filing record not selected
+2021-03-04 20:51:07 INFO  Log:22 - State filing record still not selected
+2021-03-05 09:37:35 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-05 09:37:35 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-05 09:39:59 INFO  Log:22 - Enter UserName and Password
+2021-03-05 09:40:40 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-05 09:41:40 INFO  Log:22 - Forms menu clicked
+2021-03-05 09:42:40 INFO  Log:22 - New form menu clicked
+2021-03-05 09:43:00 INFO  Log:22 - year got selected
+2021-03-05 09:43:41 INFO  Log:22 - 1099MISC got selected
+2021-03-05 09:44:42 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-05 09:45:44 INFO  Log:22 - Add payer button clicked
+2021-03-05 09:46:04 INFO  Log:22 - add payer dialog displayed
+2021-03-05 09:46:54 INFO  Log:22 - Random EIN:357072573
+2021-03-05 09:47:44 INFO  Log:22 - Payer Last name:Test0305202194654
+2021-03-05 09:48:09 INFO  Log:22 - Payer address:us
+2021-03-05 09:48:09 INFO  Log:22 - Payer City:us
+2021-03-05 09:48:19 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-05 09:48:50 INFO  Log:22 - Payer phone number:1234567891
+2021-03-05 09:50:23 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-05 09:50:43 INFO  Log:22 - Added payer alert clicked 
+2021-03-05 09:51:43 INFO  Log:22 - Added payer dialog closed
+2021-03-05 09:51:43 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-05 09:52:44 INFO  Log:22 - Business type selected
+2021-03-05 09:52:54 INFO  Log:22 - Random EIN entered
+2021-03-05 09:53:04 INFO  Log:22 - Recipient EIN:50-2088528
+2021-03-05 09:53:04 INFO  Log:22 - Test business name enetered with time stamp
+2021-03-05 09:53:04 INFO  Log:22 - Recipient Businessname:Test0305202195304
+2021-03-05 09:53:05 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-03-05 09:53:05 INFO  Log:22 - Entered payee or recipient Address:US
+2021-03-05 09:53:05 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-03-05 09:53:05 INFO  Log:22 - Selected recipient state:Alabama
+2021-03-05 09:53:05 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-03-05 09:54:47 INFO  Log:22 - Recipient successfully added
+2021-03-05 09:55:07 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-03-05 09:55:07 INFO  Log:22 - Entered box1 value rents:20
+2021-03-05 09:55:07 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-05 09:56:00 INFO  Log:22 - WithHeld amount confirmation dialog displayed
+2021-03-05 09:56:00 INFO  Log:22 - Displayedtext and expected text are same
+2021-03-05 09:56:20 INFO  Log:22 - Clicked on Ok button on WH dialog
+2021-03-05 09:56:22 INFO  Log:22 - Entered stateid: 123
+2021-03-05 09:56:28 INFO  Log:22 - State id format: 123 --> Less than 9 digits
+2021-03-05 09:56:30 INFO  Log:22 - Entered stateid: 1234567891
+2021-03-05 09:56:36 INFO  Log:22 - State id format: 1234567891 --> Greater than 9 digits
+2021-03-05 09:56:38 INFO  Log:22 - Entered stateid: 123456789kk
+2021-03-05 09:56:44 INFO  Log:22 - State id format: 123456789kk --> Missed hyphen
+2021-03-05 09:56:46 INFO  Log:22 - Entered stateid: 1234567-k2
+2021-03-05 09:56:53 INFO  Log:22 - State id format: 1234567-k2 --> Should have 7 digits and 2 Alphabets
+2021-03-05 09:56:55 INFO  Log:22 - Entered stateid: SS34567-KJ
+2021-03-05 09:57:01 INFO  Log:22 - State id format: SS34567-KJ --> Should have 7 digits,hyphen and 2 Alphabets
+2021-03-05 09:57:03 INFO  Log:22 - Entered stateid: 1234567-AA
+2021-03-05 09:57:09 INFO  Log:22 - State id format: 1234567-AA --> Correct format value has 7 digits and 2 Alphabets
+2021-03-05 09:57:11 INFO  Log:22 - Entered stateid: 123456789
+2021-03-05 09:57:17 INFO  Log:22 - State id format: 123456789 --> Correct format value has 9 digits
+2021-03-05 09:57:17 INFO  Log:11 - =====================================saveForm1099 TEST START=========================================
+2021-03-05 09:58:38 INFO  Log:22 - Save button clicked and launched VES page
+2021-03-05 09:58:38 INFO  Log:11 - =====================================verify_VES TEST START=========================================
+2021-03-05 09:58:38 INFO  Log:22 - State filing checkbox is checked as expected
+2021-03-05 09:58:38 INFO  Log:22 - State filing record not selected
+2021-03-05 09:58:48 INFO  Log:22 - State filing record still not selected
+2021-03-05 11:52:13 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-05 11:52:13 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-05 11:54:37 INFO  Log:22 - Enter UserName and Password
+2021-03-05 11:55:18 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-05 11:56:18 INFO  Log:22 - Forms menu clicked
+2021-03-05 11:57:18 INFO  Log:22 - New form menu clicked
+2021-03-05 11:57:38 INFO  Log:22 - year got selected
+2021-03-05 11:58:18 INFO  Log:22 - 1099MISC got selected
+2021-03-05 11:59:18 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-05 12:00:19 INFO  Log:22 - Add payer button clicked
+2021-03-05 12:00:39 INFO  Log:22 - add payer dialog displayed
+2021-03-05 12:01:29 INFO  Log:22 - Random EIN:149556418
+2021-03-05 12:02:19 INFO  Log:22 - Payer Last name:Test03052021120129
+2021-03-05 12:02:44 INFO  Log:22 - Payer address:us
+2021-03-05 12:02:44 INFO  Log:22 - Payer City:us
+2021-03-05 12:02:54 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-05 12:03:25 INFO  Log:22 - Payer phone number:1234567891
+2021-03-05 12:04:56 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-05 12:05:16 INFO  Log:22 - Added payer alert clicked 
+2021-03-05 12:06:16 INFO  Log:22 - Added payer dialog closed
+2021-03-05 12:06:16 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-05 12:07:17 INFO  Log:22 - Business type selected
+2021-03-05 12:07:27 INFO  Log:22 - Random EIN entered
+2021-03-05 12:07:37 INFO  Log:22 - Recipient EIN:86-9579811
+2021-03-05 12:07:37 INFO  Log:22 - Test business name enetered with time stamp
+2021-03-05 12:07:37 INFO  Log:22 - Recipient Businessname:Test03052021120737
+2021-03-05 12:07:37 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-03-05 12:07:37 INFO  Log:22 - Entered payee or recipient Address:US
+2021-03-05 12:07:37 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-03-05 12:07:37 INFO  Log:22 - Selected recipient state:Alabama
+2021-03-05 12:07:37 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-03-05 12:09:19 INFO  Log:22 - Recipient successfully added
+2021-03-05 12:09:39 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-03-05 12:09:39 INFO  Log:22 - Entered box1 value rents:20
+2021-03-05 12:09:39 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-05 12:10:30 INFO  Log:22 - WithHeld amount confirmation dialog displayed
+2021-03-05 12:10:30 INFO  Log:22 - Displayedtext and expected text are same
+2021-03-05 12:10:51 INFO  Log:22 - Clicked on Ok button on WH dialog
+2021-03-05 12:10:53 INFO  Log:22 - Entered stateid: 123
+2021-03-05 12:10:59 INFO  Log:22 - State id format: 123 --> Less than 9 digits
+2021-03-05 12:11:01 INFO  Log:22 - Entered stateid: 1234567891
+2021-03-05 12:11:07 INFO  Log:22 - State id format: 1234567891 --> Greater than 9 digits
+2021-03-05 12:11:09 INFO  Log:22 - Entered stateid: 123456789kk
+2021-03-05 12:11:15 INFO  Log:22 - State id format: 123456789kk --> Missed hyphen
+2021-03-05 12:11:17 INFO  Log:22 - Entered stateid: 1234567-k2
+2021-03-05 12:11:23 INFO  Log:22 - State id format: 1234567-k2 --> Should have 7 digits and 2 Alphabets
+2021-03-05 12:11:25 INFO  Log:22 - Entered stateid: SS34567-KJ
+2021-03-05 12:11:31 INFO  Log:22 - State id format: SS34567-KJ --> Should have 7 digits,hyphen and 2 Alphabets
+2021-03-05 12:11:34 INFO  Log:22 - Entered stateid: 1234567-AA
+2021-03-05 12:11:40 INFO  Log:22 - State id format: 1234567-AA --> Correct format value has 7 digits and 2 Alphabets
+2021-03-05 12:11:42 INFO  Log:22 - Entered stateid: 123456789
+2021-03-05 12:11:48 INFO  Log:22 - State id format: 123456789 --> Correct format value has 9 digits
+2021-03-05 12:11:48 INFO  Log:11 - =====================================saveForm1099 TEST START=========================================
+2021-03-05 12:13:08 INFO  Log:22 - Save button clicked and launched VES page
+2021-03-05 12:13:08 INFO  Log:11 - =====================================verify_VES TEST START=========================================
+2021-03-05 12:13:08 INFO  Log:22 - State filing checkbox is checked as expected
+2021-03-05 12:13:08 INFO  Log:22 - State filing record not selected
+2021-03-05 12:13:28 INFO  Log:22 - State filing record still not selected
+2021-03-05 12:40:39 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-05 12:40:39 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-05 12:43:00 INFO  Log:22 - Enter UserName and Password
+2021-03-05 12:43:41 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-05 12:44:41 INFO  Log:22 - Forms menu clicked
+2021-03-05 12:45:41 INFO  Log:22 - New form menu clicked
+2021-03-05 12:46:01 INFO  Log:22 - year got selected
+2021-03-05 12:46:41 INFO  Log:22 - 1099MISC got selected
+2021-03-05 12:47:41 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-05 12:48:42 INFO  Log:22 - Add payer button clicked
+2021-03-05 12:49:02 INFO  Log:22 - add payer dialog displayed
+2021-03-05 12:49:52 INFO  Log:22 - Random EIN:943521001
+2021-03-05 12:50:42 INFO  Log:22 - Payer Last name:Test03052021124952
+2021-03-05 12:51:06 INFO  Log:22 - Payer address:us
+2021-03-05 12:51:06 INFO  Log:22 - Payer City:us
+2021-03-05 12:51:16 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-05 12:51:46 INFO  Log:22 - Payer phone number:1234567891
+2021-03-05 12:53:18 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-05 12:53:38 INFO  Log:22 - Added payer alert clicked 
+2021-03-05 12:54:38 INFO  Log:22 - Added payer dialog closed
+2021-03-05 12:54:38 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-05 12:55:38 INFO  Log:22 - Business type selected
+2021-03-05 12:55:49 INFO  Log:22 - Random EIN entered
+2021-03-05 12:55:59 INFO  Log:22 - Recipient EIN:51-3476967
+2021-03-05 12:55:59 INFO  Log:22 - Test business name enetered with time stamp
+2021-03-05 12:55:59 INFO  Log:22 - Recipient Businessname:Test03052021125559
+2021-03-05 12:55:59 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-03-05 12:55:59 INFO  Log:22 - Entered payee or recipient Address:US
+2021-03-05 12:55:59 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-03-05 12:55:59 INFO  Log:22 - Selected recipient state:Alabama
+2021-03-05 12:55:59 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-03-05 12:57:40 INFO  Log:22 - Recipient successfully added
+2021-03-05 12:58:00 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-03-05 12:58:00 INFO  Log:22 - Entered box1 value rents:20
+2021-03-05 12:58:01 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-05 12:58:52 INFO  Log:22 - WithHeld amount confirmation dialog displayed
+2021-03-05 12:58:52 INFO  Log:22 - Displayedtext and expected text are same
+2021-03-05 12:59:12 INFO  Log:22 - Clicked on Ok button on WH dialog
+2021-03-05 12:59:14 INFO  Log:22 - Entered stateid: 123
+2021-03-05 12:59:20 INFO  Log:22 - State id format: 123 --> Less than 9 digits
+2021-03-05 12:59:22 INFO  Log:22 - Entered stateid: 1234567891
+2021-03-05 12:59:28 INFO  Log:22 - State id format: 1234567891 --> Greater than 9 digits
+2021-03-05 12:59:31 INFO  Log:22 - Entered stateid: 123456789kk
+2021-03-05 12:59:37 INFO  Log:22 - State id format: 123456789kk --> Missed hyphen
+2021-03-05 12:59:39 INFO  Log:22 - Entered stateid: 1234567-k2
+2021-03-05 12:59:45 INFO  Log:22 - State id format: 1234567-k2 --> Should have 7 digits and 2 Alphabets
+2021-03-05 12:59:47 INFO  Log:22 - Entered stateid: SS34567-KJ
+2021-03-05 12:59:53 INFO  Log:22 - State id format: SS34567-KJ --> Should have 7 digits,hyphen and 2 Alphabets
+2021-03-05 12:59:55 INFO  Log:22 - Entered stateid: 1234567-AA
+2021-03-05 13:00:01 INFO  Log:22 - State id format: 1234567-AA --> Correct format value has 7 digits and 2 Alphabets
+2021-03-05 13:00:03 INFO  Log:22 - Entered stateid: 123456789
+2021-03-05 13:00:09 INFO  Log:22 - State id format: 123456789 --> Correct format value has 9 digits
+2021-03-05 13:00:09 INFO  Log:11 - =====================================saveForm1099 TEST START=========================================
+2021-03-05 13:01:30 INFO  Log:22 - Save button clicked and launched VES page
+2021-03-05 13:01:30 INFO  Log:11 - =====================================verify_VES TEST START=========================================
+2021-03-05 13:01:30 INFO  Log:22 - State filing checkbox is checked as expected
+2021-03-05 13:01:30 INFO  Log:22 - State filing record not selected
+2021-03-05 13:01:50 INFO  Log:22 - State filing record now selected
+2021-03-05 13:01:51 INFO  Log:22 - Please select recipient details to submit to IRS dialog will be displayed
+2021-03-05 13:02:11 INFO  Log:22 - is alertDialog displayed:true
+2021-03-05 13:02:11 INFO  Log:22 - Check box selected for reviewed dialog
+2021-03-05 13:02:17 INFO  Log:22 - Clicked ok on alert box
+2021-03-05 19:12:09 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-05 19:12:09 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-05 19:14:31 INFO  Log:22 - Enter UserName and Password
+2021-03-05 19:15:12 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-05 19:16:12 INFO  Log:22 - Forms menu clicked
+2021-03-05 19:17:12 INFO  Log:22 - New form menu clicked
+2021-03-05 19:17:32 INFO  Log:22 - year got selected
+2021-03-05 19:18:12 INFO  Log:22 - 1099MISC got selected
+2021-03-05 19:19:14 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-05 19:20:15 INFO  Log:22 - Add payer button clicked
+2021-03-05 19:20:35 INFO  Log:22 - add payer dialog displayed
+2021-03-05 19:21:25 INFO  Log:22 - Random EIN:902462583
+2021-03-05 19:22:16 INFO  Log:22 - Payer Last name:Test0305202172125
+2021-03-05 19:22:41 INFO  Log:22 - Payer address:us
+2021-03-05 19:22:41 INFO  Log:22 - Payer City:us
+2021-03-05 19:22:51 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-05 19:23:21 INFO  Log:22 - Payer phone number:1234567891
+2021-03-05 19:24:55 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-05 19:25:15 INFO  Log:22 - Added payer alert clicked 
+2021-03-05 19:26:15 INFO  Log:22 - Added payer dialog closed
+2021-03-05 19:26:15 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-05 19:27:16 INFO  Log:22 - Business type selected
+2021-03-05 19:27:26 INFO  Log:22 - Random EIN entered
+2021-03-05 19:27:37 INFO  Log:22 - Recipient EIN:25-3597885
+2021-03-05 19:27:37 INFO  Log:22 - Test business name enetered with time stamp
+2021-03-05 19:27:37 INFO  Log:22 - Recipient Businessname:Test0305202172737
+2021-03-05 19:27:37 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-03-05 19:27:37 INFO  Log:22 - Entered payee or recipient Address:US
+2021-03-05 19:27:37 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-03-05 19:27:37 INFO  Log:22 - Selected recipient state:Alabama
+2021-03-05 19:27:37 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-03-05 19:29:19 INFO  Log:22 - Recipient successfully added
+2021-03-05 19:29:39 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-03-05 19:29:40 INFO  Log:22 - Entered box1 value rents:20
+2021-03-05 19:29:40 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-05 19:30:32 INFO  Log:22 - WithHeld amount confirmation dialog displayed
+2021-03-05 19:30:32 INFO  Log:22 - Displayedtext and expected text are same
+2021-03-05 19:30:52 INFO  Log:22 - Clicked on Ok button on WH dialog
+2021-03-05 19:30:54 INFO  Log:22 - Entered stateid: 123
+2021-03-05 19:31:01 INFO  Log:22 - State id format: 123 --> Less than 9 digits
+2021-03-05 19:31:03 INFO  Log:22 - Entered stateid: 1234567891
+2021-03-05 19:31:09 INFO  Log:22 - State id format: 1234567891 --> Greater than 9 digits
+2021-03-05 19:31:11 INFO  Log:22 - Entered stateid: 123456789kk
+2021-03-05 19:31:17 INFO  Log:22 - State id format: 123456789kk --> Missed hyphen
+2021-03-05 19:31:19 INFO  Log:22 - Entered stateid: 1234567-k2
+2021-03-05 19:31:25 INFO  Log:22 - State id format: 1234567-k2 --> Should have 7 digits and 2 Alphabets
+2021-03-05 19:31:27 INFO  Log:22 - Entered stateid: SS34567-KJ
+2021-03-05 19:31:33 INFO  Log:22 - State id format: SS34567-KJ --> Should have 7 digits,hyphen and 2 Alphabets
+2021-03-05 19:31:35 INFO  Log:22 - Entered stateid: 1234567-AA
+2021-03-05 19:31:41 INFO  Log:22 - State id format: 1234567-AA --> Correct format value has 7 digits and 2 Alphabets
+2021-03-05 19:31:43 INFO  Log:22 - Entered stateid: 123456789
+2021-03-05 19:31:49 INFO  Log:22 - State id format: 123456789 --> Correct format value has 9 digits
+2021-03-05 19:31:49 INFO  Log:11 - =====================================saveForm1099 TEST START=========================================
+2021-03-05 19:33:10 INFO  Log:22 - Save button clicked and launched VES page
+2021-03-05 19:33:10 INFO  Log:11 - =====================================verify_VES TEST START=========================================
+2021-03-05 19:33:10 INFO  Log:22 - State filing checkbox is checked as expected
+2021-03-05 19:33:10 INFO  Log:22 - State filing record not selected
+2021-03-05 19:33:31 INFO  Log:22 - State filing record now selected
+2021-03-05 19:33:33 INFO  Log:22 - Please select recipient details to submit to IRS dialog will be displayed
+2021-03-05 19:33:53 INFO  Log:22 - is alertDialog displayed:true
+2021-03-05 19:33:53 INFO  Log:22 - Check box selected for reviewed dialog
+2021-03-05 19:33:59 INFO  Log:22 - Clicked ok on alert box
+2021-03-05 19:34:04 INFO  Log:11 - =====================================state_reconsillation_page TEST START=========================================
+2021-03-05 19:34:04 INFO  Log:22 - Displayed payername:Test0305202172125
+2021-03-05 19:34:04 INFO  Log:22 - Correct payer name displayed
+2021-03-05 19:34:04 INFO  Log:22 - Displayed form name:1099-MISC
+2021-03-05 19:34:04 INFO  Log:22 - Correct form name displayed
+2021-03-05 19:34:04 INFO  Log:22 - Displayed tex year:2020
+2021-03-05 19:34:04 INFO  Log:22 - Correct tax year displayed.
+2021-03-05 19:34:04 INFO  Log:22 - State Name:GA
+2021-03-05 19:34:04 INFO  Log:22 - Form count:1
+2021-03-05 19:34:04 INFO  Log:22 - Displayed status:Incomplete
+2021-03-05 19:34:35 INFO  Log:11 - =====================================form_details TEST START=========================================
+2021-03-05 19:34:35 INFO  Log:22 - Entered GA withholding ID
+2021-03-05 19:34:45 INFO  Log:22 - Entered signature
+2021-03-05 19:34:55 INFO  Log:22 - Entered Title
+2021-03-05 19:35:07 INFO  Log:22 - after_reconsillation_page
+2021-03-05 19:35:07 INFO  Log:22 - Displayed status after reconsillation:Incomplete
+2021-03-05 19:35:07 INFO  Log:11 - =====================================payment_page TEST START=========================================
+2021-03-05 19:35:07 INFO  Log:11 - =====================================paymentpage_validations TEST START=========================================
+2021-03-05 19:35:07 INFO  Log:22 - --- Fee Information--
+2021-03-05 19:35:27 INFO  Log:11 - =====================================manageforms TEST START=========================================
+2021-03-05 19:35:27 INFO  Log:11 - =====================================manageforms TEST START=========================================
+2021-03-05 19:35:47 INFO  Log:11 - =====================================manage_reconsillation_form TEST START=========================================
+2021-03-05 19:39:46 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-05 19:39:46 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-05 19:42:08 INFO  Log:22 - Enter UserName and Password
+2021-03-05 19:42:48 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-05 19:43:49 INFO  Log:22 - Forms menu clicked
+2021-03-05 19:44:49 INFO  Log:22 - New form menu clicked
+2021-03-05 19:45:09 INFO  Log:22 - year got selected
+2021-03-05 19:45:49 INFO  Log:22 - 1099MISC got selected
+2021-03-05 19:46:51 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-05 19:47:52 INFO  Log:22 - Add payer button clicked
+2021-03-05 19:48:12 INFO  Log:22 - add payer dialog displayed
+2021-03-05 19:49:02 INFO  Log:22 - Random EIN:690984363
+2021-03-05 19:49:52 INFO  Log:22 - Payer Last name:Test0305202174902
+2021-03-05 19:50:17 INFO  Log:22 - Payer address:us
+2021-03-05 19:50:17 INFO  Log:22 - Payer City:us
+2021-03-05 19:50:28 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-05 19:50:58 INFO  Log:22 - Payer phone number:1234567891
+2021-03-05 19:52:31 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-05 19:52:51 INFO  Log:22 - Added payer alert clicked 
+2021-03-05 19:53:51 INFO  Log:22 - Added payer dialog closed
+2021-03-05 19:53:51 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-05 19:54:52 INFO  Log:22 - Business type selected
+2021-03-05 19:55:02 INFO  Log:22 - Random EIN entered
+2021-03-05 19:55:12 INFO  Log:22 - Recipient EIN:79-7546968
+2021-03-05 19:55:12 INFO  Log:22 - Test business name enetered with time stamp
+2021-03-05 19:55:12 INFO  Log:22 - Recipient Businessname:Test0305202175512
+2021-03-05 19:55:13 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-03-05 19:55:13 INFO  Log:22 - Entered payee or recipient Address:US
+2021-03-05 19:55:13 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-03-05 19:55:13 INFO  Log:22 - Selected recipient state:Alabama
+2021-03-05 19:55:13 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-03-05 19:56:55 INFO  Log:22 - Recipient successfully added
+2021-03-05 19:57:16 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-03-05 19:57:16 INFO  Log:22 - Entered box1 value rents:20
+2021-03-05 19:57:16 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-05 19:58:08 INFO  Log:22 - WithHeld amount confirmation dialog displayed
+2021-03-05 19:58:08 INFO  Log:22 - Displayedtext and expected text are same
+2021-03-05 19:58:28 INFO  Log:22 - Clicked on Ok button on WH dialog
+2021-03-05 19:58:31 INFO  Log:22 - Entered stateid: 123
+2021-03-05 19:58:37 INFO  Log:22 - State id format: 123 --> Less than 9 digits
+2021-03-05 19:58:39 INFO  Log:22 - Entered stateid: 1234567891
+2021-03-05 19:58:45 INFO  Log:22 - State id format: 1234567891 --> Greater than 9 digits
+2021-03-05 19:58:47 INFO  Log:22 - Entered stateid: 123456789kk
+2021-03-05 19:58:53 INFO  Log:22 - State id format: 123456789kk --> Missed hyphen
+2021-03-05 19:58:55 INFO  Log:22 - Entered stateid: 1234567-k2
+2021-03-05 19:59:01 INFO  Log:22 - State id format: 1234567-k2 --> Should have 7 digits and 2 Alphabets
+2021-03-05 19:59:03 INFO  Log:22 - Entered stateid: SS34567-KJ
+2021-03-05 19:59:09 INFO  Log:22 - State id format: SS34567-KJ --> Should have 7 digits,hyphen and 2 Alphabets
+2021-03-05 19:59:11 INFO  Log:22 - Entered stateid: 1234567-AA
+2021-03-05 19:59:17 INFO  Log:22 - State id format: 1234567-AA --> Correct format value has 7 digits and 2 Alphabets
+2021-03-05 19:59:20 INFO  Log:22 - Entered stateid: 123456789
+2021-03-05 19:59:26 INFO  Log:22 - State id format: 123456789 --> Correct format value has 9 digits
+2021-03-05 19:59:26 INFO  Log:11 - =====================================saveForm1099 TEST START=========================================
+2021-03-05 20:00:47 INFO  Log:22 - Save button clicked and launched VES page
+2021-03-05 20:00:47 INFO  Log:11 - =====================================verify_VES TEST START=========================================
+2021-03-05 20:00:47 INFO  Log:22 - State filing checkbox is checked as expected
+2021-03-05 20:00:47 INFO  Log:22 - State filing record not selected
+2021-03-05 20:01:07 INFO  Log:22 - State filing record now selected
+2021-03-05 20:01:09 INFO  Log:22 - Please select recipient details to submit to IRS dialog will be displayed
+2021-03-05 20:01:29 INFO  Log:22 - is alertDialog displayed:true
+2021-03-05 20:01:29 INFO  Log:22 - Check box selected for reviewed dialog
+2021-03-05 20:01:35 INFO  Log:22 - Clicked ok on alert box
+2021-03-05 20:01:40 INFO  Log:11 - =====================================state_reconsillation_page TEST START=========================================
+2021-03-05 20:01:40 INFO  Log:22 - Displayed payername:Test0305202174902
+2021-03-05 20:01:40 INFO  Log:22 - Correct payer name displayed
+2021-03-05 20:01:40 INFO  Log:22 - Displayed form name:1099-MISC
+2021-03-05 20:01:40 INFO  Log:22 - Correct form name displayed
+2021-03-05 20:01:40 INFO  Log:22 - Displayed tex year:2020
+2021-03-05 20:01:40 INFO  Log:22 - Correct tax year displayed.
+2021-03-05 20:01:40 INFO  Log:22 - State Name:GA
+2021-03-05 20:01:40 INFO  Log:22 - Form count:1
+2021-03-05 20:01:40 INFO  Log:22 - Displayed status:Incomplete
+2021-03-05 20:02:11 INFO  Log:11 - =====================================form_details TEST START=========================================
+2021-03-05 20:02:11 INFO  Log:22 - Entered GA withholding ID
+2021-03-05 20:02:21 INFO  Log:22 - Entered signature
+2021-03-05 20:02:31 INFO  Log:22 - Entered Title
+2021-03-05 20:02:41 INFO  Log:22 - after_reconsillation_page
+2021-03-05 20:02:41 INFO  Log:22 - Displayed status after reconsillation:Incomplete
+2021-03-05 20:02:41 INFO  Log:11 - =====================================payment_page TEST START=========================================
+2021-03-05 20:02:41 INFO  Log:11 - =====================================paymentpage_validations TEST START=========================================
+2021-03-05 20:02:41 INFO  Log:22 - --- Fee Information--
+2021-03-05 20:03:01 INFO  Log:11 - =====================================manageforms TEST START=========================================
+2021-03-05 20:03:01 INFO  Log:11 - =====================================manageforms TEST START=========================================
+2021-03-05 20:03:21 INFO  Log:11 - =====================================manage_reconsillation_form TEST START=========================================
+2021-03-05 20:08:43 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-05 20:08:43 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-05 20:11:06 INFO  Log:22 - Enter UserName and Password
+2021-03-05 20:11:49 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-05 20:12:49 INFO  Log:22 - Forms menu clicked
+2021-03-05 20:13:49 INFO  Log:22 - New form menu clicked
+2021-03-05 20:14:09 INFO  Log:22 - year got selected
+2021-03-05 20:14:49 INFO  Log:22 - 1099MISC got selected
+2021-03-05 20:15:51 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-05 20:16:52 INFO  Log:22 - Add payer button clicked
+2021-03-05 20:17:12 INFO  Log:22 - add payer dialog displayed
+2021-03-05 20:18:02 INFO  Log:22 - Random EIN:41220007
+2021-03-05 20:18:52 INFO  Log:22 - Payer Last name:Test0305202181802
+2021-03-05 20:19:17 INFO  Log:22 - Payer address:us
+2021-03-05 20:19:18 INFO  Log:22 - Payer City:us
+2021-03-05 20:19:28 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-05 20:19:58 INFO  Log:22 - Payer phone number:1234567891
+2021-03-05 20:21:29 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-05 20:21:39 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-05 20:21:40 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-05 20:21:41 INFO  Log:11 - =====================================saveForm1099 TEST START=========================================
+2021-03-05 20:22:52 INFO  Log:11 - =====================================clickonLoginTest  TEST START=========================================
+2021-03-05 20:22:52 INFO  Log:22 - User is going to clik On Outer Login Button
+2021-03-05 20:23:01 INFO  Log:22 - Save button clicked and launched VES page
+2021-03-05 20:23:01 INFO  Log:11 - =====================================verify_VES TEST START=========================================
+2021-03-05 20:23:14 INFO  Log:11 - =====================================state_reconsillation_page TEST START=========================================
+2021-03-05 20:23:26 INFO  Log:11 - =====================================form_details TEST START=========================================
+2021-03-05 20:23:38 INFO  Log:22 - after_reconsillation_page
+2021-03-05 20:23:50 INFO  Log:11 - =====================================payment_page TEST START=========================================
+2021-03-05 20:23:50 INFO  Log:11 - =====================================paymentpage_validations TEST START=========================================
+2021-03-05 20:23:50 INFO  Log:22 - --- Fee Information--
+2021-03-05 20:24:02 INFO  Log:11 - =====================================manageforms TEST START=========================================
+2021-03-05 20:24:02 INFO  Log:11 - =====================================manageforms TEST START=========================================
+2021-03-05 20:24:15 INFO  Log:11 - =====================================manage_reconsillation_form TEST START=========================================
+2021-03-05 20:25:12 INFO  Log:22 - Enter UserName and Password
+2021-03-05 20:25:55 INFO  Log:11 - =====================================navigate_1099MISCform TEST START=========================================
+2021-03-05 20:26:55 INFO  Log:22 - Forms menu clicked
+2021-03-05 20:27:55 INFO  Log:22 - New form menu clicked
+2021-03-05 20:28:15 INFO  Log:22 - year got selected
+2021-03-05 20:28:55 INFO  Log:22 - 1099MISC got selected
+2021-03-05 20:29:55 INFO  Log:11 - =====================================form_addpayer TEST START=========================================
+2021-03-05 20:30:57 INFO  Log:22 - Add payer button clicked
+2021-03-05 20:31:17 INFO  Log:22 - add payer dialog displayed
+2021-03-05 20:32:07 INFO  Log:22 - Random EIN:236894931
+2021-03-05 20:32:57 INFO  Log:22 - Payer Last name:Test0305202183207
+2021-03-05 20:33:22 INFO  Log:22 - Payer address:us
+2021-03-05 20:33:22 INFO  Log:22 - Payer City:us
+2021-03-05 20:33:32 INFO  Log:22 - Payer ZIP:35010-____
+2021-03-05 20:34:02 INFO  Log:22 - Payer phone number:1234567891
+2021-03-05 20:35:35 INFO  Log:22 - Add button clicked on add payer dialog
+2021-03-05 20:35:55 INFO  Log:22 - Added payer alert clicked 
+2021-03-05 20:36:56 INFO  Log:22 - Added payer dialog closed
+2021-03-05 20:36:56 INFO  Log:11 - =====================================form_addRecipient TEST START=========================================
+2021-03-05 20:37:57 INFO  Log:22 - Business type selected
+2021-03-05 20:38:07 INFO  Log:22 - Random EIN entered
+2021-03-05 20:38:17 INFO  Log:22 - Recipient EIN:80-1825910
+2021-03-05 20:38:17 INFO  Log:22 - Test business name enetered with time stamp
+2021-03-05 20:38:17 INFO  Log:22 - Recipient Businessname:Test0305202183817
+2021-03-05 20:38:18 INFO  Log:22 - Entered payee or recipient zip code:35005
+2021-03-05 20:38:18 INFO  Log:22 - Entered payee or recipient Address:US
+2021-03-05 20:38:18 INFO  Log:22 - Entered payee or recipient city:Birmingham
+2021-03-05 20:38:18 INFO  Log:22 - Selected recipient state:Alabama
+2021-03-05 20:38:18 INFO  Log:22 - Entered  ClientRecipientId:12345
+2021-03-05 20:39:59 INFO  Log:22 - Recipient successfully added
+2021-03-05 20:40:19 INFO  Log:11 - =====================================singleBox TEST START=========================================
+2021-03-05 20:40:19 INFO  Log:22 - Entered box1 value rents:20
+2021-03-05 20:40:19 INFO  Log:11 - =====================================withHeld_amount_GA TEST START=========================================
+2021-03-05 20:41:12 INFO  Log:22 - WithHeld amount confirmation dialog displayed
+2021-03-05 20:41:12 INFO  Log:22 - Displayedtext and expected text are same
+2021-03-05 20:41:32 INFO  Log:22 - Clicked on Ok button on WH dialog
+2021-03-05 20:41:34 INFO  Log:22 - Entered stateid: 123
+2021-03-05 20:41:40 INFO  Log:22 - State id format: 123 --> Less than 9 digits
+2021-03-05 20:41:42 INFO  Log:22 - Entered stateid: 1234567891
+2021-03-05 20:41:48 INFO  Log:22 - State id format: 1234567891 --> Greater than 9 digits
+2021-03-05 20:41:50 INFO  Log:22 - Entered stateid: 123456789kk
+2021-03-05 20:41:57 INFO  Log:22 - State id format: 123456789kk --> Missed hyphen
+2021-03-05 20:41:59 INFO  Log:22 - Entered stateid: 1234567-k2
+2021-03-05 20:42:05 INFO  Log:22 - State id format: 1234567-k2 --> Should have 7 digits and 2 Alphabets
+2021-03-05 20:42:07 INFO  Log:22 - Entered stateid: SS34567-KJ
+2021-03-05 20:42:13 INFO  Log:22 - State id format: SS34567-KJ --> Should have 7 digits,hyphen and 2 Alphabets
+2021-03-05 20:42:15 INFO  Log:22 - Entered stateid: 1234567-AA
+2021-03-05 20:42:21 INFO  Log:22 - State id format: 1234567-AA --> Correct format value has 7 digits and 2 Alphabets
+2021-03-05 20:42:23 INFO  Log:22 - Entered stateid: 123456789
+2021-03-05 20:42:29 INFO  Log:22 - State id format: 123456789 --> Correct format value has 9 digits
+2021-03-05 20:42:29 INFO  Log:11 - =====================================saveForm1099 TEST START=========================================
+2021-03-05 20:43:50 INFO  Log:22 - Save button clicked and launched VES page
+2021-03-05 20:43:50 INFO  Log:11 - =====================================verify_VES TEST START=========================================
+2021-03-05 20:43:50 INFO  Log:22 - State filing checkbox is checked as expected
+2021-03-05 20:43:50 INFO  Log:22 - State filing record not selected
+2021-03-05 20:44:10 INFO  Log:22 - State filing record now selected
+2021-03-05 20:44:12 INFO  Log:22 - Please select recipient details to submit to IRS dialog will be displayed
+2021-03-05 20:44:32 INFO  Log:22 - is alertDialog displayed:true
+2021-03-05 20:44:32 INFO  Log:22 - Check box selected for reviewed dialog
+2021-03-05 20:44:38 INFO  Log:22 - Clicked ok on alert box
+2021-03-05 20:44:43 INFO  Log:11 - =====================================state_reconsillation_page TEST START=========================================
+2021-03-05 20:44:44 INFO  Log:22 - Displayed payername:Test0305202183207
+2021-03-05 20:44:44 INFO  Log:22 - Correct payer name displayed
+2021-03-05 20:44:44 INFO  Log:22 - Displayed form name:1099-MISC
+2021-03-05 20:44:44 INFO  Log:22 - Correct form name displayed
+2021-03-05 20:44:44 INFO  Log:22 - Displayed tex year:2020
+2021-03-05 20:44:44 INFO  Log:22 - Correct tax year displayed.
+2021-03-05 20:44:44 INFO  Log:22 - State Name:GA
+2021-03-05 20:44:44 INFO  Log:22 - Form count:1
+2021-03-05 20:44:44 INFO  Log:22 - Displayed status:Incomplete
+2021-03-05 20:45:15 INFO  Log:11 - =====================================form_details TEST START=========================================
+2021-03-05 20:45:15 INFO  Log:22 - Entered GA withholding ID
+2021-03-05 20:45:25 INFO  Log:22 - Entered signature
+2021-03-05 20:45:35 INFO  Log:22 - Entered Title
+2021-03-05 20:45:47 INFO  Log:22 - after_reconsillation_page
+2021-03-05 20:45:47 INFO  Log:22 - Displayed status after reconsillation:Incomplete
+2021-03-05 20:45:47 INFO  Log:11 - =====================================payment_page TEST START=========================================
+2021-03-05 20:45:47 INFO  Log:11 - =====================================paymentpage_validations TEST START=========================================
+2021-03-05 20:45:47 INFO  Log:22 - --- Fee Information--
+2021-03-05 20:46:08 INFO  Log:11 - =====================================manageforms TEST START=========================================
+2021-03-05 20:46:08 INFO  Log:11 - =====================================manageforms TEST START=========================================
+2021-03-05 20:46:28 INFO  Log:11 - =====================================manage_reconsillation_form TEST START=========================================

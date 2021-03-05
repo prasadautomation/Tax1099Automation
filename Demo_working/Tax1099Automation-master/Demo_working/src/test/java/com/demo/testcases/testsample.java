@@ -77,7 +77,26 @@ public class testsample extends base  {
 	//	Assert.assertEquals(ActualTitle, ExpectedTitle);
 	}
 	
-	
+	@Test(priority=2)
+	public void exceltestretrive() throws IOException {
+		
+		DataFormatter df = new DataFormatter();
+		//String value = df.formatCellValue(cell);
+	//	String payerTin = df.formatCellValue(sheet.getRow(15).getCell(1));
+		File file = new File("src\\test\\resources\\TestData\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(file);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheet("StateID-Validations"); 
+		int rowlastnumber=sheet.getLastRowNum();
+		System.out.println("Number of rows :"+rowlastnumber);
+		for(int i=1;i<=rowlastnumber;i++) {
+			
+			String statedidvalues=df.formatCellValue(sheet.getRow(i).getCell(1));
+			String stateidvalidations=df.formatCellValue(sheet.getRow(i).getCell(2));
+			Log.info("State id format: "+statedidvalues+" --> "+stateidvalidations);
+		}
+		
+	}
 
 
 
@@ -160,7 +179,7 @@ public void import_recipient() throws InterruptedException, IOException {
 	 */
 
 }
-@Test(priority=2)
+//@Test(priority=2)
 	public void exceltest() throws IOException {
 		Log.startTestCase("write_payer");
 		File file = new File("src\\test\\resources\\TestData\\TestData.xlsx");
