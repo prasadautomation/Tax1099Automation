@@ -9,11 +9,11 @@
   <test thread-count="5" name="Regression">
     <classes>
     <!--  <class name="com.demo.testcases.testsample"/>  -->
-   <!--    <class name="com.demo.testcases.TC_MISC_WorkingFlow_001"/> 
-    <class name="com.demo.testcases.TC_MISC_WorkingFlow_002"/> 
-    <class name="com.demo.testcases.TC_MISC_WorkingFlow_003"/> -->
-    
-    <class name="com.demo.testcases.TC_MISC_WorkingFlow_004"/>
+   <!--  <class name="com.demo.testcases.TC_MISC_WorkingFlow_002"/>  -->
+   <!--  <class name="com.demo.testcases.TC_MISC_WorkingFlow_003"/> -->
+   
+     <class name="com.demo.testcases.TC_MISC_WorkingFlow_001"/> 
+    <class name="com.demo.testcases.TC_MISC_GA_WH_Yes_01"/>
    
        
     </classes>

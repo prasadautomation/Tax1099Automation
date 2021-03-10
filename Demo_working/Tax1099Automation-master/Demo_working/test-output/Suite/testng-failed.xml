@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="Regression(failed)">
     <classes>
-      <class name="com.demo.testcases.TC_MISC_WorkingFlow_004">
+      <class name="com.demo.testcases.TC_MISC_GA_WH_Yes_01">
         <methods>
           <include name="loadConfig"/>
+          <include name="after_reconsillation_page"/>
           <include name="afterSuite"/>
-          <include name="edit_VESpage"/>
         </methods>
-      </class> <!-- com.demo.testcases.TC_MISC_WorkingFlow_004 -->
+      </class> <!-- com.demo.testcases.TC_MISC_GA_WH_Yes_01 -->
     </classes>
   </test> <!-- Regression(failed) -->
 </suite> <!-- Failed suite [Suite] -->

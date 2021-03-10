@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demo.testcases.TC_MISC_GA_WH_Yes_01">
+      <class name="com.demo.testcases.TC_MISC_GA_WH_Yes_03">
         <methods>
-          <include name="payment_page"/>
-          <include name="manage_reconsillation_form"/>
+          <include name="statefiling_checkblockedstate"/>
           <include name="loadConfig"/>
-          <include name="after_reconsillation_page"/>
-          <include name="manageforms"/>
           <include name="afterSuite"/>
         </methods>
-      </class> <!-- com.demo.testcases.TC_MISC_GA_WH_Yes_01 -->
+      </class> <!-- com.demo.testcases.TC_MISC_GA_WH_Yes_03 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

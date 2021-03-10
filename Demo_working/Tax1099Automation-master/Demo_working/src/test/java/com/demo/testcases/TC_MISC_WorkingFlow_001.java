@@ -313,7 +313,7 @@ public class TC_MISC_WorkingFlow_001 extends base {
 		String formattedDate = sdf.format(date);
 		businessname.sendKeys("Test" + formattedDate);
 
-		Log.info("Test business name enetered with time stamp");
+		Log.info("Test business name entered with time stamp");
 
 		String businessName = businessname.getAttribute("value");
 

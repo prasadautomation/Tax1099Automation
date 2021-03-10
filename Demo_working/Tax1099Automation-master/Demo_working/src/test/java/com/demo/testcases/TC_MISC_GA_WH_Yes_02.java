@@ -37,8 +37,9 @@ import com.demo.pages.LoginPage;
 import com.demo.pages.OuterLoginButton;
 import com.demo.utility.Log;
 
-public class TC_MISC_GA_WH_Yes_01 extends base {
-
+public class TC_MISC_GA_WH_Yes_02 extends base{
+	
+	
 	LoginPage LoginPage;
 	OuterLoginButton OuterLoginButton;
 	Db Db;
@@ -314,23 +315,16 @@ public class TC_MISC_GA_WH_Yes_01 extends base {
 		TC_MISC_WorkingFlow_001 caseone = new TC_MISC_WorkingFlow_001();
 		caseone.saveForm1099();
 	}
-
 	@Test(priority = 7)
-	public void verify_VES() throws InterruptedException {
-
-		Log.startTestCase("verify_VES");
-		getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-
-		boolean statefilingchecked = getDriver().findElement(By.xpath("//input[@id='checkboxStateFiling']"))
-				.isDisplayed();
-		if (statefilingchecked == true) {
-
-			Log.info("State filing checkbox is checked as expected");
-
-		} else {
-			Log.info("State filing checkbox is not checked ");
-		}
-
+	public void uncheck_statefiling() throws InterruptedException {
+		
+		Log.startTestCase("uncheck_statefiling");
+		getDriver().manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+		WebElement uncheck=getDriver().findElement(By.xpath("//input[@id='checkboxStateFiling']"));
+		Thread.sleep(2000);
+		uncheck.click();
+		Log.info("State check box unchecked");
+		Thread.sleep(5000);
 		WebElement recordcheckbox = getDriver()
 				.findElement(By.xpath("//td//input[@type='checkbox' and @class='chkbxq']"));
 		boolean recordselectcheck = recordcheckbox.isSelected();
@@ -374,157 +368,207 @@ public class TC_MISC_GA_WH_Yes_01 extends base {
 			Log.info("Alert dialog not displayed");
 		}
 
-		Thread.sleep(5000);
-
-	}
-
-	@Test(priority = 8)
-	public void state_reconsillation_page() throws IOException, InterruptedException {
-
-		Log.startTestCase("state_reconsillation_page");
-		getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-
-		File file = new File("src\\test\\resources\\TestData\\TestData.xlsx");
-		FileInputStream fis = new FileInputStream(file);
-		XSSFWorkbook workbook = new XSSFWorkbook(fis);
-		XSSFSheet sheet = workbook.getSheet("1099MISCdata");
-		String payername = sheet.getRow(3).getCell(1).toString();
-		String displayedpayername = getDriver().findElement(By.xpath("//label[@for='PayerName:']")).getText();
-		Log.info("Displayed payername:" + displayedpayername);
-		Assert.assertEquals(payername, displayedpayername);
-		Log.info("Correct payer name displayed");
-		String formname = "1099-MISC";
-		String displayedformname = getDriver().findElement(By.xpath("//label[@for='FormName:']")).getText();
-		Log.info("Displayed form name:" + displayedformname);
-		Assert.assertEquals(formname, displayedformname);
-		Log.info("Correct form name displayed");
-		String taxyear = "2020";
-		String displayedtaxyear = getDriver().findElement(By.xpath("//label[@for='Tax_Year:']")).getText();
-		Log.info("Displayed tex year:" + displayedtaxyear);
-		Assert.assertEquals(taxyear, displayedtaxyear);
-		Log.info("Correct tax year displayed.");
-		String Statename = getDriver().findElement(By.xpath("//table//tbody//tr//td[3]")).getText();
-		Log.info("State Name:" + Statename);
-		String formcount = getDriver().findElement(By.xpath("//table//tbody//tr//td[4]")).getText();
-		Log.info("Form count:" + formcount);
-		String status = "Incomplete";
-		String displayedstatus = getDriver().findElement(By.xpath("//table//tbody//tr//td[5]")).getText();
-		Log.info("Displayed status:" + displayedstatus);
-		Assert.assertEquals(status, displayedstatus);
-		WebElement reconsillationbutton = getDriver().findElement(By.xpath("//a[@id='btnReconciliation']"));
-		Actions action = new Actions(getDriver());
-		action.moveToElement(reconsillationbutton).click().build().perform();
 		Thread.sleep(30000);
-
-	}
-
-	@Test(priority = 9)
-
-	public void form_details() throws InterruptedException {
-
-		Log.startTestCase("form_details");
-		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		WebElement GAwithHoldingId=getDriver().findElement(By.xpath("//input[@id='GAWithHoldingID']"));
-		GAwithHoldingId.sendKeys(Keys.ENTER);
-		GAwithHoldingId.clear();
-		GAwithHoldingId.sendKeys("7654321");
-				GAwithHoldingId.sendKeys(Keys.ENTER);
-		GAwithHoldingId.sendKeys("VV");
-		Log.info("Entered GA withholding ID");
-		Thread.sleep(10000);
-		getDriver().findElement(By.xpath("//input[@id='GASignature']")).sendKeys("Sreetest");
-		Log.info("Entered signature");
-		Thread.sleep(10000);
-		getDriver().findElement(By.xpath("//input[@id='GATitle']")).sendKeys("Test");
-		Log.info("Entered Title");
-		Thread.sleep(10000);
-		WebElement formsavebutton = getDriver().findElement(
-				By.xpath("//div[@id='DivFormGAG1003Dialog']//following-sibling::div//button[contains(text(),'Save')]"));
-		Actions action = new Actions(getDriver());
-		action.moveToElement(formsavebutton).click().build().perform();
-
-	}
-
-	@Test(priority = 10)
-	public void after_reconsillation_page() throws InterruptedException {
-		Log.info("after_reconsillation_page");
-		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-
-		String statusafterreconsile = "Completed";
-		String displayedstatus = getDriver().findElement(By.xpath("//table//tbody//tr//td[5]")).getText();
-		Log.info("Displayed status after reconsillation:" + displayedstatus);
-	//	Assert.assertEquals(statusafterreconsile, displayedstatus);
-		Log.info("Correct status displayed after reconsillation.");
-		WebElement nextButton = getDriver().findElement(By.xpath("//input[@id='btnNext']"));
-		nextButton.click();
-		Log.info("Next button clicked");
-		//Actions action = new Actions(getDriver());
-		//action.moveToElement(nextButton).click().build().perform();
-		Thread.sleep(10000);
 		
-		boolean alertdialogdisplayed=getDriver().findElement(By.id("alertify-ok")).isDisplayed();
-		if(alertdialogdisplayed==true) {
-			getDriver().findElement(By.id("alertify-ok")).click();
-			Thread.sleep(5000);
-			nextButton.click();
+		
+	}
+	@Test(priority = 8)
+	public void payment_nostatefiling() throws InterruptedException, IOException {
+		
+		Log.startTestCase("payment_nostatefiling");
+		getDriver().manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+		
+		TC_MISC_GA_WH_Yes_01 caseone=new TC_MISC_GA_WH_Yes_01();
+		caseone.payment_page();
+		Log.info("It launched Manage forms page");
+		
+	}
+@Test(priority=9)
+	public void check_statefiling_MF() throws InterruptedException {
+	Log.startTestCase("check_statefiling_MF");
+	getDriver().manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+	
+	WebElement selectSF=getDriver().findElement(By.xpath("//input[@id='checkboxStateFiling1']"));
+	selectSF.click();
+	Thread.sleep(5000);
+	
+	WebElement checkbox=getDriver().findElement(By.xpath("//input[@id='checkbox']"));
+	checkbox.click();
+	Thread.sleep(5000);
+	
+	
+	WebElement ststefilingbutton=getDriver().findElement(By.xpath("//input[@id='stateFiling']"));
+	ststefilingbutton.click();
+	Thread.sleep(30000);
+	
+	boolean paymentdialog=getDriver().findElement(By.xpath("//div[@id='CommonpaymentDialogforall']")).isDisplayed();
+	if(paymentdialog==true) {
+		
+		
+		Log.info("State Filing Fee Details");
+		
+		String statefilingfee=getDriver().findElement(By.id("stateFilingFeeAM")).getText();
+		Log.info("State filing fee:$"+statefilingfee);
+		
+		String reconsilationfee=getDriver().findElement(By.id("RecstateFilingFeeAM")).getText();
+		Log.info("Reconciliation Filing Fee: $"+reconsilationfee);
+		
+		
+		String prepayamt=getDriver().findElement(By.id("PrepayCalamount")).getText();
+		Log.info("Remaining PrePay Balance: $"+prepayamt);
+		
+		String totalamount=getDriver().findElement(By.id("TotalFilingFee")).getText();
+		Log.info("Total Filing Fee: $"+totalamount);
+		
+		
+		
+		getDriver().findElement(By.xpath("//input[@id='CommonCardHolderName']")).sendKeys("Sreetest");
+	
+		getDriver().findElement(By.id("CommonCardHolderName")).sendKeys("Sree Test");
+		Thread.sleep(10000);
+		getDriver().findElement(By.id("CommonCreditCardNumber")).sendKeys("4242424242424242");
+		
+		
+		Select monthdropdown = new Select(getDriver().findElement(By.id("CommonExpiryMonth")));
+		monthdropdown.selectByIndex(2);
+		Log.info("Expiry month got selected");
+		Select yeardropdown = new Select(getDriver().findElement(By.id("CommonExpiryYear")));
+		yeardropdown.selectByVisibleText("2025");
+
+		getDriver().findElement(By.id("CommonCvvNumber")).sendKeys("432");
+		
+		Log.info("--Enter your billing address----");
+
+		getDriver().findElement(By.id("CommonBillingaddress")).sendKeys("Test address");
+		Thread.sleep(10000);
+		String printaddress = getDriver().findElement(By.id("CommonBillingaddress")).getAttribute("value");
+		Log.info("Address is " + printaddress);
+
+		getDriver().findElement(By.id("CommonCity")).sendKeys("Test city");
+		Thread.sleep(10000);
+		String printcity = getDriver().findElement(By.id("CommonCity")).getAttribute("value");
+		Log.info("City is " + printcity);
+
+		Select statedropdown = new Select(getDriver().findElement(By.xpath("//select[@id='StateCodesdll']")));
+		statedropdown.selectByVisibleText("Alabama");
+		Thread.sleep(10000);
+		getDriver().findElement(By.id("CommonZipcode")).sendKeys("35010");
+		Select countrydropdown = new Select(getDriver().findElement(By.xpath("//select[@id='CommonCountry']")));
+		countrydropdown.selectByVisibleText("United States of America");
+		Thread.sleep(5000);
+		String emailid = getDriver().findElement(By.id("CommonContactEmail")).getAttribute("value");
+		boolean emailpresent = emailid.isEmpty();
+
+		if (emailpresent == true) {
+
+			Log.info("Email id is not enteered before, should enter now");
+
+			getDriver().findElement(By.id("CommonContactEmail")).sendKeys("sridevi@zenwork.com");
+		} else {
+
+			Log.info("emaild is present and displayed email id is:" + emailid);
+		}
+
+		getDriver().findElement(By.xpath("//button[contains(text(),'Pay Now')]")).click();
+		Thread.sleep(10000);
+		boolean alertbox=getDriver().findElement(By.xpath("//a[@id='alertify-resetFocusBack']//parent::div")).isDisplayed();
+		if(alertbox==true) {
+			
+			getDriver().findElement(By.xpath("//button[@id='alertify-ok']")).click();
+			Log.info("Ok button clicked ");
+			Thread.sleep(10000);
 		}
 		
-		
 	}
-
-	@Test(priority=11)
-	public void payment_page() throws InterruptedException, IOException {
-		
-		Log.startTestCase("payment_page");
-		getDriver().manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-		TC_MISC_WorkingFlow_001 firstflow=new TC_MISC_WorkingFlow_001();
-		firstflow.paymentpage_validations();
-		Thread.sleep(20000);
-		firstflow.payment_confirmationPage();
-		Thread.sleep(20000);
-		firstflow.filing_history();
-		Thread.sleep(20000);
+	
+	WebElement statecheckbox=getDriver().findElement(By.id("checkboxStateFiling1"));
+	boolean statecheckboxdisabled=statecheckbox.isEnabled();
+	if(statecheckboxdisabled==false) {
+	Log.info("State check box  disabled as expected");
+	
 	}
-	@Test(priority=12)
-	public void manageforms() throws IOException {
-		Log.startTestCase("manageforms");
-		getDriver().manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-		TC_MISC_WorkingFlow_001 firstflow=new TC_MISC_WorkingFlow_001();
-		firstflow.manageforms();
-		
 	}
-	@Test(priority=13)
-	public void manage_reconsillation_form() throws InterruptedException, IOException {
-		Log.startTestCase("manage_reconsillation_form");
-		getDriver().manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-		WebElement reconsillationtab=getDriver().findElement(By.xpath("//label[@id='lblReconciliation']"));
-		reconsillationtab.click();
-		Thread.sleep(10000);
-		WebElement payerslist=getDriver().findElement(By.xpath("//input[@id='StateReconciliationPayers']//preceding-sibling::span"));
-		payerslist.click();
-		Thread.sleep(10000);
-		File file = new File("src\\test\\resources\\TestData\\TestData.xlsx");
-		FileInputStream fis = new FileInputStream(file);
-		XSSFWorkbook workbook = new XSSFWorkbook(fis);
-		XSSFSheet sheet = workbook.getSheet("1099MISCdata");
-		String payername = sheet.getRow(3).getCell(1).toString();
-		
-		
-		List<WebElement> myElements = getDriver()
-				.findElements(By.xpath("//div[@id='StateReconciliationPayers-list']//li"));
-		int elementssize = myElements.size();
-		Log.info("Number of elements in the drop down:" + elementssize);
-		for (int i = 0; i <= (elementssize - 1); i++) {
+	
+@Test(priority=10)
+public void manageforms() throws IOException {
+	Log.startTestCase("manageforms");
+	getDriver().manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+	TC_MISC_WorkingFlow_001 firstflow=new TC_MISC_WorkingFlow_001();
+	firstflow.manageforms();
+	
+}
 
-		//	Log.info(i + "." + "payer name:" + myElements.get(i).getText());
-			String listedpayername = myElements.get(i).getText();
-			if (listedpayername.equals(payername)) {
+@Test(priority=11)
+public void manage_stateform() throws InterruptedException, IOException {
+	
+	Log.startTestCase("manage_stateform");
+	getDriver().findElement(By.xpath("//label[@id='lblStateRejection']")).click();
+	Thread.sleep(10000);
+	
+	getDriver().findElement(By.xpath("//input[@id='StateFormName']//preceding-sibling::span")).click();
+	Thread.sleep(5000);
+	String formname="1099-MISC";
+	List<WebElement> myElements = getDriver()
+			.findElements(By.xpath("//div[@id='StateFormName-list']//div//ul//li"));
+	int elementssize = myElements.size();
+	Log.info("Number of elements in the drop down:" + elementssize);
+	for (int i = 0; i <= (elementssize - 1); i++) {
 
-				Log.info(listedpayername);
-				myElements.get(i).click();
-				break;
-			}
+	//	Log.info(i + "." + "payer name:" + myElements.get(i).getText());
+		String selectedformname = myElements.get(i).getText();
+		if (selectedformname.equals(formname)) {
+
+			Log.info("Selected form name:"+selectedformname);
+			myElements.get(i).click();
+			break;
 		}
-		Log.info("Reconsillation record displayed");
 	}
+	
+	getDriver().findElement(By.xpath("//input[@id='StateTaxYear']//preceding-sibling::span")).click();
+	Thread.sleep(10000);
+	String year="2020";
+	List<WebElement> yearelements = getDriver()
+			.findElements(By.xpath("//div[@id='StateTaxYear-list']//ul//li"));
+	int yearssize = yearelements.size();
+	Log.info("Number of elements in the drop down:" + yearssize);
+	for (int i = 0; i <= (yearssize - 1); i++) {
+
+	
+		String selectedyear = yearelements.get(i).getText();
+		if (selectedyear.equals(year)) {
+
+			Log.info("Selected year:"+selectedyear);
+			yearelements.get(i).click();
+			break;
+		}
+	}
+	
+	WebElement payerslist=getDriver().findElement(By.xpath("//input[@id='StatePayers']//preceding-sibling::span"));
+	payerslist.click();
+	Thread.sleep(10000);
+	File file = new File("src\\test\\resources\\TestData\\TestData.xlsx");
+	FileInputStream fis = new FileInputStream(file);
+	XSSFWorkbook workbook = new XSSFWorkbook(fis);
+	XSSFSheet sheet = workbook.getSheet("1099MISCdata");
+	String payername = sheet.getRow(3).getCell(1).toString();
+	
+	
+	List<WebElement> payers = getDriver()
+			.findElements(By.xpath("//div[@id='StatePayers-list']//li"));
+	int payerssize = payers.size();
+	Log.info("Number of payers in the drop down:" + payerssize);
+	for (int i = 0; i <= (payerssize - 1); i++) {
+
+	//	Log.info(i + "." + "payer name:" + myElements.get(i).getText());
+		String listedpayername = payers.get(i).getText();
+		if (listedpayername.equals(payername)) {
+
+			Log.info(listedpayername);
+			payers.get(i).click();
+			break;
+		}
+	}
+	Log.info("State from record displayed");
+	
+}
 }

@@ -23,6 +23,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
@@ -42,6 +43,20 @@ import com.demo.utility.Log;
 
 @Listeners(CustomListener.class)
 public class testsample extends base  {
+	
+	
+//	@Test(priority=1)
+	public void randomnumber() {
+		
+		
+		Random random = new Random();
+		long randomnumber = random.nextInt(1000000000);
+		
+		Log.info("Random number:"+randomnumber);
+		
+		
+		
+	}
 
 	/*public void random() {
 	Random randomGenerator = new Random();
@@ -66,18 +81,193 @@ public class testsample extends base  {
 		Thread.sleep(10000);
 		LoginPage = OuterLoginButton.clickonLogin();
 		Log.info("Enter UserName and Password");
+		
+		
+		
 		// Db Db =
 		// LoginPage.login(prop.getProperty("UserName"),prop.getProperty("Password"));
 		Db Db = LoginPage.login(Useremail, Passwd);
 		Thread.sleep(10000);
 		
 		
+		WebElement formselement = getDriver().findElement(By.xpath("//p[contains(text(),'Forms')]"));
+
+		Thread.sleep(20000);
+		
+		formselement.click();
+		
+		Thread.sleep(5000);
+		
+		WebElement vesmenu=getDriver().findElement(By.xpath("//div[@id='menu_body1']//a[contains(text(),'View/Edit/Submit Forms')]"));
+		vesmenu.click();
+		
+		Thread.sleep(10000);
+getDriver().findElement(By.xpath("//input[@id='TaxYear']//parent::span")).click();
+		
+		List<WebElement> taxyearelements = getDriver().findElements(By.xpath("//div[@id='TaxYear-list']//ul//li"));
+		int yearssize=taxyearelements.size();
+		Log.info("Number of payers in the drop down:"+yearssize);
+		for(int i=0;i<=(yearssize-1);i++)
+		{
+			
+		//	Log.info(i+"."+"payer name:"+myElements.get(i).getText());
+			String taxyear=taxyearelements.get(i).getText();
+			if (taxyear.equals("2020")) {
+				
+				Log.info("Tax year"+taxyear);
+				taxyearelements.get(i).click();
+				break;
+			}
+		}
+		
+		
+		
+		
+		File file = new File("src\\test\\resources\\TestData\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(file);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheet("1099MISCdata");
+		String payerbusinessname=sheet.getRow(3).getCell(1).toString();
+		//Select payerlist=new Select(getDriver().findElement(By.xpath("//select[@id='ddlPayer']")));
+//		payerlist.selectByVisibleText(payerbusinessname);
+		getDriver().findElement(By.xpath("//input[@id='Payers']//preceding-sibling::span")).click();
+
+		
+		List<WebElement> payernameslist=getDriver().findElements(By.xpath("//div[@id='Payers-list']//ul//li"));
+		int payerssize=payernameslist.size();
+		Log.info("Number of payers in the drop down:"+payerssize);
+		for(int i=0;i<=(payerssize-1);i++)
+		{
+			
+		//	Log.info(i+"."+"payer name:"+myElements.get(i).getText());
+			String payername=payernameslist.get(i).getText();
+			if (payername.equals(payerbusinessname)) {
+				
+				Log.info("Payername"+payername);
+				payernameslist.get(i).click();
+				break;
+			}
+		}
+		Thread.sleep(10000);
+		WebElement recordcheckbox = getDriver()
+				.findElement(By.xpath("//td//input[@type='checkbox' and @class='chkbxq']"));
+		boolean recordselectcheck = recordcheckbox.isSelected();
+		if (recordselectcheck == true) {
+			Log.info("State filing record selected");
+
+		} else {
+
+			Log.info("State filing record not selected");
+			Thread.sleep(10000);
+			Actions action = new Actions(getDriver());
+			action.moveToElement(recordcheckbox).click().build().perform();
+
+			Thread.sleep(10000);
+		}
+
+		boolean recordselectchecktwo = recordcheckbox.isSelected();
+		if (recordselectchecktwo == true) {
+			Log.info("State filing record now selected");
+
+		}
+
+		getDriver().findElement(By.xpath("//input[@id='btnSubmit']")).click();
+		Log.info("Please select recipient details to submit to IRS dialog will be displayed");
+		Thread.sleep(10000);
+		getDriver().findElement(By.id("alertify-ok")).click();
+		Thread.sleep(10000);
+		WebElement alertdialog = getDriver().findElement(By.xpath("//section[@id='alertify']"));
+		boolean alertdialogdisplay = alertdialog.isDisplayed();
+		Log.info("is alertDialog displayed:" + alertdialogdisplay);
+		if (alertdialogdisplay == true) {
+
+			getDriver().findElement(By.xpath("//input[@id='AgreeChkBoxId']")).click();
+			Log.info("Check box selected for reviewed dialog");
+			Thread.sleep(5000);
+
+			getDriver().findElement(By.id("alertify-ok")).click();
+			Log.info("Clicked ok on alert box");
+		} else {
+
+			Log.info("Alert dialog not displayed");
+		}
+
+		Thread.sleep(10000);
+
 //		String ActualTitle = getDriver().getTitle();
 	//	String ExpectedTitle = "Amazon";
 	//	Assert.assertEquals(ActualTitle, ExpectedTitle);
 	}
 	
-	@Test(priority=2)
+	@Test(priority = 2)
+	public void state_reconsillation_page() throws IOException, InterruptedException {
+
+		Log.startTestCase("state_reconsillation_page");
+		getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+		File file = new File("src\\test\\resources\\TestData\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(file);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheet("1099MISCdata");
+		String payername = sheet.getRow(3).getCell(1).toString();
+		String displayedpayername = getDriver().findElement(By.xpath("//label[@for='PayerName:']")).getText();
+		Log.info("Displayed payername:" + displayedpayername);
+		Assert.assertEquals(payername, displayedpayername);
+		Log.info("Correct payer name displayed");
+		String formname = "1099-MISC";
+		String displayedformname = getDriver().findElement(By.xpath("//label[@for='FormName:']")).getText();
+		Log.info("Displayed form name:" + displayedformname);
+		Assert.assertEquals(formname, displayedformname);
+		Log.info("Correct form name displayed");
+		String taxyear = "2020";
+		String displayedtaxyear = getDriver().findElement(By.xpath("//label[@for='Tax_Year:']")).getText();
+		Log.info("Displayed tex year:" + displayedtaxyear);
+		Assert.assertEquals(taxyear, displayedtaxyear);
+		Log.info("Correct tax year displayed.");
+		String Statename = getDriver().findElement(By.xpath("//table//tbody//tr//td[3]")).getText();
+		Log.info("State Name:" + Statename);
+		String formcount = getDriver().findElement(By.xpath("//table//tbody//tr//td[4]")).getText();
+		Log.info("Form count:" + formcount);
+		String status = "Incomplete";
+		String displayedstatus = getDriver().findElement(By.xpath("//table//tbody//tr//td[5]")).getText();
+		Log.info("Displayed status:" + displayedstatus);
+		Assert.assertEquals(status, displayedstatus);
+		WebElement reconsillationbutton = getDriver().findElement(By.xpath("//a[@id='btnReconciliation']"));
+		Actions action = new Actions(getDriver());
+		action.moveToElement(reconsillationbutton).click().build().perform();
+		Thread.sleep(30000);
+
+	}
+
+	@Test(priority = 3)
+
+	public void form_details() throws InterruptedException {
+
+		Log.startTestCase("form_details");
+		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		WebElement GAwithHoldingId=getDriver().findElement(By.xpath("//input[@id='GAWithHoldingID']"));
+		GAwithHoldingId.sendKeys(Keys.ENTER);
+		GAwithHoldingId.clear();
+		GAwithHoldingId.sendKeys("7654321");
+				GAwithHoldingId.sendKeys(Keys.ENTER);
+		GAwithHoldingId.sendKeys("VV");
+		Log.info("Entered GA withholding ID");
+		Thread.sleep(10000);
+		getDriver().findElement(By.xpath("//input[@id='GASignature']")).sendKeys("Sreetest");
+		Log.info("Entered signature");
+		Thread.sleep(10000);
+		getDriver().findElement(By.xpath("//input[@id='GATitle']")).sendKeys("Test");
+		Log.info("Entered Title");
+		Thread.sleep(10000);
+		WebElement formsavebutton = getDriver().findElement(
+				By.xpath("//div[@id='DivFormGAG1003Dialog']//following-sibling::div//button[contains(text(),'Save')]"));
+		Actions action = new Actions(getDriver());
+		action.moveToElement(formsavebutton).click().build().perform();
+
+	}
+
+	
+	//@Test(priority=2)
 	public void exceltestretrive() throws IOException {
 		
 		DataFormatter df = new DataFormatter();
