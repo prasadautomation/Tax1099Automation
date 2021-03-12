@@ -387,13 +387,17 @@ public class TC_MISC_GA_WH_Yes_02 extends base{
 	public void check_statefiling_MF() throws InterruptedException {
 	Log.startTestCase("check_statefiling_MF");
 	getDriver().manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
-	
-	WebElement selectSF=getDriver().findElement(By.xpath("//input[@id='checkboxStateFiling1']"));
-	selectSF.click();
-	Thread.sleep(5000);
+	Thread.sleep(20000);
+/*	WebElement selectSF=getDriver().findElement(By.xpath("//input[@id='checkboxStateFiling1']"));
+	Actions selectSFbutton=new Actions(getDriver());
+	selectSFbutton.moveToElement(selectSF).click().build().perform();
+	//selectSF.click();
+	Thread.sleep(5000);*/
 	
 	WebElement checkbox=getDriver().findElement(By.xpath("//input[@id='checkbox']"));
-	checkbox.click();
+	Actions selectSFbutton=new Actions(getDriver());
+	selectSFbutton.moveToElement(checkbox).click().build().perform();
+	//checkbox.click();
 	Thread.sleep(5000);
 	
 	

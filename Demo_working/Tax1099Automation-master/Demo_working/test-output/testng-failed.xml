@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demo.testcases.TC_MISC_GA_WH_Yes_03">
+      <class name="com.demo.testcases.TC_MISC_GA_WH_Yes_05">
         <methods>
-          <include name="statefiling_checkblockedstate"/>
+          <include name="manageforms_afterEdit_Wh"/>
           <include name="loadConfig"/>
+          <include name="edit_WHamount_MF"/>
           <include name="afterSuite"/>
+          <include name="state_Filing_MF"/>
         </methods>
-      </class> <!-- com.demo.testcases.TC_MISC_GA_WH_Yes_03 -->
+      </class> <!-- com.demo.testcases.TC_MISC_GA_WH_Yes_05 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
