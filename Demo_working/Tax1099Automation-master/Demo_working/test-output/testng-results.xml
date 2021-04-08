@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="7" failed="3" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-12T20:59:22 IST" name="Default suite" finished-at="2021-03-12T21:31:20 IST" duration-ms="1918344">
+  <suite started-at="2021-04-08T10:23:03 IST" name="Default suite" finished-at="2021-04-08T10:43:19 IST" duration-ms="1215975">
     <groups>
     </groups>
-    <test started-at="2021-03-12T20:59:22 IST" name="Default test" finished-at="2021-03-12T21:31:20 IST" duration-ms="1918344">
-      <class name="com.demo.testcases.TC_MISC_GA_WH_Yes_05">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.demo.testcases.TC_MISC_GA_WH_Yes_05@57cf54e1]" started-at="2021-03-12T20:59:22 IST" name="loadConfig" finished-at="2021-03-12T20:59:22 IST" duration-ms="86" status="PASS">
+    <test started-at="2021-04-08T10:23:03 IST" name="Default test" finished-at="2021-04-08T10:43:19 IST" duration-ms="1215975">
+      <class name="com.demo.testcases.TC_NEC_AL_WH_Yes_02">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.demo.testcases.TC_NEC_AL_WH_Yes_02@316bcf94]" started-at="2021-04-08T10:23:02 IST" name="loadConfig" finished-at="2021-04-08T10:23:03 IST" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method signature="clickonLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.demo.testcases.TC_MISC_GA_WH_Yes_05@57cf54e1]" started-at="2021-03-12T20:59:22 IST" name="clickonLoginTest" data-provider="credentials" finished-at="2021-03-12T21:02:24 IST" duration-ms="182464" status="PASS">
+        <test-method signature="clickonLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.demo.testcases.TC_NEC_AL_WH_Yes_02@316bcf94]" started-at="2021-04-08T10:23:04 IST" name="clickonLoginTest" data-provider="credentials" finished-at="2021-04-08T10:25:59 IST" duration-ms="175534" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonLoginTest -->
-        <test-method signature="navigate_miscform()[pri:2, instance:com.demo.testcases.TC_MISC_GA_WH_Yes_05@57cf54e1]" started-at="2021-03-12T21:02:24 IST" name="navigate_miscform" finished-at="2021-03-12T21:06:25 IST" duration-ms="240378" status="PASS">
+        <test-method signature="navigate_necform()[pri:2, instance:com.demo.testcases.TC_NEC_AL_WH_Yes_02@316bcf94]" started-at="2021-04-08T10:25:59 IST" name="navigate_necform" finished-at="2021-04-08T10:28:40 IST" duration-ms="160642" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigate_miscform -->
-        <test-method signature="form_addpayer(java.util.HashMap)[pri:3, instance:com.demo.testcases.TC_MISC_GA_WH_Yes_05@57cf54e1]" started-at="2021-03-12T21:06:25 IST" name="form_addpayer" data-provider="addpayerrandombusinessein" finished-at="2021-03-12T21:12:55 IST" duration-ms="390396" status="PASS">
+        </test-method> <!-- navigate_necform -->
+        <test-method signature="form_addpayer(java.util.HashMap)[pri:3, instance:com.demo.testcases.TC_NEC_AL_WH_Yes_02@316bcf94]" started-at="2021-04-08T10:28:40 IST" name="form_addpayer" data-provider="addpayerrandombusinessein" finished-at="2021-04-08T10:34:25 IST" duration-ms="344644" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,237 +42,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- form_addpayer -->
-        <test-method signature="recipient_WH_Pay()[pri:4, instance:com.demo.testcases.TC_MISC_GA_WH_Yes_05@57cf54e1]" started-at="2021-03-12T21:12:55 IST" name="recipient_WH_Pay" finished-at="2021-03-12T21:24:51 IST" duration-ms="715561" status="PASS">
+        <test-method signature="whamount_AL()[pri:4, instance:com.demo.testcases.TC_NEC_AL_WH_Yes_02@316bcf94]" started-at="2021-04-08T10:34:25 IST" name="whamount_AL" finished-at="2021-04-08T10:34:40 IST" duration-ms="15079" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- recipient_WH_Pay -->
-        <test-method signature="verify_manageStateForms()[pri:5, instance:com.demo.testcases.TC_MISC_GA_WH_Yes_05@57cf54e1]" started-at="2021-03-12T21:24:51 IST" name="verify_manageStateForms" finished-at="2021-03-12T21:25:42 IST" duration-ms="51395" status="PASS">
+        </test-method> <!-- whamount_AL -->
+        <test-method signature="add_Recpt_boxamt()[pri:5, instance:com.demo.testcases.TC_NEC_AL_WH_Yes_02@316bcf94]" started-at="2021-04-08T10:34:40 IST" name="add_Recpt_boxamt" finished-at="2021-04-08T10:39:57 IST" duration-ms="317283" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_manageStateForms -->
-        <test-method signature="verify_Manage_reconciliationForm()[pri:6, instance:com.demo.testcases.TC_MISC_GA_WH_Yes_05@57cf54e1]" started-at="2021-03-12T21:25:42 IST" name="verify_Manage_reconciliationForm" finished-at="2021-03-12T21:26:23 IST" duration-ms="40599" status="PASS">
+        </test-method> <!-- add_Recpt_boxamt -->
+        <test-method signature="unCheck_necVES_Wh()[pri:6, instance:com.demo.testcases.TC_NEC_AL_WH_Yes_02@316bcf94]" started-at="2021-04-08T10:39:57 IST" name="unCheck_necVES_Wh" finished-at="2021-04-08T10:41:42 IST" duration-ms="105016" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_Manage_reconciliationForm -->
-        <test-method signature="state_Filing_MF()[pri:7, instance:com.demo.testcases.TC_MISC_GA_WH_Yes_05@57cf54e1]" started-at="2021-03-12T21:26:23 IST" name="state_Filing_MF" finished-at="2021-03-12T21:27:03 IST" duration-ms="40356" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=88.0.4324.182)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-FLJMP0F', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\USER_L~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1ee2bcb76f764912740f1227f3397edb]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=88.0.4324.182)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-FLJMP0F', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\USER_L~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1ee2bcb76f764912740f1227f3397edb
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at com.demo.testcases.TC_MISC_GA_WH_Yes_02.check_statefiling_MF(TC_MISC_GA_WH_Yes_02.java:398)
-at com.demo.testcases.TC_MISC_GA_WH_Yes_05.state_Filing_MF(TC_MISC_GA_WH_Yes_05.java:390)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+        </test-method> <!-- unCheck_necVES_Wh -->
+        <test-method signature="paymentpage_nostatfiling_NEC()[pri:7, instance:com.demo.testcases.TC_NEC_AL_WH_Yes_02@316bcf94]" started-at="2021-04-08T10:41:42 IST" name="paymentpage_nostatfiling_NEC" finished-at="2021-04-08T10:42:19 IST" duration-ms="36380" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- state_Filing_MF -->
-        <test-method signature="verify_MSF_MRF()[pri:8, instance:com.demo.testcases.TC_MISC_GA_WH_Yes_05@57cf54e1]" started-at="2021-03-12T21:27:03 IST" name="verify_MSF_MRF" finished-at="2021-03-12T21:28:35 IST" duration-ms="91964" status="PASS">
+        </test-method> <!-- paymentpage_nostatfiling_NEC -->
+        <test-method signature="verify_MF_MSF_MRF()[pri:8, instance:com.demo.testcases.TC_NEC_AL_WH_Yes_02@316bcf94]" started-at="2021-04-08T10:42:19 IST" name="verify_MF_MSF_MRF" finished-at="2021-04-08T10:43:19 IST" duration-ms="60048" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_MSF_MRF -->
-        <test-method signature="edit_WHamount_MF()[pri:9, instance:com.demo.testcases.TC_MISC_GA_WH_Yes_05@57cf54e1]" started-at="2021-03-12T21:28:35 IST" name="edit_WHamount_MF" finished-at="2021-03-12T21:31:00 IST" duration-ms="144686" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"alertify-ok"}
-  (Session info: chrome=88.0.4324.182)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-FLJMP0F', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\USER_L~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1ee2bcb76f764912740f1227f3397edb
-*** Element info: {Using=xpath, value=alertify-ok}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"alertify-ok"}
-  (Session info: chrome=88.0.4324.182)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-FLJMP0F', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\USER_L~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1ee2bcb76f764912740f1227f3397edb
-*** Element info: {Using=xpath, value=alertify-ok}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.demo.testcases.TC_MISC_GA_WH_Yes_05.edit_WHamount_MF(TC_MISC_GA_WH_Yes_05.java:433)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- edit_WHamount_MF -->
-        <test-method signature="manageforms_afterEdit_Wh()[pri:10, instance:com.demo.testcases.TC_MISC_GA_WH_Yes_05@57cf54e1]" started-at="2021-03-12T21:31:00 IST" name="manageforms_afterEdit_Wh" finished-at="2021-03-12T21:31:20 IST" duration-ms="20073" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='alertify-ok']"}
-  (Session info: chrome=88.0.4324.182)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-FLJMP0F', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\USER_L~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1ee2bcb76f764912740f1227f3397edb
-*** Element info: {Using=xpath, value=//button[@id='alertify-ok']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='alertify-ok']"}
-  (Session info: chrome=88.0.4324.182)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-FLJMP0F', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\USER_L~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1ee2bcb76f764912740f1227f3397edb
-*** Element info: {Using=xpath, value=//button[@id='alertify-ok']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.demo.testcases.TC_MISC_GA_WH_Yes_05.manageforms_afterEdit_Wh(TC_MISC_GA_WH_Yes_05.java:485)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- manageforms_afterEdit_Wh -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.demo.testcases.TC_MISC_GA_WH_Yes_05@57cf54e1]" started-at="2021-03-12T21:31:20 IST" name="afterSuite" finished-at="2021-03-12T21:31:20 IST" duration-ms="2" status="FAIL">
+        </test-method> <!-- verify_MF_MSF_MRF -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.demo.testcases.TC_NEC_AL_WH_Yes_02@316bcf94]" started-at="2021-04-08T10:43:19 IST" name="afterSuite" finished-at="2021-04-08T10:43:19 IST" duration-ms="169" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "com.demo.utility.ExtentManager.extent" is null]]>
@@ -306,7 +96,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.demo.testcases.TC_MISC_GA_WH_Yes_05 -->
+      </class> <!-- com.demo.testcases.TC_NEC_AL_WH_Yes_02 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

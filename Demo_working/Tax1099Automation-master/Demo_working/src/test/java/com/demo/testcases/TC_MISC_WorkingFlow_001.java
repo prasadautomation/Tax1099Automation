@@ -70,7 +70,7 @@ public class TC_MISC_WorkingFlow_001 extends base {
 
 		Log.startTestCase("navigate_1099MISCform");
 
-		Thread.sleep(40000);
+		Thread.sleep(20000);
 		WebElement formselement = getDriver().findElement(By.xpath("//p[contains(text(),'Forms')]"));
 
 		Thread.sleep(20000);
@@ -86,11 +86,11 @@ public class TC_MISC_WorkingFlow_001 extends base {
 		WebElement newform = getDriver().findElement(By.xpath("//a[contains(text(),'New Form')]"));
 		// WebDriverWait formwait=new WebDriverWait(getDriver(),60);
 		// formwait.until(ExpectedConditions.elementToBeClickable(newform));
-
+Thread.sleep(5000);
 		newform.click();
 //	JavascriptExecutor newformexe = (JavascriptExecutor) getDriver();
 //	newformexe.executeScript("arguments[0].click();", newform);
-		Thread.sleep(60000);
+		Thread.sleep(20000);
 		Log.info("New form menu clicked");
 
 		WebElement yearelement = getDriver().findElement(By.xpath("//div[@id='vtab']//h1[contains(text(),'2020')]"));
@@ -107,7 +107,7 @@ public class TC_MISC_WorkingFlow_001 extends base {
 		Thread.sleep(20000);
 		Log.info("1099MISC got selected");
 
-		Thread.sleep(60000);
+		Thread.sleep(20000);
 
 	}
 
@@ -115,7 +115,7 @@ public class TC_MISC_WorkingFlow_001 extends base {
 	public void form_addpayer(HashMap<String, String> hashMapValue) throws Throwable {
 
 		Log.startTestCase("form_addpayer");
-		Thread.sleep(50000);
+		Thread.sleep(30000);
 
 		WebElement addpayerbutton = getDriver().findElement(By.id("btnAddEditPayer"));
 		Thread.sleep(50000);
@@ -283,9 +283,10 @@ public class TC_MISC_WorkingFlow_001 extends base {
 		XSSFSheet sheet = workbook.getSheet("1099MISCdata");
 		getDriver().findElement(By.id("btnAddPayee")).click();
 		Thread.sleep(50000);
+Actions addpayeeaction=new Actions(getDriver());
 
-		getDriver().findElement(By.xpath("//input[@id='rblPayeeType']")).click();
-
+	WebElement addpayeebutton=	getDriver().findElement(By.xpath("//input[@id='rblPayeeType']"));
+	addpayeeaction.moveToElement(addpayeebutton).click().build().perform();
 		Thread.sleep(10000);
 		Log.info("Business type selected");
 		Random random = new Random();
@@ -360,7 +361,8 @@ public class TC_MISC_WorkingFlow_001 extends base {
 		Cell cellone11 = row11.createCell(1);
 		cellzero11.setCellValue("Recipient state");
 		cellone11.setCellValue(payeestate);
-		String ClientRecipientId = "12345";
+		int randomclientid = random.nextInt(100000);
+		String ClientRecipientId = String.valueOf(randomclientid);
 		getDriver().findElement(By.id("ClientRecipientId")).sendKeys(ClientRecipientId);
 		Log.info("Entered  ClientRecipientId:" + ClientRecipientId);
 		Thread.sleep(30000);

@@ -249,12 +249,11 @@ public void withHeld_amount_GA() throws IOException, InterruptedException {
 	getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	Select statelist = new Select(getDriver().findElement(By.id("State1")));
 	statelist.selectByVisibleText("GA");
-	WebElement whamount = getDriver().findElement(By.id("StateTaxWH1"));
-	whamount.sendKeys("100");
-	Thread.sleep(10000);
-
+	WebElement stateamount=getDriver().findElement(By.xpath("//input[@id='StateTaxWH1']"));
+	stateamount.clear();
+	stateamount.sendKeys("100");
 	WebElement whamountsatetwo = getDriver().findElement(By.id("StateTaxWH2"));
-
+	//whamountsatetwo.sendKeys("100");
 	whamountsatetwo.sendKeys(Keys.ENTER);
 	Thread.sleep(10000);
 	Actions action = new Actions(getDriver());
@@ -454,7 +453,7 @@ public void after_reconsillation_page() throws InterruptedException {
 		Thread.sleep(5000);
 		nextButton.click();
 	}
-	
+	else {Log.info("Alert box not displayed");}
 	
 }
 

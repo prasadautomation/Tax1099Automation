@@ -6,13 +6,38 @@
   </listeners>
   <test thread-count="5" name="Regression(failed)">
     <classes>
-      <class name="com.demo.testcases.TC_MISC_GA_WH_Yes_01">
+      <class name="com.demo.testcases.TC_MISC_GA_WH_Yes_08">
         <methods>
+          <include name="VES_Page_reconsillation_verify"/>
           <include name="loadConfig"/>
-          <include name="after_reconsillation_page"/>
+          <include name="editState_MF"/>
+          <include name="afterSuite"/>
+          <include name="recipient_WH_Pay"/>
+        </methods>
+      </class> <!-- com.demo.testcases.TC_MISC_GA_WH_Yes_08 -->
+      <class name="com.demo.testcases.TC_MISC_GA_WH_Yes_05">
+        <methods>
+          <include name="manageforms_afterEdit_Wh"/>
+          <include name="loadConfig"/>
+          <include name="edit_WHamount_MF"/>
+          <include name="afterSuite"/>
+          <include name="state_Filing_MF"/>
+        </methods>
+      </class> <!-- com.demo.testcases.TC_MISC_GA_WH_Yes_05 -->
+      <class name="com.demo.testcases.TC_MISC_GA_WH_Yes_07">
+        <methods>
+          <include name="block_oneform_details_edit"/>
+          <include name="recipient_WH_Pay"/>
+          <include name="submit_reconsillationForm_payment"/>
+          <include name="loadConfig"/>
+          <include name="VESPage_twoforms"/>
+          <include name="verify_MF_MSF_MRF"/>
+          <include name="Edit_Reconciliation"/>
+          <include name="block_oneform_MSF"/>
+          <include name="form_addpayer" invocation-numbers="0"/>
           <include name="afterSuite"/>
         </methods>
-      </class> <!-- com.demo.testcases.TC_MISC_GA_WH_Yes_01 -->
+      </class> <!-- com.demo.testcases.TC_MISC_GA_WH_Yes_07 -->
     </classes>
   </test> <!-- Regression(failed) -->
 </suite> <!-- Failed suite [Suite] -->

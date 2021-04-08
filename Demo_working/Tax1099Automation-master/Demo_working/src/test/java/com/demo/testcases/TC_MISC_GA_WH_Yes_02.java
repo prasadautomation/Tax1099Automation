@@ -2,7 +2,6 @@ package com.demo.testcases;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -36,9 +35,7 @@ import com.demo.pages.Db;
 import com.demo.pages.LoginPage;
 import com.demo.pages.OuterLoginButton;
 import com.demo.utility.Log;
-
 public class TC_MISC_GA_WH_Yes_02 extends base{
-	
 	
 	LoginPage LoginPage;
 	OuterLoginButton OuterLoginButton;
@@ -62,7 +59,6 @@ public class TC_MISC_GA_WH_Yes_02 extends base{
 		Db Db = LoginPage.login(Useremail, Passwd);
 		Thread.sleep(40000);
 	}
-
 	@Test(priority = 2)
 	public void navigate_miscform() throws InterruptedException {
 
@@ -394,9 +390,27 @@ public class TC_MISC_GA_WH_Yes_02 extends base{
 	//selectSF.click();
 	Thread.sleep(5000);*/
 	
+	//input[@id='checkboxStateFiling1']
+WebElement stateselect=getDriver().findElement(By.xpath("//input[@id='checkboxStateFiling1']"));
+	Thread.sleep(5000);
+	
+	boolean checkboxactive=stateselect.isEnabled();
+	if(checkboxactive==true) {
+		Log.info("Is state box enabled:"+checkboxactive);
+	Actions stateselectaction=new Actions(getDriver());
+	stateselectaction.moveToElement(stateselect).click().build().perform();
+	//stateselect.click();
+	
+	Thread.sleep(5000);
+	Log.info("Statecheck box clicked to select");}
+	else {
+		Log.info("Is state box enabled:"+checkboxactive);
+	}
 	WebElement checkbox=getDriver().findElement(By.xpath("//input[@id='checkbox']"));
-	Actions selectSFbutton=new Actions(getDriver());
-	selectSFbutton.moveToElement(checkbox).click().build().perform();
+	 JavascriptExecutor js = (JavascriptExecutor)getDriver();
+	js.executeScript("arguments[0].click();", checkbox);
+	//Actions selectSFbutton=new Actions(getDriver());
+	//selectSFbutton.moveToElemcheckboxent(checkbox).click().build().perform();
 	//checkbox.click();
 	Thread.sleep(5000);
 	
@@ -499,6 +513,7 @@ public void manageforms() throws IOException {
 	getDriver().manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 	TC_MISC_WorkingFlow_001 firstflow=new TC_MISC_WorkingFlow_001();
 	firstflow.manageforms();
+	
 	
 }
 

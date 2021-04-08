@@ -3,15 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demo.testcases.TC_MISC_GA_WH_Yes_05">
+      <class name="com.demo.testcases.TC_NEC_AL_WH_Yes_02">
         <methods>
-          <include name="manageforms_afterEdit_Wh"/>
           <include name="loadConfig"/>
-          <include name="edit_WHamount_MF"/>
+          <include name="add_Recpt_boxamt"/>
+          <include name="paymentpage_nostatfiling_NEC"/>
+          <include name="verify_MF_MSF_MRF"/>
+          <include name="unCheck_necVES_Wh"/>
           <include name="afterSuite"/>
-          <include name="state_Filing_MF"/>
+          <include name="whamount_AL"/>
+          <include name="form_addpayer" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.demo.testcases.TC_MISC_GA_WH_Yes_05 -->
+      </class> <!-- com.demo.testcases.TC_NEC_AL_WH_Yes_02 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
